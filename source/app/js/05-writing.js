@@ -6,11 +6,17 @@ const WR = {
   unit: { en: D.essay.title, de: 'Briefing für eine neue Referatsleitung: Wer macht was in der EU', task: D.essay.task, rules: 'Practice target 500–700 words; not an official limit. Distinguish what is in the source pack from your own recommendations.' },
 };
 let wr = null, pdfUrl = null;
+/* the ECA report is an asset: its base64 payload is loaded once (cached) so getPdfUrl() stays synchronous */
+let pdfB64 = null;
+async function loadPdf() {
+  if (pdfB64 != null) return;
+  const res = await fetch('assets/eca-sr-26-2022-report.pdf.b64').then(r => r.text().trim());
+  pdfB64 = res;
+}
 function getPdfUrl() {
   if (pdfUrl) return pdfUrl;
-  const bin = atob($('#pdf64').textContent.trim()), u8 = new Uint8Array(bin.length);
-  for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
-  return (pdfUrl = URL.createObjectURL(new Blob([u8], { type: 'application/pdf' })));
+  loadPdf();
+  return (pdfUrl = URL.createObjectURL(new Blob([pdfB64], { type: 'application/pdf' })));
 }
 const words = s => s.trim() ? s.trim().split(/\s+/).length : 0;
 const draftKey = k => 'draft.' + k;

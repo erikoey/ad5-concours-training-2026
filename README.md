@@ -1,6 +1,6 @@
 # AD5 practice app – EPSO/AD/427/26 ("Concours 2026")
 
-Open `build/ad5-practice.html` in a browser (single standalone file, works offline, no external fonts or services).
+Open `build/ad5-practice/index.html` in a browser (split static site: `index.html` + `styles.css` + `assets/` with the JS, data JSON and ECA report; works offline, no external fonts or services).
 
 ## What it contains
 - Simulation of the full procedure as amended by C/2026/3362: Part 1 (verbal 20q/35 min, numerical 10q/20 min, abstract 10q/10 min) -> gate -> Part 2 (EU knowledge 30q/40 min, digital skills 40q/30 min, EUFTE 40 min) -> preliminary (40/30/30) and final (35/25/25/15) weighted score.
@@ -15,13 +15,14 @@ Open `build/ad5-practice.html` in a browser (single standalone file, works offli
 - `source/data/`  question banks and resources as JSON (generated; edit via tools/)
 - `source/tools/` new_content.py (new questions, numerical answers are asserted in code), make_data.py, build.py, test_app.js, originals/
 - `source/assets/` ECA report PDF
-- `build/`        generated standalone HTML
+- `build/ad5-practice/` generated split site: `index.html` (SPA shell), `styles.css`, `assets/` (JS, data JSON, ECA report PDF + `.b64` payload)
 - `backups/`      the previous monochrome app (2026-11-09 original)
 
 ## Rebuild
     python3 source/tools/make_data.py   # only if questions changed
     python3 source/tools/build.py
     # optional browser test: npm i playwright-core; EXE=<chromium headless shell> node source/tools/test_app.js
+    # (the test resolves the built site from build/ad5-practice/index.html relative to the repo; set AD5_BUILD_DIR to relocate it)
 
 ## Notes
 - Pass scores/weights: notice EPSO/AD/427/26 + amendment C/2026/3362. The notice does not state how raw scores are normalised before weighting; the app uses share-of-maximum and labels the result indicative.

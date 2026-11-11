@@ -1,12 +1,18 @@
 const { chromium } = require('playwright-core');
+const path = require('path');
 const EXE = process.env.EXE || '';
 const assert = (c, m) => { if (!c) { console.log('✗ FAIL:', m); fails++; } else console.log('✓', m); }; let fails = 0;
+// Resolve repo root from this file, and the built site dir from a relative default
+// (override with AD5_BUILD_DIR to relocate the build). No sandbox paths hardcoded.
+const ROOT = path.resolve(__dirname, '..', '..');
+const BUILD_DIR = process.env.AD5_BUILD_DIR || 'build/ad5-practice';
+const fileUrl = rel => 'file://' + path.join(ROOT, rel).split(path.sep).join('/');
 (async () => {
   const b = await chromium.launch({ executablePath: EXE, args: ['--no-sandbox'] });
   const ctx = await b.newContext({ viewport: { width: 1280, height: 900 } });
   const pg = await ctx.newPage(); const errs = [];
   pg.on('pageerror', e => errs.push('PAGEERR ' + e.message)); pg.on('console', m => { if (m.type() === 'error') errs.push('CONSOLE ' + m.text()); });
-  await pg.goto('file:///home/svc_bashrunner/workspace/ad5/build/ad5-practice.html'); await pg.waitForSelector('h1');
+  await pg.goto(fileUrl(path.join(BUILD_DIR, 'index.html'))); await pg.waitForSelector('h1');
 
   // 1. banks sanity as seen by the app
   const sizes = await pg.evaluate(() => Object.fromEntries(MCQ.map(t => [t, bankOf(t).length])));
