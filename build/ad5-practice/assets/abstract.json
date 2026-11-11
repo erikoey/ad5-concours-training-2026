@@ -1,0 +1,8614 @@
+[
+ {
+  "id": "A01",
+  "level": "standard",
+  "style": 1,
+  "kind": "sequence",
+  "tag": "Unabhängige Positions- und Richtungsregel",
+  "figs": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 0,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 180,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 5,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 270,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 0,
+     "fill": true
+    }
+   }
+  ],
+  "options": [
+   {
+    "items": [
+     {
+      "p": 7,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 180,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 3,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 7,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 7,
+      "shape": "circle",
+      "fill": false,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 5,
+      "shape": "circle",
+      "fill": true,
+      "size": 11,
+      "rot": 0
+     }
+    ],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    }
+   }
+  ],
+  "answer": 2,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Der Punkt wandert pro Schritt ein Feld im Uhrzeigersinn entlang des Außenrings: oben links → oben Mitte → oben rechts → rechts Mitte → unten rechts → unten Mitte. Der Pfeil dreht sich jeweils um 90° im Uhrzeigersinn. Gesucht: Punkt unten Mitte und Pfeil nach rechts.",
+  "notes": [
+   "A: Pfeilrichtung falsch.",
+   "B: Punkt überspringt ein Feld.",
+   "D: Die Füllung des Punktes bleibt schwarz.",
+   "E: Punktposition entspricht einem früheren Schritt."
+  ]
+ },
+ {
+  "id": "A02",
+  "level": "standard",
+  "style": 1,
+  "kind": "sequence",
+  "tag": "Drei ineinandergreifende Zyklen",
+  "figs": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 3,
+     "fill": false
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 5,
+     "fill": false
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 3,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": false
+    }
+   }
+  ],
+  "options": [
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 5,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 5,
+     "fill": false
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 5,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 3,
+     "fill": true
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 5,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": false
+    }
+   }
+  ],
+  "answer": 0,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Drei Regeln laufen unabhängig: Seitenzahl 3 → 4 → 5 → 3 → 4 → 5; Füllung leer → schwarz im Wechsel; kleiner Punkt an den Ecken im Uhrzeigersinn. Das sechste Feld zeigt ein schwarzes Fünfeck und einen Punkt oben rechts.",
+  "notes": [
+   "B: Die Füllung muss schwarz sein.",
+   "C: Die nächste Punktecke ist oben rechts.",
+   "D: Auf ein Viereck folgt ein Fünfeck.",
+   "E: Seitenzahl und Füllung sind falsch."
+  ]
+ },
+ {
+  "id": "A03",
+  "level": "standard",
+  "style": 1,
+  "kind": "matrix",
+  "tag": "Zeilenweise exklusive Überlagerung",
+  "figs": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 3,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 3,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 5,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 5,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "answer": 3,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Je Zeile werden die ersten beiden Felder überlagert. Punkte an derselben Position verschwinden; nur einmal belegte Positionen bleiben. Unten fällt der gemeinsame Punkt oben rechts weg. Übrig: oben links, Mitte, unten links und unten rechts.",
+  "notes": [
+   "A: Der doppelte Punkt oben rechts muss entfallen.",
+   "B: Zeigt nur die Schnittmenge statt der exklusiven Überlagerung.",
+   "C: Der Punkt unten links fehlt.",
+   "E: Enthält den doppelten Punkt oben rechts und lässt die Mitte weg."
+  ]
+ },
+ {
+  "id": "A04",
+  "level": "standard",
+  "style": 1,
+  "kind": "matrix",
+  "tag": "Matrix: Richtung und Füllung",
+  "figs": [
+   {
+    "items": [],
+    "arrow": {
+     "dir": 0,
+     "fill": true
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": false
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 180,
+     "fill": true
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": false
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 180,
+     "fill": true
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 270,
+     "fill": false
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 180,
+     "fill": true
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 270,
+     "fill": false
+    }
+   },
+   null
+  ],
+  "options": [
+   {
+    "items": [],
+    "arrow": {
+     "dir": 0,
+     "fill": false
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 270,
+     "fill": true
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 180,
+     "fill": true
+    }
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 0,
+     "fill": true
+    }
+   }
+  ],
+  "answer": 4,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Sowohl nach rechts als auch nach unten dreht sich der Pfeil um 90° im Uhrzeigersinn und seine Füllung wechselt. Rechts unten zeigt er deshalb schwarz nach oben.",
+  "notes": [
+   "A: Die Richtung stimmt, die Füllung nicht.",
+   "B, C, D: Die Drehregel ergibt einen nach oben gerichteten Pfeil."
+  ]
+ },
+ {
+  "id": "A05",
+  "level": "standard",
+  "style": 1,
+  "kind": "sequence",
+  "tag": "Rotation mit Füllungswechsel",
+  "figs": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 5,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 3,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 5,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 5,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 3,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 4,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Die gesamte Dreierfigur dreht sich pro Schritt um 90° im Uhrzeigersinn. Zugleich wechseln alle Punkte zwischen schwarz und leer. Nach dem fünften Feld folgt daher die um 90° gedrehte Figur mit leeren Punkten.",
+  "notes": [
+   "A: Die Füllung müsste leer sein.",
+   "C: Drehung gegen statt im Uhrzeigersinn.",
+   "D: Um zwei statt um einen Viertelkreis gedreht.",
+   "E: Die Positionen wurden nicht gedreht."
+  ]
+ },
+ {
+  "id": "A06",
+  "level": "standard",
+  "style": 1,
+  "kind": "sequence",
+  "tag": "Pendelbewegung und Zweiergruppen",
+  "figs": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": false,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": false,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true,
+     "size": 12
+    }
+   }
+  ],
+  "options": [
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": false,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true,
+     "size": 12
+    }
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "circle",
+      "fill": false,
+      "size": 7,
+      "rot": 0
+     },
+     {
+      "p": 8,
+      "shape": "circle",
+      "fill": true,
+      "size": 7,
+      "rot": 0
+     }
+    ],
+    "polygon": {
+     "sides": 4,
+     "fill": true,
+     "size": 12
+    }
+   }
+  ],
+  "answer": 3,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Oben pendelt der schwarze Punkt links → Mitte → rechts → Mitte → links → Mitte. Unten springt der leere Punkt links ↔ rechts. Die zentrale Raute ist jeweils zwei Felder schwarz und zwei leer. Gesucht: oben Mitte schwarz, unten rechts leer, Raute schwarz.",
+  "notes": [
+   "A: Der untere Punkt muss rechts stehen.",
+   "B: Das sechste Feld ist das zweite schwarze Feld der Zweiergruppe.",
+   "C: Der obere Punkt muss in die Mitte.",
+   "E: Die Punktfüllungen bleiben unverändert."
+  ]
+ },
+ {
+  "id": "A07",
+  "level": "standard",
+  "style": 1,
+  "kind": "matrix",
+  "tag": "Matrix: Addition zweier Merkmale",
+  "figs": [
+   {
+    "items": [],
+    "arrow": {
+     "dir": 0,
+     "fill": false
+    },
+    "count": 1
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": false
+    },
+    "count": 2
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": false
+    },
+    "count": 3
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": false
+    },
+    "count": 2
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 180,
+     "fill": false
+    },
+    "count": 3
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 270,
+     "fill": false
+    },
+    "count": 5
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 180,
+     "fill": false
+    },
+    "count": 1
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 270,
+     "fill": false
+    },
+    "count": 3
+   },
+   null
+  ],
+  "options": [
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": false
+    },
+    "count": 4
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 0,
+     "fill": false
+    },
+    "count": 4
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": false
+    },
+    "count": 3
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 270,
+     "fill": false
+    },
+    "count": 4
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    },
+    "count": 4
+   }
+  ],
+  "answer": 0,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Je Zeile werden die Punktzahlen addiert. Auch die Pfeilwinkel werden addiert, ausgehend von oben = 0° und im Uhrzeigersinn, modulo 360°. Unten: 1 + 3 = 4 Punkte; 180° + 270° = 450°, entsprechend 90° = rechts. Alle Pfeile bleiben leer.",
+  "notes": [
+   "B, D: Der Winkel ergibt rechts.",
+   "C: Die Punktzahlen ergeben vier.",
+   "E: Die Pfeile sind durchgehend leer."
+  ]
+ },
+ {
+  "id": "A08",
+  "level": "standard",
+  "style": 1,
+  "kind": "sequence",
+  "tag": "Drehschritt, Menge und Alternation",
+  "figs": [
+   {
+    "items": [],
+    "arrow": {
+     "dir": 0,
+     "fill": true
+    },
+    "count": 1
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 45,
+     "fill": false
+    },
+    "count": 2
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 90,
+     "fill": true
+    },
+    "count": 3
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 135,
+     "fill": false
+    },
+    "count": 4
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 180,
+     "fill": true
+    },
+    "count": 5
+   }
+  ],
+  "options": [
+   {
+    "items": [],
+    "arrow": {
+     "dir": 225,
+     "fill": true
+    },
+    "count": 6
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 270,
+     "fill": false
+    },
+    "count": 6
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 225,
+     "fill": false
+    },
+    "count": 5
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 135,
+     "fill": false
+    },
+    "count": 6
+   },
+   {
+    "items": [],
+    "arrow": {
+     "dir": 225,
+     "fill": false
+    },
+    "count": 6
+   }
+  ],
+  "answer": 4,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Der Pfeil dreht sich um jeweils 45° im Uhrzeigersinn: oben, rechts oben, rechts, rechts unten, unten, links unten. Seine Füllung wechselt. Die Punktzahl steigt jeweils um eins. Gesucht: leerer Pfeil nach links unten mit sechs Punkten.",
+  "notes": [
+   "A: Der sechste Pfeil ist leer.",
+   "B: Ein 90°- statt 45°-Drehschritt.",
+   "C: Die Punktzahl muss sechs sein.",
+   "D: Falsche Drehrichtung."
+  ]
+ },
+ {
+  "id": "A09",
+  "level": "standard",
+  "style": 1,
+  "kind": "sequence",
+  "tag": "Gegenläufige Wege mit verschiedenen Schritten",
+  "figs": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 2,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 1,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 0,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 6,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 3,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 5,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "square",
+      "fill": false,
+      "size": 8,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "triangle",
+      "fill": true,
+      "size": 9,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Das schwarze Quadrat wandert am Außenring pro Schritt zwei Positionen im Uhrzeigersinn; das leere Dreieck eine Position gegen den Uhrzeigersinn. Nach dem fünften Feld landet das Quadrat oben rechts und das Dreieck unten Mitte. Form und Füllung bleiben gleich.",
+  "notes": [
+   "A: Das Dreieck muss von unten links zur unteren Mitte.",
+   "B: Das Quadrat macht Zweierschritte und landet oben rechts.",
+   "D: Die Füllungen werden nicht vertauscht.",
+   "E: Die Formen gehören zur jeweils anderen Position."
+  ]
+ },
+ {
+  "id": "A10",
+  "level": "standard",
+  "style": 1,
+  "kind": "matrix",
+  "tag": "Matrix: Transformation der gesamten Figur",
+  "figs": [
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     },
+     {
+      "p": 5,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "triangle",
+      "fill": true,
+      "size": 9,
+      "rot": 90
+     },
+     {
+      "p": 7,
+      "shape": "square",
+      "fill": false,
+      "size": 8,
+      "rot": 90
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 180
+     },
+     {
+      "p": 3,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 180
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 1,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     },
+     {
+      "p": 6,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 5,
+      "shape": "triangle",
+      "fill": true,
+      "size": 9,
+      "rot": 90
+     },
+     {
+      "p": 0,
+      "shape": "square",
+      "fill": false,
+      "size": 8,
+      "rot": 90
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 7,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 180
+     },
+     {
+      "p": 2,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 180
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 0
+     },
+     {
+      "p": 7,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "triangle",
+      "fill": true,
+      "size": 9,
+      "rot": 90
+     },
+     {
+      "p": 3,
+      "shape": "square",
+      "fill": false,
+      "size": 8,
+      "rot": 90
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "items": [
+     {
+      "p": 8,
+      "shape": "triangle",
+      "fill": true,
+      "size": 9,
+      "rot": 90
+     },
+     {
+      "p": 3,
+      "shape": "square",
+      "fill": false,
+      "size": 8,
+      "rot": 90
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 6,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 180
+     },
+     {
+      "p": 1,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 180
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 0,
+      "shape": "triangle",
+      "fill": true,
+      "size": 9,
+      "rot": 270
+     },
+     {
+      "p": 5,
+      "shape": "square",
+      "fill": false,
+      "size": 8,
+      "rot": 270
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 6,
+      "shape": "triangle",
+      "fill": true,
+      "size": 9,
+      "rot": 180
+     },
+     {
+      "p": 1,
+      "shape": "square",
+      "fill": false,
+      "size": 8,
+      "rot": 180
+     }
+    ]
+   },
+   {
+    "items": [
+     {
+      "p": 2,
+      "shape": "triangle",
+      "fill": false,
+      "size": 9,
+      "rot": 180
+     },
+     {
+      "p": 7,
+      "shape": "square",
+      "fill": true,
+      "size": 8,
+      "rot": 180
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "In jeder Zeile wird die gesamte Figur nach rechts um 90° im Uhrzeigersinn gedreht; zugleich wechselt die Füllung jeder Form. Nach zwei Schritten ist das Dreieck unten links und leer, das Quadrat oben Mitte und schwarz. Auch die Orientierung des Dreiecks wurde um 180° gedreht.",
+  "notes": [
+   "A: Zeigt nur einen statt zwei Transformationsschritte.",
+   "C: Zeigt drei statt zwei Transformationsschritte.",
+   "D: Nach zwei Wechseln haben die Formen wieder ihre ursprünglichen Füllungen.",
+   "E: Die Positionen entsprechen nicht der zweifachen Drehung."
+  ]
+ },
+ {
+  "id": "H01",
+  "level": "hard",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Verschachtelte Teilreihen",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 3,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Die ungeraden Felder 1, 3, 5, 7 bilden eine eigene Reihe: Das schwarze Quadrat springt jeweils zwei Außenpositionen im Uhrzeigersinn; das leere Dreieck wandert eine Position im Uhrzeigersinn und dreht sich dabei um 90°. Die geraden Felder folgen anderen Schritten und dürfen nicht in dieselbe Reihe gemischt werden. Im siebten Feld steht das Quadrat unten links und das nach links gerichtete Dreieck links in der Mitte.",
+  "notes": [
+   "A: Das Quadrat wurde nur auf den Stand des fünften Feldes gesetzt.",
+   "B: Die Richtung des Dreiecks ist um 90° zu früh.",
+   "D: Das Dreieck ist auf die vorherige Eckposition gesetzt.",
+   "E: Die Füllungen gehören zur geraden statt zur ungeraden Teilreihe."
+  ]
+ },
+ {
+  "id": "H02",
+  "level": "hard",
+  "style": 2,
+  "kind": "matrix",
+  "tag": "Drehung vor exklusiver Überlagerung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Je Zeile wird zuerst das mittlere Punktmuster um 90° im Uhrzeigersinn gedreht. Erst danach wird es mit dem linken Muster überlagert: doppelt belegte Positionen verschwinden, einmal belegte bleiben. Die Reihenfolge ist wichtig; ein einfaches Zusammenlegen der ungedrehten Muster reicht nicht.",
+  "notes": [
+   "B: Eine Punktposition wurde verlegt; Punktzahl allein genügt nicht.",
+   "C: Eine Punktposition wurde verlegt.",
+   "D: Die gesamte Zielabbildung wurde zusätzlich gedreht.",
+   "E: Die Punktpositionen erfüllen nicht die gedrehte exklusive Überlagerung."
+  ]
+ },
+ {
+  "id": "H03",
+  "level": "hard",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Alternierende nicht vertauschbare Transformationen",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Es wechseln zwei Operationen: 90°-Drehung im Uhrzeigersinn, dann Spiegelung an der senkrechten Mittelachse. Nach jedem Schritt kehrt sich zusätzlich die Füllung aller Formen um. Vom sechsten zum siebten Feld ist eine senkrechte Spiegelung mit Füllungswechsel fällig. Bei der L-Form zählt auch ihre Ausrichtung, nicht nur ihr Standort.",
+  "notes": [
+   "A: Es wurde gedreht, obwohl eine Spiegelung ansteht.",
+   "B: Spiegelung an der falschen Achse.",
+   "C: Der Füllungswechsel fehlt.",
+   "D: Die L-Form ist an der richtigen Stelle, aber falsch orientiert."
+  ]
+ },
+ {
+  "id": "H04",
+  "level": "hard",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Beschleunigte Bewegung und unabhängige Orientierung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 45,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 135,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 3,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 225,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 225,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Das Quadrat macht am Außenring zunehmend große Sprünge im Uhrzeigersinn: +1, +2, +3, +4, +5, anschließend +6 Positionen. Das Dreieck wandert konstant um zwei Außenpositionen im Uhrzeigersinn und dreht sich pro Feld um 45°. Formen und Füllungen bleiben erhalten. Gesucht: Quadrat unten Mitte, Dreieck links Mitte mit Spitze nach links.",
+  "notes": [
+   "A: Der nächste Sprung des Quadrats ist nicht +6.",
+   "C: Das Quadrat wurde mit einem falschen Sprung fortgesetzt.",
+   "D: Das Dreieck wurde nicht um zwei Positionen weitergesetzt.",
+   "E: Die Dreiecksorientierung wurde nicht um 45° weitergedreht."
+  ]
+ },
+ {
+  "id": "H05",
+  "level": "hard",
+  "style": 2,
+  "kind": "matrix",
+  "tag": "Drei unabhängige Kombinationsregeln",
+  "figs": [
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": true
+    },
+    "bars": 5
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 180,
+     "f": false
+    },
+    "bars": 2
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 6
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 180,
+     "f": true
+    },
+    "bars": 2
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": false
+    },
+    "bars": 4
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 180,
+     "f": false
+    },
+    "bars": 6
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 3
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": false
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": true
+    },
+    "bars": 9
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": true
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": false
+    },
+    "bars": 9
+   }
+  ],
+  "answer": 3,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Je Zeile werden drei Eigenschaften unabhängig kombiniert: Pfeilwinkel addieren sich modulo 360° (oben = 0°); die Balkenzahl ist die absolute Differenz der ersten beiden Balkenzahlen; der Zielpfeil ist genau dann schwarz, wenn einer der beiden Eingabepfeile schwarz ist. Unten: 180° + 270° ergibt rechts; 6 − 3 ergibt drei Balken; leer + schwarz ergibt schwarz.",
+  "notes": [
+   "A: Richtung und Balkenzahl passen, aber die Füllung nicht.",
+   "B: Richtung und Füllung passen; die Balkenzahlen werden subtrahiert, nicht addiert.",
+   "C: Füllung und Balkenzahl passen; die Pfeilwinkel ergeben rechts.",
+   "E: Es wurden mehrere Regeln verfehlt."
+  ]
+ },
+ {
+  "id": "H06",
+  "level": "hard",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Bedingter Füllungswechsel bei unterschiedlicher Bewegung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 360,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 450,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 630,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Das Dreieck geht pro Schritt eine Außenposition im Uhrzeigersinn und dreht sich um 90°. Das Quadrat geht zwei Außenpositionen gegen den Uhrzeigersinn. Für beide Formen gilt dieselbe bedingte Füllungsregel: Landet die Form auf einer Ecke, wechselt ihre Füllung; landet sie in einer Seitenmitte, bleibt die Füllung gleich. Im nächsten Feld sind beide Formen leer.",
+  "notes": [
+   "A: Der Füllungswechsel beim Dreieck an einer Ecke fehlt.",
+   "C: Der Füllungswechsel des Quadrats fehlt.",
+   "D: Die bedingte Füllungsregel ist bei beiden Formen falsch angewandt.",
+   "E: Die Orientierung des Dreiecks stimmt nicht."
+  ]
+ },
+ {
+  "id": "H07",
+  "level": "hard",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Verschachtelung mit verschiedenen Winkelschritten",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "chevron",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": true,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Ungerade und gerade Felder sind wieder getrennte Reihen. In den ungeraden Feldern wandert der äußere Winkel um zwei Außenpositionen im Uhrzeigersinn, dreht sich dabei um 45° und wechselt seine Füllung. Das mittige schwarze L dreht sich jeweils um 90°. Im siebten Feld steht ein leerer Winkel oben links, um 135° gedreht; das L steht in 270°-Orientierung.",
+  "notes": [
+   "A: Die Außenposition entspricht nicht dem nächsten Zweierschritt.",
+   "B: Die äußere Form muss im siebten Feld leer sein.",
+   "C: Die äußere Form ist nicht weit genug gedreht.",
+   "D: Das L ist um einen Viertelkreis zu früh."
+  ]
+ },
+ {
+  "id": "H08",
+  "level": "hard",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Positionsrotation, Formzyklus und positionsabhängige Füllung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Von Feld zu Feld dreht sich das gesamte Positionsmuster um 90° im Uhrzeigersinn. Die Formtypen wechseln zugleich zyklisch: Kreis → Dreieck → Quadrat → Kreis. Die Symbole selbst sind stets aufrecht. Zusätzlich wechselt nur bei Formen, die nach der Bewegung in der mittleren Spalte stehen, die Füllung. Es reicht nicht, nur die Silhouette des gesamten Musters zu erkennen.",
+  "notes": [
+   "A: Das Zielmuster wurde zusätzlich um 180° versetzt.",
+   "B: Die Füllung der Form in der Seitenmitte wurde falsch fortgesetzt.",
+   "D: Eine Form ist im Formzyklus um einen Schritt versetzt.",
+   "E: Eine Form in einer Ecke darf die Füllung in diesem Schritt nicht wechseln."
+  ]
+ },
+ {
+  "id": "H09",
+  "level": "hard",
+  "style": 2,
+  "kind": "matrix",
+  "tag": "Dreizustands-Überlagerung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Je Zeile werden die ersten beiden Felder positionsweise kombiniert. Leeres Feld + Form lässt die Form unverändert. Zwei leere Kreise werden zu einem schwarzen Kreis; zwei schwarze zu einem leeren Kreis; ein leerer und ein schwarzer Kreis heben sich auf. Diese Dreizustandsregel gilt an jeder Position unabhängig. Alle Antwortoptionen zeigen ähnlich viele Elemente; die Füllung an jeder Stelle muss stimmen.",
+  "notes": [
+   "B: Ein Kreis hat die falsche Füllung.",
+   "C: Ein schwarzer Kreis hätte aus zwei schwarzen Kreisen leer werden müssen.",
+   "D: Die Kombination zweier leerer Kreise ergibt schwarz.",
+   "E: Die einzelne Form an dieser Position muss ihre Eingabefüllung behalten."
+  ]
+ },
+ {
+  "id": "H10",
+  "level": "hard",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Zwei-Vorgänger-Regel mit Transformation",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 3,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Ab dem dritten Feld hängt jedes Muster von den beiden Vorgängern ab: Das unmittelbar vorherige Muster wird um 90° im Uhrzeigersinn gedreht und mit dem vorvorigen Muster exklusiv überlagert. Doppelte Punkte verschwinden. Für das siebte Feld also Feld 6 drehen und mit Feld 5 kombinieren; nicht nur ein einzelnes Muster fortsetzen.",
+  "notes": [
+   "A: Die Drehung des unmittelbar vorherigen Feldes fehlt.",
+   "B: Das unmittelbar vorherige Feld wurde in die falsche Richtung gedreht.",
+   "C: Die doppelt belegten Punkte müssen verschwinden, nicht erhalten bleiben.",
+   "E: Nur der unmittelbare Vorgänger wird gedreht."
+  ]
+ },
+ {
+  "id": "E01",
+  "level": "expert",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Drei Wege, drei Drehungen und Füllungstransfer",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": true,
+      "a": 225,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": true,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Drei Formen bewegen sich auf getrennten konzentrischen Außenbahnen: Dreieck +1 Position, Winkel −2 Positionen und L +3 Positionen pro Schritt. Ihre Eigendrehungen betragen +90°, +45° und −90°. Die Füllung bleibt nicht an einer Form hängen: In jedem Schritt übernimmt das Dreieck die alte L-Füllung, der Winkel die alte Dreiecksfüllung und das L die alte Winkelfüllung. Nur die gemeinsame Lösung aller drei Ebenen passt.",
+  "notes": [
+   "A: Die Dreiecksfüllung wurde nicht von der vorherigen L-Form übernommen.",
+   "B: Die Position des Winkels stimmt nicht mit seinem Zweierschritt überein.",
+   "D: Die L-Form ist richtig platziert, aber falsch orientiert.",
+   "E: Die Füllung des Winkels gehört zu einer anderen Phase des Füllungskreislaufs."
+  ]
+ },
+ {
+  "id": "E02",
+  "level": "expert",
+  "style": 2,
+  "kind": "matrix",
+  "tag": "Zwei unterschiedliche Vortransformationen vor Überlagerung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "In jeder Zeile wird das linke Muster an der senkrechten Mittelachse gespiegelt und das mittlere Muster um 90° im Uhrzeigersinn gedreht. Erst danach werden die beiden transformierten Muster exklusiv überlagert. Einzeln vorhandene Punkte bleiben, doppelte verschwinden. Eine richtige Punktzahl allein identifiziert die Lösung nicht.",
+  "notes": [
+   "B: Die Spiegelung des linken Musters fehlt.",
+   "C: Die Drehung des mittleren Musters fehlt.",
+   "D: Das linke Muster wurde an der waagerechten statt senkrechten Achse gespiegelt.",
+   "E: Das mittlere Muster wurde gegen den Uhrzeigersinn gedreht."
+  ]
+ },
+ {
+  "id": "E03",
+  "level": "expert",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Standortgebundene Füllung trotz Form- und Positionswechsel",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 90
+     },
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 90
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 270
+     },
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 270
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": false,
+      "a": 270
+     },
+     {
+      "p": 8,
+      "s": "L",
+      "f": false,
+      "a": 270
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 90
+     },
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 90
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": true,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 270
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Alle Formen wandern pro Schritt um eine Ecke im Uhrzeigersinn und drehen sich selbst um 90°. Kreis, Dreieck und Quadrat wechseln zusätzlich zyklisch ihre Identität; die L-Form bleibt ein L. Entscheidend: Die Füllung gehört zur Position, nicht zur wandernden Form. Die beiden linken Ecken bleiben schwarz, die rechten leer. Eine Form übernimmt bei der Ankunft die Füllung ihres neuen Standortes.",
+  "notes": [
+   "A: Die Füllung wurde an der Form statt an der Position fortgesetzt.",
+   "B: Eine Form hat den falschen Stand im Identitätszyklus.",
+   "C: Die Dreiecksorientierung stimmt nicht.",
+   "D: Die L-Orientierung stimmt nicht."
+  ]
+ },
+ {
+  "id": "E04",
+  "level": "expert",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Verschachtelung und feste Umschaltmaske",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Es gibt zwei verschachtelte Teilreihen, die zusätzlich durch die Füllung unterscheidbar sind. Bei den schwarzen Mustern in Feld 1, 3, 5 und 7 wird der jeweilige Vorgänger um 90° im Uhrzeigersinn gedreht; danach werden oben links und unten rechts umgeschaltet: vorhandener Punkt verschwindet, fehlender erscheint. Die leeren Zwischenmuster folgen einer anderen Transformation und sagen nichts über den nächsten schwarzen Zustand aus.",
+  "notes": [
+   "A: Die festen Eckpositionen wurden nicht umgeschaltet.",
+   "C: Die Drehung läuft in die falsche Richtung.",
+   "D: Es wurden die falschen Eckpositionen umgeschaltet.",
+   "E: Das nächste Feld gehört zur schwarzen Teilreihe."
+  ]
+ },
+ {
+  "id": "E05",
+  "level": "expert",
+  "style": 2,
+  "kind": "matrix",
+  "tag": "Gedrehte Dreizustands-Überlagerung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 3,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Zuerst wird nur das mittlere Muster um 90° im Uhrzeigersinn gedreht. Dann werden die Zustände positionsweise kombiniert: leerer Kreis + leerer Kreis → schwarz; schwarz + schwarz → leerer Kreis; schwarz + leerer Kreis → verschwinden; fehlende Form + Form → dieselbe Form. Richtung, Reihenfolge und Füllungskombination müssen gleichzeitig stimmen.",
+  "notes": [
+   "A: Das mittlere Muster wurde nicht gedreht.",
+   "B: Das mittlere Muster wurde in die falsche Richtung gedreht.",
+   "C: Die Zustandskombination wurde wie eine Subtraktion statt wie die gezeigte Kombination behandelt.",
+   "E: Das linke Muster darf nicht mitgedreht werden."
+  ]
+ },
+ {
+  "id": "E06",
+  "level": "expert",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Formabhängige Drehrichtung und bedingte Zustandsänderung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": true,
+      "a": 315,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": true,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": true,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Das Dreieck dreht Standort und Eigenausrichtung pro Schritt um 90° im Uhrzeigersinn. L und Winkel drehen beides um 90° gegen den Uhrzeigersinn. Für jede Form gilt zusätzlich: Landet sie in der linken Spalte, kehrt sich ihre Füllung um; sonst bleibt sie unverändert. Die Drehung muss also zuerst aufgelöst werden, bevor die Füllungsregel geprüft wird.",
+  "notes": [
+   "A: Die Dreiecksfüllung passt nicht zur Zielposition.",
+   "C: Die L-Eigenausrichtung stimmt nicht mit der Gegenuhrzeigerdrehung überein.",
+   "D: Die Füllung des Winkels passt nicht zum linken Zielstandort.",
+   "E: Der Winkel wurde in die falsche Richtung versetzt."
+  ]
+ },
+ {
+  "id": "E07",
+  "level": "expert",
+  "style": 2,
+  "kind": "matrix",
+  "tag": "Aus der Eingabe abgeleitete Transformation",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ],
+    "arrow": {
+     "a": 90,
+     "f": false,
+     "small": true
+    }
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ],
+    "arrow": {
+     "a": 180,
+     "f": false,
+     "small": true
+    }
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ],
+    "arrow": {
+     "a": 270,
+     "f": false,
+     "small": true
+    }
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "Das mittlere Feld liefert einen Operator: Seine Pfeilrichtung bestimmt, wie weit das linke Muster im Uhrzeigersinn zu drehen ist (oben 0°, rechts 90°, unten 180°, links 270°). Danach werden die leeren Kreise des mittleren Feldes mit dem gedrehten linken Muster exklusiv überlagert; ihre Füllung ist nur die Kennzeichnung der Operatorpunkte. Unten ist folglich eine 270°-Drehung des linken Musters nötig.",
+  "notes": [
+   "A: Es wurde um 90° statt um 270° im Uhrzeigersinn gedreht.",
+   "B: Doppelt belegte Positionen müssen verschwinden.",
+   "C: Die vom Pfeil vorgegebene Drehung fehlt.",
+   "D: Nur das linke Muster wird gedreht, nicht die Operatorpunkte."
+  ]
+ },
+ {
+  "id": "E08",
+  "level": "expert",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Zwei Vorgänger mit unterschiedlichen Voroperationen",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Jedes Feld ab dem dritten kombiniert zwei unterschiedlich transformierte Vorgänger: Der unmittelbare Vorgänger wird um 90° im Uhrzeigersinn gedreht, der vorvorige an der senkrechten Achse gespiegelt. Anschließend exklusive Überlagerung: doppelte Punkte entfallen. Für das siebte Feld also Feld 6 drehen, Feld 5 spiegeln und die beiden Ergebnisse kombinieren.",
+  "notes": [
+   "A: Die Spiegelung des vorvorigen Musters fehlt.",
+   "B: Die Drehung des unmittelbaren Vorgängers fehlt.",
+   "D: Die Spiegelachse des vorvorigen Musters ist falsch.",
+   "E: Doppelte Punkte wurden behalten statt entfernt."
+  ]
+ },
+ {
+  "id": "E09",
+  "level": "expert",
+  "style": 2,
+  "kind": "sequence",
+  "tag": "Alternierende Drehrichtung und phasenverschobener Füllungszyklus",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": true,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 2,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "q": "Welche Abbildung setzt die Reihe logisch fort?",
+  "explanation": "Die ganze Figur dreht sich abwechselnd um 90° im Uhrzeigersinn und um 90° dagegen. Unabhängig davon wechselt pro Schritt genau eine Form ihre Füllung, in der Reihenfolge L → Dreieck → Winkel → L → Dreieck → Winkel. Die Orientierungen drehen sich mit der Figur. Für den sechsten Übergang ist eine Gegenuhrzeigerdrehung und ein Füllungswechsel des Winkels fällig.",
+  "notes": [
+   "B: Die L-Füllung wurde zusätzlich geändert.",
+   "C: Die Dreiecksfüllung wurde zusätzlich geändert.",
+   "D: Der fällige Füllungswechsel des Winkels fehlt.",
+   "E: Die Drehrichtung ist falsch und der Füllungswechsel wurde nicht richtig umgesetzt."
+  ]
+ },
+ {
+  "id": "E10",
+  "level": "expert",
+  "style": 2,
+  "kind": "matrix",
+  "tag": "Nicht vertauschbare Operation und Zielpositionsbedingung",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 90,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 3,
+  "q": "Welche Abbildung ergänzt das fehlende Feld?",
+  "explanation": "In jeder Zeile gilt nach rechts derselbe zusammengesetzte Schritt: Spiegelung an der senkrechten Achse, danach 90°-Drehung im Uhrzeigersinn. Kreis, Dreieck und Quadrat wechseln gleichzeitig zyklisch ihren Formtyp; das L behält seinen Typ und wird geometrisch mittransformiert. Erst nach dieser Bewegung wechselt bei Formen in der oberen Zeile die Füllung. Es ist die Lage nach dem Schritt, nicht davor, die den Wechsel auslöst.",
+  "notes": [
+   "A: Der positionsabhängige Füllungswechsel passt nicht.",
+   "B: Die L-Form hat eine falsche Spiegelung.",
+   "C: Eine Form ist im Identitätszyklus um einen Schritt versetzt.",
+   "E: Die räumliche Zusammensetzung der Operationen ist falsch."
+  ]
+ }
+]

@@ -1,0 +1,496 @@
+[
+ {
+  "id": "V01",
+  "tag": "Stichprobe und Grundgesamtheit",
+  "passage": "Eine Verwaltung erprobte eine freiwillige Fortbildungsplattform. Von ihren 1.000 Beschäftigten nutzten 600 die Plattform während der dreimonatigen Pilotphase mindestens einmal. Nur diese 600 Personen wurden anschließend befragt; alle antworteten. 450 von ihnen bezeichneten das Angebot als hilfreich, die übrigen 150 nicht. Über die Einschätzung der 400 Beschäftigten, die die Plattform nicht genutzt hatten, wurden keine Angaben erhoben. Im Abschlussbericht wird darauf hingewiesen, dass die Entscheidung zur Teilnahme weder nach dem Zufallsprinzip noch durch die Vorgesetzten erfolgte. Ob Personen die Plattform nutzten, hing allein von ihrer eigenen Entscheidung ab.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Eine Mehrheit aller Beschäftigten hielt die Plattform für hilfreich.",
+   "Genau 45% aller Beschäftigten hielten die Plattform für hilfreich.",
+   "Für 45% aller Beschäftigten liegt eine positive Bewertung der Plattform vor.",
+   "Die Nichtnutzenden bewerteten die Plattform überwiegend negativ."
+  ],
+  "answer": 2,
+  "explanation": "450 von 1.000 Beschäftigten haben nachweislich positiv geantwortet: 45%. Die unbekannte Einschätzung der Nichtnutzenden darf nicht als negativ gezählt werden.",
+  "notes": [
+   "A: Für eine Mehrheit unter allen Beschäftigten fehlen die Ansichten der Nichtnutzenden.",
+   "B: „Genau“ schließt weitere positive Einschätzungen aus; dafür fehlt die Grundlage.",
+   "D: Die Nichtnutzenden wurden nicht befragt."
+  ]
+ },
+ {
+  "id": "V02",
+  "tag": "Kausalität",
+  "passage": "In zwei Servicestellen wurde im März eine neue Terminsoftware eingeführt. Zwischen Februar und Juni sank dort die durchschnittliche Wartezeit von 18 auf 12 Tage. Im gleichen Zeitraum wurden zusätzliche Sachbearbeitende eingesetzt, während die Zahl neu eingehender Fälle zurückging. Andere Servicestellen der Verwaltung führten die Software noch nicht ein; ihre Wartezeiten wurden jedoch nicht ausgewertet. Der Bericht nennt die Verbesserung und alle drei Veränderungen, untersucht deren jeweilige Beiträge aber nicht. Die Verwaltung plant eine spätere Untersuchung, bei der auch die unterschiedliche Zusammensetzung der eingehenden Fälle berücksichtigt werden soll.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Software war der wichtigste Grund für die kürzere Wartezeit.",
+   "Der Rückgang der Wartezeit fiel mit mehreren Änderungen zusammen, deren Einzelbeiträge nicht bestimmt wurden.",
+   "Ohne zusätzliches Personal wäre die Wartezeit unverändert geblieben.",
+   "Die übrigen Servicestellen verzeichneten keine Verbesserung ihrer Wartezeiten."
+  ],
+  "answer": 1,
+  "explanation": "Der Text beschreibt mehrere gleichzeitige Veränderungen, ohne die Wirkung einer einzelnen zu isolieren. Ein zeitlicher Zusammenhang belegt hier keine bestimmte Ursache.",
+  "notes": [
+   "A: Die Bedeutung der Software gegenüber den anderen Veränderungen wurde nicht untersucht.",
+   "C: Es fehlen Daten zu einem Szenario ohne zusätzliches Personal.",
+   "D: Für andere Stellen wurden die Wartezeiten nicht ausgewertet."
+  ]
+ },
+ {
+  "id": "V03",
+  "tag": "Notwendige und hinreichende Bedingungen",
+  "passage": "Eine interne Förderlinie berücksichtigt ausschließlich Vorhaben, die bis zum Stichtag vollständig eingereicht wurden. Für Vorhaben mit einer beantragten Förderung von mehr als 50.000 Euro ist zusätzlich eine externe Begutachtung Voraussetzung für die Bewilligung. Bei kleineren Vorhaben kann die Kommission eine solche Begutachtung verlangen, muss dies aber nicht. Auch wenn alle formalen Voraussetzungen erfüllt sind und eine Begutachtung positiv ausfällt, besteht kein Anspruch auf Förderung: Die Kommission bewertet die Qualität und entscheidet innerhalb des verfügbaren Budgets. Vorhaben, die eine Fristverlängerung erhalten haben, fallen nicht unter diese Förderlinie.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Jedes vollständig und fristgerecht eingereichte Vorhaben wird bewilligt.",
+   "Kleinere Vorhaben dürfen niemals extern begutachtet werden.",
+   "Eine positive externe Begutachtung genügt für die Bewilligung.",
+   "Ein in dieser Förderlinie bewilligtes Vorhaben über 50.000 Euro hat eine externe Begutachtung durchlaufen."
+  ],
+  "answer": 3,
+  "explanation": "Für eine Bewilligung über 50.000 Euro ist eine externe Begutachtung notwendig. Aus der Bewilligung folgt daher, dass diese Voraussetzung erfüllt war; die Umkehrung gilt nicht.",
+  "notes": [
+   "A: Formale Vollständigkeit garantiert keine Förderung.",
+   "B: Für kleinere Vorhaben ist eine Begutachtung ausdrücklich möglich.",
+   "C: Zusätzlich sind Qualitäts- und Budgetentscheidungen erforderlich."
+  ]
+ },
+ {
+  "id": "V04",
+  "tag": "Aggregierte und gruppenspezifische Ergebnisse",
+  "passage": "Ein Dienstleister bearbeitet einfache und komplexe Anfragen. Im ersten Quartal benötigten einfache Anfragen im Mittel zwei Tage und komplexe zehn Tage. Im zweiten Quartal lagen diese Werte weiterhin bei zwei beziehungsweise zehn Tagen. Der Anteil einfacher Anfragen an allen abgeschlossenen Anfragen stieg jedoch von 25% auf 75%. In beiden Quartalen wurden jeweils 400 Anfragen abgeschlossen. Die Verwaltung veröffentlicht für jedes Quartal einen Durchschnitt über sämtliche abgeschlossenen Anfragen, wobei jede Anfrage gleich gewichtet wird. Als Grund für die veränderte Zusammensetzung nennt sie eine zeitlich befristete Informationskampagne, nicht eine neue Einstufung der Fälle.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Der Gesamtdurchschnitt sank, obwohl sich die Mittelwerte der beiden Anfragearten nicht änderten.",
+   "Komplexe Anfragen wurden im zweiten Quartal schneller abgeschlossen.",
+   "Die Informationskampagne verkürzte die Bearbeitungszeit jeder einzelnen Anfrage.",
+   "Der Gesamtdurchschnitt blieb wegen der unveränderten Gruppenmittelwerte konstant."
+  ],
+  "answer": 0,
+  "explanation": "Q1: 0,25 × 2 + 0,75 × 10 = 8 Tage. Q2: 0,75 × 2 + 0,25 × 10 = 4 Tage. Die veränderte Gewichtung senkt den Gesamtdurchschnitt.",
+  "notes": [
+   "B: Bei komplexen Anfragen blieb der Mittelwert bei zehn Tagen.",
+   "C: Eine Verkürzung auf Einzelfallebene ist nicht belegt.",
+   "D: Unveränderte Gruppenmittelwerte schließen einen Kompositionseffekt nicht aus."
+  ]
+ },
+ {
+  "id": "V05",
+  "tag": "Quantoren und Teilmengen",
+  "passage": "Ein Archiv erfasst für jeden Bestand, ob er digitalisiert ist und ob er personenbezogene Daten enthält. Alle Bestände, die personenbezogene Daten enthalten, sind nur nach einer gesonderten Zugangsprüfung einsehbar. Einige digitalisierte Bestände enthalten personenbezogene Daten. Ein Bestand kann auch aus anderen Gründen einer Zugangsprüfung unterliegen, etwa wegen vertraglicher Beschränkungen. Der Digitalisierungsstatus allein bestimmt deshalb nicht den Zugang. Für Bestände ohne Zugangsbeschränkung stellt das Archiv eine frei zugängliche Rechercheansicht bereit. Die Zahl der digitalisierten Bestände ohne personenbezogene Daten wird in der aktuellen Übersicht nicht angegeben.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Alle digitalisierten Bestände enthalten personenbezogene Daten.",
+   "Nur Bestände mit personenbezogenen Daten unterliegen einer Zugangsprüfung.",
+   "Mindestens einige digitalisierte Bestände sind nur nach einer Zugangsprüfung einsehbar.",
+   "Jeder Bestand ohne personenbezogene Daten ist frei zugänglich."
+  ],
+  "answer": 2,
+  "explanation": "Einige digitalisierte Bestände gehören zur Gruppe mit personenbezogenen Daten. Für sämtliche Mitglieder dieser Gruppe ist eine Zugangsprüfung vorgeschrieben.",
+  "notes": [
+   "A: „Einige“ erlaubt keinen Schluss auf „alle“.",
+   "B: Auch andere Gründe können eine Zugangsprüfung auslösen.",
+   "D: Das Fehlen personenbezogener Daten beseitigt nicht alle anderen Beschränkungen."
+  ]
+ },
+ {
+  "id": "V06",
+  "tag": "Referenzgruppe",
+  "passage": "Ein Forschungsverbund untersuchte die Nutzung eines neuen Datenportals in 40 Einrichtungen. 30 Einrichtungen hatten das Portal eingeführt; zehn hatten darauf verzichtet. Von den 30 einführenden Einrichtungen gaben 18 an, damit regelmäßig eigene Analysen zu erstellen. Die anderen zwölf nutzten das Portal lediglich, um bereits veröffentlichte Berichte abzurufen. Die Erhebung erfasste keine anderen Analysewerkzeuge und erlaubte keine Aussage darüber, ob Einrichtungen ohne Portal eigene Analysen erstellten. Im Bericht wird ausdrücklich zwischen der Einführung des Portals und seiner Nutzung zur Erstellung eigener Analysen unterschieden.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "60% aller untersuchten Einrichtungen erstellten mit dem Portal eigene Analysen.",
+   "60% der Einrichtungen, die das Portal eingeführt hatten, erstellten damit regelmäßig eigene Analysen.",
+   "Keine Einrichtung ohne Portal erstellte eigene Analysen.",
+   "Alle Einrichtungen mit Portal nutzten es ausschließlich für eigene Analysen."
+  ],
+  "answer": 1,
+  "explanation": "18 von 30 einführenden Einrichtungen entsprechen 60%. Bezogen auf alle 40 Einrichtungen wären es 45%. Die Referenzgruppe ist entscheidend.",
+  "notes": [
+   "A: 18/40 sind 45%, nicht 60%.",
+   "C: Andere Analysewerkzeuge wurden nicht erfasst.",
+   "D: Zwölf Einrichtungen riefen lediglich veröffentlichte Berichte ab."
+  ]
+ },
+ {
+  "id": "V07",
+  "tag": "Schwellenwerte",
+  "passage": "Eine Beschaffungsrichtlinie gilt für alle Aufträge eines Referats. Aufträge unter 20.000 Euro können ohne Vergleichsangebote vergeben werden. Ab einem Auftragswert von 20.000 Euro bis einschließlich 80.000 Euro sind mindestens drei Vergleichsangebote einzuholen. Für Aufträge oberhalb von 80.000 Euro ist grundsätzlich ein förmliches Ausschreibungsverfahren vorgesehen. Eine eng begrenzte Notfallausnahme erlaubt bei diesen größeren Aufträgen eine Direktvergabe, allerdings nur mit einer gesonderten schriftlichen Genehmigung. Diese Notfallausnahme verändert die Vorgaben für Aufträge bis einschließlich 80.000 Euro nicht. Maßgeblich ist jeweils der Gesamtwert des Auftrags.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Ein Auftrag über genau 80.000 Euro fällt stets unter das förmliche Ausschreibungsverfahren.",
+   "Für einen Auftrag über genau 20.000 Euro sind Vergleichsangebote nicht erforderlich.",
+   "Jeder Auftrag oberhalb von 80.000 Euro muss ohne Ausnahme ausgeschrieben werden.",
+   "Für einen Auftrag über genau 80.000 Euro sind mindestens drei Vergleichsangebote erforderlich."
+  ],
+  "answer": 3,
+  "explanation": "Die mittlere Kategorie umfasst 20.000 bis einschließlich 80.000 Euro. Genau 80.000 Euro gehört dazu; die Notfallausnahme gilt nur oberhalb dieser Grenze.",
+  "notes": [
+   "A: Genau 80.000 Euro gehört noch zur Kategorie mit Vergleichsangeboten.",
+   "B: Ab 20.000 Euro sind mindestens drei Angebote erforderlich.",
+   "C: Für höhere Aufträge existiert eine genehmigungspflichtige Notfallausnahme."
+  ]
+ },
+ {
+  "id": "V08",
+  "tag": "Reichweite eines Befunds",
+  "passage": "Ein Labor verglich zwei Verfahren zur Erkennung fehlerhafter Sensormessungen. Auf einem zuvor festgelegten Datensatz fand Verfahren A 92% der tatsächlich fehlerhaften Messungen, Verfahren B 85%. Dafür kennzeichnete A häufiger als B auch korrekte Messungen irrtümlich als fehlerhaft. Die Untersuchung erfasste nur Messungen eines einzigen Sensortyps unter konstanten Umgebungsbedingungen. Die Forschenden empfehlen, die Verfahren vor einem breiteren Einsatz auch bei anderen Sensortypen und wechselnden Temperaturen zu prüfen. Welche Art von Fehlentscheidung in der Praxis höhere Kosten verursacht, war nicht Gegenstand des Versuchs.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Im untersuchten Datensatz erkannte A einen größeren Anteil der tatsächlich fehlerhaften Messungen als B.",
+   "A ist für jeden praktischen Einsatz die wirtschaftlichere Lösung.",
+   "B verursachte im Versuch überhaupt keine Fehlalarme.",
+   "Die Vorteile von A sind für alle Sensortypen nachgewiesen."
+  ],
+  "answer": 0,
+  "explanation": "92% gegenüber 85% stützt genau den begrenzten Vergleich der Erkennungsrate im untersuchten Datensatz. Eine allgemeine Überlegenheit oder Wirtschaftlichkeit folgt nicht.",
+  "notes": [
+   "B: Die Kosten der Fehlentscheidungen wurden nicht untersucht.",
+   "C: „Seltener als A“ bedeutet nicht „nie“.",
+   "D: Es wurde nur ein Sensortyp geprüft."
+  ]
+ },
+ {
+  "id": "V09",
+  "tag": "Fehlende Angaben",
+  "passage": "Eine Evaluation vergleicht sechs regionale Informationsstellen. Drei Stellen bieten seit Jahresbeginn eine Beratung per Video an; drei arbeiten weiterhin ausschließlich vor Ort. Der veröffentlichte Bericht enthält für jede Stelle die Zahl der Beratungen und die Zufriedenheit der Befragten. Angaben zu Personalkosten, Mietkosten und technischer Ausstattung fehlen, weil die Evaluation auf die Erreichbarkeit ausgerichtet war. Für die Videostellen wird eine höhere durchschnittliche Zahl von Beratungen ausgewiesen. Die Verfasserinnen und Verfasser betonen, dass sich Größe, Einzugsgebiet und Personalausstattung der sechs Stellen unterscheiden.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Videoberatung senkte die Personalkosten aller drei Stellen.",
+   "Die höhere Beratungszahl belegt eine größere Zufriedenheit.",
+   "Der veröffentlichte Bericht ermöglicht keinen Kostenvergleich zwischen den Beratungsmodellen.",
+   "Alle sechs Stellen verfügten über dieselbe Personalausstattung."
+  ],
+  "answer": 2,
+  "explanation": "Die relevanten Kostenangaben fehlen. Der Bericht allein trägt deshalb keinen Kostenvergleich, unabhängig von den genannten Beratungszahlen.",
+  "notes": [
+   "A: Ohne Personalkosten und Vergleichsdesign ist eine Kostensenkung nicht belegt.",
+   "B: Die Zahl der Beratungen ist nicht mit Zufriedenheit gleichzusetzen.",
+   "D: Unterschiedliche Personalausstattung wird ausdrücklich erwähnt."
+  ]
+ },
+ {
+  "id": "V10",
+  "tag": "Auswahl und Übertragbarkeit",
+  "passage": "Eine Stadt befragte Nutzerinnen und Nutzer einer Fahrradabstellanlage zur Zufriedenheit. Der Fragebogen war nur über einen QR-Code in der Anlage erreichbar. Es gingen 300 Antworten ein; 240 davon waren positiv. Weder die Zahl der Personen, die den Code sahen, noch die Zahl aller Nutzenden im Erhebungszeitraum ist bekannt. Mehrfachantworten derselben Person wurden technisch ausgeschlossen. Der Bericht nennt die 80% positiven Rückmeldungen als Ergebnis der Befragung, weist aber darauf hin, dass die Teilnahme freiwillig war und keine Zufallsstichprobe gezogen wurde. Menschen, die die Anlage nicht nutzten, wurden nicht angesprochen.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "80% der Stadtbevölkerung waren mit der Anlage zufrieden.",
+   "Unter den abgegebenen Antworten lag der Anteil positiver Rückmeldungen bei 80%.",
+   "Genau 300 Menschen nutzten die Anlage im Erhebungszeitraum.",
+   "Die Befragung belegt, dass unzufriedene Personen den Code seltener scannten."
+  ],
+  "answer": 1,
+  "explanation": "240/300 = 80% gilt für die Antworten. Die unbekannte Grundgesamtheit und die Selbstselektion erlauben keine direkte Übertragung auf alle Nutzenden oder die Stadtbevölkerung.",
+  "notes": [
+   "A: Die Stadtbevölkerung wurde nicht repräsentativ befragt.",
+   "C: Die Zahl der Antworten ist nicht die Zahl aller Nutzenden.",
+   "D: Über das Verhalten unzufriedener Nichtantwortender gibt es keine Angaben."
+  ]
+ },
+ {
+  "id": "V11",
+  "tag": "Mehrstufige Bedingungen",
+  "passage": "Ein Förderprogramm unterstützt nur Konsortien aus mindestens drei voneinander unabhängigen Organisationen. Mindestens eine dieser Organisationen muss eine öffentliche Einrichtung sein. Eine öffentliche Einrichtung darf die Koordination übernehmen; vorgeschrieben ist dies nicht. Bei der Prüfung eingegangener Anträge stellte sich heraus, dass einige formal zulässige Konsortien von privaten Organisationen koordiniert werden. Die Zulässigkeit sagt noch nichts über die spätere Auswahl aus, die nach einer gesonderten Qualitätsbewertung erfolgt. Nicht zulässige Konsortien werden nicht in diese Qualitätsbewertung aufgenommen. Die Regeln lassen keine Ausnahmen von den Anforderungen an die Zusammensetzung zu.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Jedes Konsortium mit drei Organisationen ist formal zulässig.",
+   "Private Organisationen können nur als Unterauftragnehmer teilnehmen.",
+   "Jede öffentliche Einrichtung in einem zulässigen Konsortium muss dessen Koordination übernehmen.",
+   "Auch ein privat koordiniertes, formal zulässiges Konsortium umfasst mindestens eine öffentliche Einrichtung."
+  ],
+  "answer": 3,
+  "explanation": "Die Pflicht zur Beteiligung einer öffentlichen Einrichtung gilt für alle zulässigen Konsortien, unabhängig davon, wer koordiniert.",
+  "notes": [
+   "A: Unabhängigkeit und Beteiligung einer öffentlichen Einrichtung sind ebenfalls erforderlich.",
+   "B: Private Organisationen können Mitglieder und Koordinatoren sein.",
+   "C: Die Koordination durch eine öffentliche Einrichtung ist ausdrücklich nicht vorgeschrieben."
+  ]
+ },
+ {
+  "id": "V12",
+  "tag": "Prozentpunkte und relative Veränderung",
+  "passage": "Eine Agentur erfasste in zwei Jahren jeweils sämtliche Bewerbungen für ihr Praktikumsprogramm. Im ersten Jahr gingen 2.000 Bewerbungen ein; 400 davon enthielten einen im Ausland erworbenen Hochschulabschluss. Im zweiten Jahr waren es 3.000 Bewerbungen, darunter 450 mit einem solchen Abschluss. Die Erfassung folgte in beiden Jahren derselben Definition und zählte jede Bewerbung genau einmal. Aus den Angaben geht nicht hervor, wie viele Personen sich in beiden Jahren bewarben. Die Agentur berichtet sowohl die absolute Zahl der Bewerbungen mit ausländischem Abschluss als auch deren Anteil an allen Bewerbungen.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Zahl der Bewerbungen mit ausländischem Abschluss stieg, während ihr Anteil an allen Bewerbungen sank.",
+   "Der Anteil der Bewerbungen mit ausländischem Abschluss stieg um fünf Prozentpunkte.",
+   "Im zweiten Jahr wurden weniger Bewerbungen mit ausländischem Abschluss eingereicht.",
+   "Die Zahl der unterschiedlichen Personen mit ausländischem Abschluss stieg um genau 50."
+  ],
+  "answer": 0,
+  "explanation": "Die absolute Zahl stieg von 400 auf 450. Der Anteil sank von 400/2.000 = 20% auf 450/3.000 = 15%. Individuelle Wiederbewerbungen sind nicht bekannt.",
+  "notes": [
+   "B: Der Anteil sank um fünf Prozentpunkte.",
+   "C: 450 ist größer als 400.",
+   "D: Bewerbungen sind nicht jahresübergreifend unterschiedliche Personen."
+  ]
+ },
+ {
+  "id": "V13",
+  "tag": "Möglichkeit und Gewissheit",
+  "passage": "Ein Verkehrsmodell simuliert, wie eine neue Buslinie die Fahrgastzahlen verändern könnte. Im Basisszenario nimmt die Gesamtzahl der Fahrten im öffentlichen Verkehr um 6% zu. Dieses Szenario unterstellt unter anderem unveränderte Fahrpreise und eine vollständige Umsetzung des vorgesehenen Takts. In zwei weiteren Szenarien fällt der Anstieg geringer aus. Das Modell berücksichtigt keine möglichen Änderungen der Parkgebühren. Die Modellierenden bezeichnen die Ergebnisse als bedingte Schätzungen und nicht als Vorhersagen mit garantiertem Eintreten. Eine Entscheidung über die Einführung der Linie ist noch nicht gefallen.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Einführung der Linie wird die Fahrgastzahl sicher um 6% erhöhen.",
+   "Höhere Parkgebühren würden den errechneten Anstieg zwingend verringern.",
+   "Der modellierte Anstieg von 6% ist an bestimmte Annahmen gebunden.",
+   "Die Stadt hat die vollständige Einführung des neuen Takts beschlossen."
+  ],
+  "answer": 2,
+  "explanation": "Das Basisszenario setzt ausdrücklich mehrere Bedingungen voraus. Eine bedingte Modellschätzung ist weder ein sicherer Ausgang noch eine bereits getroffene Entscheidung.",
+  "notes": [
+   "A: Die Ergebnisse werden nicht als garantiert dargestellt.",
+   "B: Änderungen der Parkgebühren wurden nicht modelliert.",
+   "D: Die Entscheidung über die Einführung steht noch aus."
+  ]
+ },
+ {
+  "id": "V14",
+  "tag": "Nicht umkehrbare Beziehung",
+  "passage": "Für ein beschleunigtes Anerkennungsverfahren müssen Bewerbende einen bereits geprüften Abschluss vorweisen und dürfen keine Unterlagen nachreichen müssen. Personen, die diese beiden Bedingungen erfüllen, können jedoch freiwillig das reguläre Verfahren wählen. Im regulären Verfahren werden außerdem alle anderen zulässigen Anträge bearbeitet. Die Verwaltung führt eine Statistik über die Wahl des Verfahrens, nicht aber über die Gründe für diese Wahl. Im beschleunigten Verfahren ist eine Entscheidung innerhalb von vier Wochen vorgesehen; dies kann bei außergewöhnlich komplexen Fällen überschritten werden. Ein Wechsel vom regulären in das beschleunigte Verfahren ist nach Beginn der Bearbeitung ausgeschlossen.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Jeder Antrag im regulären Verfahren enthält ungeprüfte Abschlüsse.",
+   "Aus der Wahl des regulären Verfahrens folgt nicht, dass die Voraussetzungen für das beschleunigte Verfahren fehlen.",
+   "Alle Entscheidungen im beschleunigten Verfahren liegen innerhalb von vier Wochen vor.",
+   "Wer die beiden Bedingungen erfüllt, muss das beschleunigte Verfahren nutzen."
+  ],
+  "answer": 1,
+  "explanation": "Auch geeignete Personen dürfen freiwillig das reguläre Verfahren wählen. Die Wahl dieses Verfahrens erlaubt daher keinen Rückschluss auf eine fehlende Eignung.",
+  "notes": [
+   "A: Reguläre Anträge können bereits geprüfte Abschlüsse enthalten.",
+   "C: Außergewöhnlich komplexe Fälle können länger dauern.",
+   "D: Die Wahl des regulären Verfahrens bleibt erlaubt."
+  ]
+ },
+ {
+  "id": "V15",
+  "tag": "Zeitliche Abgrenzung",
+  "passage": "Eine neue Aufbewahrungsregel trat am 1. Juli in Kraft. Sie gilt für alle Akten, die an diesem Tag oder später geschlossen werden, unabhängig davon, wann die Bearbeitung begonnen hat. Für früher geschlossene Akten bleibt die alte Regel maßgeblich, auch wenn sie später erneut eingesehen werden. Wird eine bereits geschlossene Akte formell wiedereröffnet, entsteht nach der Richtlinie dagegen ein neuer Bearbeitungsvorgang mit eigenem Schlussdatum. Eine Akte wurde im März angelegt, am 30. Juni geschlossen und am 10. August lediglich von einer berechtigten Person eingesehen. Eine formelle Wiedereröffnung fand nicht statt.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Akte fällt wegen der Einsichtnahme im August unter die neue Regel.",
+   "Alle im März angelegten Akten fallen unabhängig vom Schlussdatum unter die alte Regel.",
+   "Die Einsichtnahme im August gilt als formelle Wiedereröffnung.",
+   "Für die beschriebene Akte bleibt die alte Aufbewahrungsregel maßgeblich."
+  ],
+  "answer": 3,
+  "explanation": "Das maßgebliche Schlussdatum ist der 30. Juni. Eine spätere bloße Einsichtnahme ändert die Regel ausdrücklich nicht; es gab keine formelle Wiedereröffnung.",
+  "notes": [
+   "A: Eine Einsichtnahme löst keinen neuen Bearbeitungsvorgang aus.",
+   "B: Entscheidend ist das Schlussdatum, nicht der Beginn.",
+   "C: Einsichtnahme und formelle Wiedereröffnung werden unterschieden."
+  ]
+ },
+ {
+  "id": "V16",
+  "tag": "Vergleich unter Bedingungen",
+  "passage": "Ein Gebäudemanagement verglich den Energieverbrauch zweier Bürohäuser im selben Winter. Haus Nord verbrauchte insgesamt weniger Energie als Haus Süd, verfügte aber auch über deutlich weniger beheizte Fläche. Bezogen auf einen Quadratmeter beheizter Fläche lag der Verbrauch von Nord höher. Die Gebäude wurden an gleich vielen Tagen genutzt; Angaben zur täglichen Belegungsdauer und zur Zahl der anwesenden Personen fehlen. Der Bericht unterscheidet deshalb zwischen dem Gesamtverbrauch, dem flächenbezogenen Verbrauch und weiteren möglichen Effizienzkennzahlen. Bauliche Ursachen für die Unterschiede wurden nicht untersucht.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Ein geringerer Gesamtverbrauch ging bei Nord mit einem höheren Verbrauch je beheiztem Quadratmeter einher.",
+   "Nord war nach jeder denkbaren Effizienzkennzahl sparsamer als Süd.",
+   "Die beiden Gebäude hatten dieselbe tägliche Belegungsdauer.",
+   "Der höhere flächenbezogene Verbrauch von Nord wurde durch schlechtere Dämmung verursacht."
+  ],
+  "answer": 0,
+  "explanation": "Der Text nennt beide Kennzahlen ausdrücklich mit gegenläufiger Rangfolge. Aus niedrigem Gesamtverbrauch folgt ohne gleiche Bezugsgröße keine höhere Effizienz.",
+  "notes": [
+   "B: Bereits die flächenbezogene Kennzahl spricht gegen diese allgemeine Behauptung.",
+   "C: Die Belegungsdauer wurde nicht angegeben.",
+   "D: Bauliche Ursachen wurden nicht untersucht."
+  ]
+ },
+ {
+  "id": "V17",
+  "tag": "Begrenzte Datengrundlage",
+  "passage": "Ein Fachgremium prüfte 80 Projektberichte, die ihm von den verantwortlichen Teams freiwillig zur Verfügung gestellt worden waren. In 50 Berichten wurde eine Verzögerung erwähnt. Ob weitere Berichte existierten und nach welchen Kriterien Teams Unterlagen einreichten, wurde nicht erhoben. Das Gremium konnte daher weder die Vollständigkeit noch die Repräsentativität des Materials beurteilen. Es stellte außerdem fest, dass die Begriffe „Verzögerung“ und „Plananpassung“ von den Teams nicht einheitlich verwendet wurden. Vor einer zusammenfassenden Aussage über das gesamte Programm soll deshalb eine standardisierte Erhebung durchgeführt werden.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Genau 62,5% aller Projekte im Programm waren verspätet.",
+   "Die 30 Berichte ohne Erwähnung einer Verzögerung belegen eine fristgerechte Durchführung.",
+   "Die geprüften Berichte erlauben keine verlässliche Bestimmung des Verzögerungsanteils im gesamten Programm.",
+   "Teams mit verspäteten Projekten reichten Berichte nachweislich häufiger ein."
+  ],
+  "answer": 2,
+  "explanation": "Unbekannte Vollständigkeit, freiwillige Auswahl und uneinheitliche Begriffe begrenzen die Übertragbarkeit. 50/80 beschreibt zunächst nur die Erwähnung in den geprüften Berichten.",
+  "notes": [
+   "A: Der Nenner aller Projekte ist nicht bekannt.",
+   "B: Eine fehlende Erwähnung beweist keine fristgerechte Durchführung.",
+   "D: Das Auswahlverhalten wurde nicht untersucht."
+  ]
+ },
+ {
+  "id": "V18",
+  "tag": "Bestand und Veränderung",
+  "passage": "Eine Bibliothek kaufte im vergangenen Jahr 1.200 elektronische und 800 gedruckte Titel neu ein. Elektronische Titel machten damit einen größeren Anteil der Neuanschaffungen aus als gedruckte. Der vorhandene Gesamtbestand umfasste zu Jahresbeginn allerdings deutlich mehr gedruckte als elektronische Titel. Die Übersicht nennt weder die Größe dieses Ausgangsbestands noch die Zahl der während des Jahres ausgesonderten oder ausgelaufenen Titel. Bei elektronischen Titeln können befristete Lizenzen enden; bei gedruckten Titeln werden beschädigte Exemplare ausgemustert. Die Zahl der jährlichen Ausleihen wird getrennt erfasst und ist in der Übersicht nicht enthalten.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Am Jahresende bestand die Mehrheit des Gesamtbestands aus elektronischen Titeln.",
+   "Elektronische Titel stellten 60% der im vergangenen Jahr neu eingekauften Titel.",
+   "Die Zahl gedruckter Titel im Gesamtbestand sank um 800.",
+   "Elektronische Titel wurden häufiger ausgeliehen als gedruckte."
+  ],
+  "answer": 1,
+  "explanation": "1.200 von insgesamt 2.000 Neuanschaffungen entsprechen 60%. Über den Endbestand und die Ausleihen reichen die Angaben nicht aus.",
+  "notes": [
+   "A: Ausgangsbestand und Abgänge sind nicht beziffert.",
+   "C: 800 Titel wurden eingekauft; Abgänge sind unbekannt.",
+   "D: Ausleihzahlen fehlen."
+  ]
+ },
+ {
+  "id": "V19",
+  "tag": "Ausnahmeregel und logischer Schluss",
+  "passage": "Alle internen Berichte müssen vor ihrer Veröffentlichung durch die zuständige Fachleitung freigegeben werden. Berichte, die vertrauliche Daten enthalten, benötigen zusätzlich die Zustimmung der Datenschutzstelle. Enthält ein Bericht keine vertraulichen Daten, kann die Fachleitung diese Stelle freiwillig um Stellungnahme bitten; deren Zustimmung ist dann keine Veröffentlichungsvoraussetzung. Eine verkürzte redaktionelle Bearbeitung ist bei dringenden Berichten möglich, befreit aber nicht von vorgeschriebenen Freigaben. Der veröffentlichte Bericht „Delta“ enthielt vertrauliche Daten und wurde wegen besonderer Dringlichkeit redaktionell verkürzt bearbeitet. Alle genannten Regeln wurden eingehalten.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Dringlichkeit ersetzte bei Delta die Zustimmung der Datenschutzstelle.",
+   "Jeder Bericht mit einer Stellungnahme der Datenschutzstelle enthält vertrauliche Daten.",
+   "Die Fachleitung musste Delta wegen der verkürzten Bearbeitung nicht freigeben.",
+   "Delta erhielt sowohl die Freigabe der Fachleitung als auch die Zustimmung der Datenschutzstelle."
+  ],
+  "answer": 3,
+  "explanation": "Delta wurde veröffentlicht, enthielt vertrauliche Daten und erfüllte alle Regeln. Die Dringlichkeit hebt keine Freigabeanforderung auf; deshalb waren beide Freigaben nötig.",
+  "notes": [
+   "A: Die Dringlichkeitsregel befreit ausdrücklich nicht von vorgeschriebenen Freigaben.",
+   "B: Auch bei nicht vertraulichen Berichten ist eine freiwillige Stellungnahme möglich.",
+   "C: Für alle internen Berichte ist die Freigabe der Fachleitung nötig."
+  ]
+ },
+ {
+  "id": "V20",
+  "tag": "Rangfolge und Reichweite",
+  "passage": "Eine Kommission bewertete zwölf eingereichte Vorschläge anhand derselben veröffentlichten Kriterien. Sechs Vorschläge erreichten die Mindestpunktzahl. Von diesen sechs konnten wegen des begrenzten Budgets nur die vier bestplatzierten gefördert werden; Punktgleichheit trat nicht auf. Vorschläge unterhalb der Mindestpunktzahl waren unabhängig von noch verfügbaren Mitteln von der Förderung ausgeschlossen. Der Bericht enthält keine Aussage darüber, wie ein anderes Budget die Qualität der Einreichungen beeinflusst hätte. Er beschreibt lediglich die tatsächliche Bewertung und die anschließende Auswahl innerhalb des vorhandenen Budgets.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Zwei Vorschläge erfüllten die Mindestpunktzahl, erhielten aber wegen der Budgetbegrenzung keine Förderung.",
+   "Jeder nicht geförderte Vorschlag blieb unter der Mindestpunktzahl.",
+   "Eine Verdoppelung des Budgets hätte sicher alle zwölf Vorschläge förderfähig gemacht.",
+   "Die vier geförderten Vorschläge waren die einzigen, die die Mindestpunktzahl erreichten."
+  ],
+  "answer": 0,
+  "explanation": "Sechs Vorschläge erreichten die Schwelle, vier wurden gefördert: Zwei schwellenkonforme Vorschläge gingen wegen des Budgets leer aus.",
+  "notes": [
+   "B: Zwei nicht geförderte Vorschläge erreichten die Schwelle.",
+   "C: Unterhalb der Schwelle war eine Förderung unabhängig vom Budget ausgeschlossen.",
+   "D: Sechs und nicht nur vier Vorschläge erreichten die Schwelle."
+  ]
+ },
+ {
+  "id": "V21",
+  "tag": "Formale und tatsächliche Feststellung",
+  "passage": "Eine Behörde prüfte 90 Unternehmen auf die Einhaltung einer Meldefrist. 60 Unternehmen hielten die Frist ein. Die übrigen 30 Unternehmen reichten ihre Meldung verspätet oder gar nicht ein; 12 von ihnen hatten zuvor einen Antrag auf Fristverlängerung gestellt, über den noch nicht entschieden ist. Eine Fristverletzung wird nach den Vorschriften nur dann förmlich festgestellt, wenn kein Verlängerungsantrag vorliegt. Für alle Unternehmen ohne Antrag hat die Behörde die Verletzung bereits förmlich festgestellt. Weitere Verfahrensschritte sind zunächst nicht vorgesehen.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Genau ein Drittel aller geprüften Unternehmen hat die Frist förmlich verletzt.",
+   "Für 18 Unternehmen wurde die Fristverletzung bereits förmlich festgestellt.",
+   "Die zwölf Unternehmen mit Verlängerungsantrag haben die Frist eingehalten.",
+   "Mehr als drei Viertel der geprüften Unternehmen hielten die Frist ein."
+  ],
+  "answer": 1,
+  "explanation": "30 Unternehmen meldeten nicht fristgerecht, 12 davon mit offenem Verlängerungsantrag. Bleiben 18 ohne Antrag; für sie wurde die Verletzung bereits förmlich festgestellt.",
+  "notes": [
+   "A: 30 Unternehmen meldeten verspätet oder gar nicht, förmlich festgestellt wurde aber nur bei 18.",
+   "C: Sie gehören ausdrücklich zu den 30 Unternehmen ohne fristgerechte Meldung.",
+   "D: 60 von 90 sind etwa 66,7 %."
+  ]
+ },
+ {
+  "id": "V22",
+  "tag": "Umkehrschluss und Kontraposition",
+  "passage": "Alle Beschäftigten der Abteilung X haben die Schulung Y besucht. Wer die Schulung Y besucht hat, darf Zahlungen nicht ohne zweite Unterschrift freigeben. Frau Berger gibt Zahlungen ohne zweite Unterschrift frei. Ob außerhalb der Abteilung X weitere Personen die Schulung Y besucht haben, ist nicht bekannt. Ebenso ist unbekannt, ob es Personen gibt, die Zahlungen nur mit zweiter Unterschrift freigeben dürfen, ohne die Schulung Y besucht zu haben.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Frau Berger hat die Schulung Y nicht besucht.",
+   "Frau Berger gehört zur Abteilung X.",
+   "Alle, die die Schulung Y nicht besucht haben, dürfen Zahlungen ohne zweite Unterschrift freigeben.",
+   "Nur Beschäftigte der Abteilung X haben die Schulung Y besucht."
+  ],
+  "answer": 0,
+  "explanation": "Wer die Schulung besucht hat, darf nicht ohne zweite Unterschrift freigeben. Frau Berger tut es dennoch, also kann sie die Schulung nicht besucht haben.",
+  "notes": [
+   "B: Aus der Abteilungszugehörigkeit würde der Schulungsbesuch folgen – und damit das Verbot.",
+   "C: Das Verbot gilt für Besucher der Schulung; die Umkehrung steht nicht im Text.",
+   "D: Ausdrücklich unbekannt, ob andere Personen die Schulung besucht haben."
+  ]
+ },
+ {
+  "id": "V23",
+  "tag": "Definition und Folgerung",
+  "passage": "Eine Maßnahme gilt im Förderprogramm erst dann als „abgeschlossen“, wenn der Abschlussbericht eingereicht und von der Programmstelle geprüft wurde. Die Schlusszahlung wird nur für abgeschlossene Maßnahmen geleistet, und zwar innerhalb von 30 Tagen nach Abschluss. Bei Maßnahme M wurde der Abschlussbericht am 15. März eingereicht. Die Prüfung war Ende März noch nicht beendet. Die Programmstelle hat angekündigt, die Prüfung bis Mitte April abschließen zu wollen, gibt dafür aber keine Garantie.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Schlusszahlung für Maßnahme M erfolgt spätestens Mitte Mai.",
+   "Mit der Einreichung des Berichts am 15. März galt Maßnahme M als abgeschlossen.",
+   "Die Programmstelle hat im Bericht zu Maßnahme M Mängel festgestellt.",
+   "Maßnahme M war Ende März im Sinne des Programms noch nicht abgeschlossen."
+  ],
+  "answer": 3,
+  "explanation": "Abschluss setzt Einreichung und abgeschlossene Prüfung voraus. Ende März lief die Prüfung noch, also war M noch nicht abgeschlossen.",
+  "notes": [
+   "A: Der Abschluss der Prüfung ist nicht garantiert; die 30 Tage laufen erst ab Abschluss.",
+   "B: Zusätzlich ist die Prüfung durch die Programmstelle erforderlich.",
+   "C: Über das Ergebnis der Prüfung macht der Text keine Aussage."
+  ]
+ },
+ {
+  "id": "V24",
+  "tag": "Vergleichbarkeit von Umfragewerten",
+  "passage": "In einer Umfrage unter Beschäftigten einer Verwaltung lag die durchschnittliche Zufriedenheit auf einer Skala von 1 bis 5 bei 3,8. In der Vorjahresumfrage hatte der Mittelwert 3,6 betragen. Die Verwaltung weist darauf hin, dass sich in diesem Jahr 40 Personen weniger beteiligt haben und dass der Fragebogen um zwei Fragen gekürzt wurde. Der Median und die Verteilung der Antworten werden im Bericht nicht angegeben.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Mehrheit der Befragten bewertete ihre Zufriedenheit mit mindestens 4.",
+   "Die Zufriedenheit aller Beschäftigten ist gegenüber dem Vorjahr gestiegen.",
+   "Der berichtete Mittelwert lag um 0,2 Skalenpunkte über dem des Vorjahres.",
+   "Die Hälfte der Befragten wählte genau den Wert 3,8."
+  ],
+  "answer": 2,
+  "explanation": "Beide Mittelwerte stehen im Text: 3,8 − 3,6 = 0,2. Weitergehende Aussagen über Mehrheiten oder alle Beschäftigten sind durch die Angaben nicht gedeckt.",
+  "notes": [
+   "A: Ohne Median oder Verteilung ist das nicht ableitbar.",
+   "B: Beteiligung und Fragebogen haben sich geändert; ein Rückschluss auf alle ist nicht gedeckt.",
+   "D: Ein Mittelwert muss kein vergebener Skalenwert sein; die Verteilung fehlt."
+  ]
+ },
+ {
+  "id": "V25",
+  "tag": "Regel, Ausnahme und Frist",
+  "passage": "Reisekosten werden nur erstattet, wenn die Reise genehmigt wurde. Bei dringenden Dienstreisen kann die Genehmigung innerhalb von drei Arbeitstagen nach Reisebeginn nachträglich eingeholt werden. Wird sie nachträglich verweigert, besteht kein Erstattungsanspruch – es sei denn, die Verweigerung beruht ausschließlich auf einem Formfehler des Antrags, der innerhalb von fünf Arbeitstagen nach der Verweigerung behoben wird. Herr Kovač trat eine dringende Dienstreise an und beantragte die Genehmigung am zweiten Arbeitstag nach Reisebeginn nachträglich. Die Genehmigung wurde verweigert, ausschließlich weil das Antragsformular unvollständig war. Das vollständige Formular reichte er am vierten Arbeitstag nach der Verweigerung ein.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Für Herrn Kovač besteht ein Erstattungsanspruch.",
+   "Herr Kovač hat die Genehmigung zu spät nachträglich beantragt.",
+   "Jede nachträglich verweigerte Genehmigung begründet einen Erstattungsanspruch.",
+   "Die Verweigerung der Genehmigung war ein Fehler der Verwaltung."
+  ],
+  "answer": 0,
+  "explanation": "Rechtzeitiger nachträglicher Antrag (2. von 3 Tagen); Verweigerung allein wegen eines Formfehlers; Behebung am 4. von 5 Arbeitstagen. Damit greift die Ausnahme vom Ausschluss des Anspruchs.",
+  "notes": [
+   "B: Die Frist beträgt drei Arbeitstage; der zweite Arbeitstag liegt innerhalb.",
+   "C: Nur bei einem rechtzeitig behobenen Formfehler als alleinigem Grund.",
+   "D: Der Text bewertet die Verweigerung nicht; der Formfehler lag im Antrag."
+  ]
+ },
+ {
+  "id": "V26",
+  "tag": "Bedingte Aussage und Mehrdeutigkeit",
+  "passage": "Ein Gutachten empfiehlt, das Angebot auf mindestens 120 Plätze zu erweitern. Die Stadt hat Mittel für höchstens 100 zusätzliche Plätze bewilligt. Derzeit gibt es 40 Plätze. Aus dem Gutachten geht nicht eindeutig hervor, ob sich die Zahl 120 auf die Gesamtzahl der Plätze oder auf die Zahl zusätzlicher Plätze bezieht. Die Stadt hat noch nicht entschieden, wie viele der bewilligten Plätze sie tatsächlich einrichtet.",
+  "q": "Welche der folgenden Aussagen lässt sich aus dem Text ableiten?",
+  "options": [
+   "Die Empfehlung kann nur erfüllt werden, wenn die Stadt zusätzliche Mittel bewilligt.",
+   "Bezieht sich die Empfehlung auf die Gesamtzahl der Plätze, reichen die bewilligten Mittel dafür aus.",
+   "Die Stadt hat sich verpflichtet, genau 100 zusätzliche Plätze einzurichten.",
+   "Derzeit erfüllt das Angebot die Empfehlung des Gutachtens bereits."
+  ],
+  "answer": 1,
+  "explanation": "Gesamtzahl 120 bei 40 vorhandenen Plätzen bedeutet 80 zusätzliche Plätze – das liegt unter der bewilligten Höchstzahl von 100.",
+  "notes": [
+   "A: Bei Bezug auf die Gesamtzahl genügen 80 zusätzliche Plätze.",
+   "C: Bewilligt sind „höchstens“ 100 Plätze; die Entscheidung steht aus.",
+   "D: 40 Plätze liegen unter 120, bei jeder Lesart der Empfehlung."
+  ]
+ }
+]
