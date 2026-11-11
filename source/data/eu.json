@@ -1,0 +1,1556 @@
+[
+ {
+  "id": "EU01",
+  "area": "EU institutions and procedures",
+  "q": "Which body normally proposes new EU legislation?",
+  "options": [
+   "European Commission",
+   "European Council",
+   "European Central Bank",
+   "European Court of Auditors"
+  ],
+  "answer": 0,
+  "explanation": "The Commission normally initiates legislation; Parliament and Council adopt it.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU02",
+  "area": "EU institutions and procedures",
+  "q": "Under the ordinary legislative procedure, which pair normally adopts legislation?",
+  "options": [
+   "ECB and Parliament",
+   "Commission and European Council",
+   "European Parliament and Council of the EU",
+   "Court of Justice and Commission"
+  ],
+  "answer": 2,
+  "explanation": "Parliament and the Council of the EU are co-legislators.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU03",
+  "area": "EU institutions and procedures",
+  "q": "A summit sets the EU’s overall political priorities. Which institution is meeting?",
+  "options": [
+   "Council of the EU",
+   "European Parliament",
+   "European Commission",
+   "European Council"
+  ],
+  "answer": 3,
+  "explanation": "Heads of state or government meet in the European Council to set political direction.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU04",
+  "area": "EU institutions and procedures",
+  "q": "National environment ministers meet to negotiate EU legislation. Which institution is this?",
+  "options": [
+   "European Court of Auditors",
+   "Council of the European Union",
+   "European Council",
+   "Committee of the Regions"
+  ],
+  "answer": 1,
+  "explanation": "The Council brings together national ministers in subject-specific configurations.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU05",
+  "area": "EU institutions and procedures",
+  "q": "Which institution is directly elected by EU citizens?",
+  "options": [
+   "European Council",
+   "European Parliament",
+   "European Central Bank",
+   "European Commission"
+  ],
+  "answer": 1,
+  "explanation": "Parliament directly represents EU citizens through elections.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU06",
+  "area": "EU institutions and procedures",
+  "q": "Which institution represents the common EU interest and is its main executive body?",
+  "options": [
+   "European Commission",
+   "Council of the EU",
+   "Committee of the Regions",
+   "European Council"
+  ],
+  "answer": 0,
+  "explanation": "The Commission promotes the common EU interest and has executive functions.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU08",
+  "area": "EU institutions and procedures",
+  "q": "Which institution has price stability in the euro area as its central responsibility?",
+  "options": [
+   "European Commission alone",
+   "European Court of Auditors",
+   "European Central Bank",
+   "European Investment Bank"
+  ],
+  "answer": 2,
+  "explanation": "The ECB is responsible for euro-area monetary policy and price stability.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU09",
+  "area": "EU institutions and procedures",
+  "q": "An audit asks whether EU funds were spent lawfully and delivered value for money. Which institution performs external audit?",
+  "options": [
+   "European Council",
+   "Court of Justice",
+   "European Central Bank",
+   "European Court of Auditors"
+  ],
+  "answer": 3,
+  "explanation": "The Court of Auditors checks EU finances, compliance and value for money.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU10",
+  "area": "EU institutions and procedures",
+  "q": "A complaint concerns maladministration by an EU institution. Which body is the relevant independent investigator?",
+  "options": [
+   "European Ombudsman",
+   "European Investment Bank",
+   "European Council",
+   "European Central Bank"
+  ],
+  "answer": 0,
+  "explanation": "The Ombudsman investigates maladministration in EU institutions and agencies.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU11",
+  "area": "EU institutions and procedures",
+  "q": "Which body specifically represents local and regional authorities?",
+  "options": [
+   "Council of the EU",
+   "European Commission",
+   "European Economic and Social Committee",
+   "European Committee of the Regions"
+  ],
+  "answer": 3,
+  "explanation": "The Committee of the Regions brings local and regional perspectives into EU policy-making.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU12",
+  "area": "EU institutions and procedures",
+  "q": "Which body represents employers, workers and other organised civil-society groups?",
+  "options": [
+   "European Council",
+   "European Committee of the Regions",
+   "European Economic and Social Committee",
+   "European Central Bank"
+  ],
+  "answer": 2,
+  "explanation": "The EESC is an advisory body representing organised civil society.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU13",
+  "area": "EU institutions and procedures",
+  "q": "Which body is the EU’s lending arm?",
+  "options": [
+   "European Council",
+   "European Investment Bank",
+   "European Court of Auditors",
+   "European Ombudsman"
+  ],
+  "answer": 1,
+  "explanation": "The EIB lends in areas including infrastructure, innovation, cohesion and climate.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU14",
+  "area": "EU institutions and procedures",
+  "q": "Which body supervises personal-data processing by EU institutions and bodies?",
+  "options": [
+   "European Court of Auditors",
+   "Committee of the Regions",
+   "European Council",
+   "European Data Protection Supervisor"
+  ],
+  "answer": 3,
+  "explanation": "The EDPS supervises data protection within EU institutions and bodies.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU15",
+  "area": "EU institutions and procedures",
+  "q": "Which body promotes consistent application of data-protection rules and cooperation between national authorities?",
+  "options": [
+   "European Investment Bank",
+   "European Economic and Social Committee",
+   "European Data Protection Board",
+   "European Council"
+  ],
+  "answer": 2,
+  "explanation": "The EDPB coordinates consistent application and cooperation; it differs from the EDPS.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU16",
+  "area": "EU institutions and procedures",
+  "q": "Which office investigates and prosecutes crimes against the EU’s financial interests?",
+  "options": [
+   "European Public Prosecutor’s Office",
+   "European Court of Auditors",
+   "European Ombudsman",
+   "European Central Bank"
+  ],
+  "answer": 0,
+  "explanation": "EPPO performs criminal investigation and prosecution within its remit; the Court of Auditors is an auditor.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU17",
+  "area": "EU institutions and procedures",
+  "q": "Which service supports the High Representative and coordinates EU diplomatic action?",
+  "options": [
+   "European Personnel Selection Office",
+   "European External Action Service",
+   "European School of Administration",
+   "Publications Office"
+  ],
+  "answer": 1,
+  "explanation": "The EEAS is the EU diplomatic service.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU18",
+  "area": "EU institutions and procedures",
+  "q": "Which organisation runs competitions to select staff for EU institutions and agencies?",
+  "options": [
+   "Committee of the Regions",
+   "European Council",
+   "European Personnel Selection Office",
+   "European Investment Bank"
+  ],
+  "answer": 2,
+  "explanation": "EPSO organises staff selection competitions.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU19",
+  "area": "EU institutions and procedures",
+  "q": "Which service is a central official access point for EU law, publications and open data?",
+  "options": [
+   "Publications Office of the EU",
+   "European School of Administration",
+   "European Council",
+   "European Central Bank"
+  ],
+  "answer": 0,
+  "explanation": "The Publications Office provides publishing services and access to official information.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU20",
+  "area": "EU institutions and procedures",
+  "q": "Which institution generally checks that Member States apply EU law correctly?",
+  "options": [
+   "European Investment Bank",
+   "Committee of the Regions",
+   "European Court of Auditors alone",
+   "European Commission"
+  ],
+  "answer": 3,
+  "explanation": "The Commission oversees application of EU law; judicial enforcement involves the Court.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU21",
+  "area": "EU institutions and procedures",
+  "q": "Which description of decentralised EU agencies is correct?",
+  "options": [
+   "They all form departments without legal personality",
+   "They pool specialist expertise and support policy implementation",
+   "They replace the European Parliament as legislature",
+   "They set euro-area interest rates"
+  ],
+  "answer": 1,
+  "explanation": "Decentralised agencies have their own legal personalities and specialist implementation roles.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EU23",
+  "area": "EU legal acts",
+  "q": "An EU act sets a result that national authorities must achieve while leaving choice of form and methods. Which type is it?",
+  "options": [
+   "Opinion",
+   "Regulation",
+   "Recommendation",
+   "Directive"
+  ],
+  "answer": 3,
+  "explanation": "A directive sets binding goals but leaves national implementation choices.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+ },
+ {
+  "id": "EU24",
+  "area": "EU legal acts",
+  "q": "Which act must be applied in its entirety across the EU?",
+  "options": [
+   "Opinion",
+   "Recommendation",
+   "Regulation",
+   "Non-binding committee statement"
+  ],
+  "answer": 2,
+  "explanation": "A regulation is binding in its entirety and directly applicable.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+ },
+ {
+  "id": "EU25",
+  "area": "EU legal acts",
+  "q": "Which statement correctly distinguishes a recommendation from a regulation?",
+  "options": [
+   "Both require identical national implementing laws",
+   "A recommendation is non-binding; a regulation is binding",
+   "Both are merely political statements",
+   "Only recommendations are directly binding"
+  ],
+  "answer": 1,
+  "explanation": "Recommendations do not impose legal obligations; regulations do.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+ },
+ {
+  "id": "EU26",
+  "area": "EU legal acts",
+  "q": "An act is addressed to a specific company and binds that addressee. Which type fits?",
+  "options": [
+   "Decision",
+   "Opinion",
+   "Recommendation",
+   "Committee consultation"
+  ],
+  "answer": 0,
+  "explanation": "A decision is binding on those to whom it is addressed.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+ },
+ {
+  "id": "EU27",
+  "area": "EU legal acts",
+  "q": "Which pair consists entirely of non-binding EU acts?",
+  "options": [
+   "Decisions and regulations",
+   "Recommendations and opinions",
+   "Regulations and directives",
+   "Directives and decisions"
+  ],
+  "answer": 1,
+  "explanation": "Recommendations and opinions express views without imposing legal obligations.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+ },
+ {
+  "id": "EU28",
+  "area": "EU legal acts",
+  "q": "Which statement about a directive is NOT correct?",
+  "options": [
+   "It specifies a result to achieve",
+   "National authorities choose how to achieve that result",
+   "It always leaves Member States free to ignore its goal",
+   "It differs from a recommendation"
+  ],
+  "answer": 2,
+  "explanation": "A directive’s goal is binding; flexibility concerns implementation, not whether to comply.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+ },
+ {
+  "id": "EU29",
+  "area": "EU legal acts",
+  "q": "A civil-society advisory opinion is issued during law-making. What follows from that opinion alone?",
+  "options": [
+   "It annuls national legislation",
+   "It automatically becomes a regulation",
+   "It replaces Parliament’s vote",
+   "It does not itself impose a binding legal obligation"
+  ],
+  "answer": 3,
+  "explanation": "An opinion is non-binding even when it forms part of a consultation process.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+ },
+ {
+  "id": "EU30",
+  "area": "EU institutions and procedures",
+  "q": "A briefing claims the European Council and the Council of the EU are interchangeable names. What is the best correction?",
+  "options": [
+   "One gathers national leaders; the other gathers national ministers",
+   "Both are courts with different appeal levels",
+   "Both are departments of the Commission",
+   "One audits funds; the other sets interest rates"
+  ],
+  "answer": 0,
+  "explanation": "The European Council sets political direction; the Council of the EU participates in law-making with ministers.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EXT01",
+  "area": "Sample anchors",
+  "q": "Which treaty established the European Union?",
+  "options": [
+   "Nice Treaty",
+   "Maastricht Treaty",
+   "Lisbon Treaty",
+   "Amsterdam Treaty"
+  ],
+  "answer": 1,
+  "explanation": "Maastricht established the EU and entered into force on 1 November 1993. The supplied sample says “in its current form”; this wording is tightened because subsequent treaties changed the EU.",
+  "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en"
+ },
+ {
+  "id": "EXT02",
+  "area": "Sample anchors",
+  "q": "Which EU institution interprets EU law, including through rulings requested by national courts?",
+  "options": [
+   "Court of Justice of the European Union",
+   "European Commission",
+   "European Council",
+   "European Parliament"
+  ],
+  "answer": 0,
+  "explanation": "The judicial interpretation role belongs to the CJEU. The Commission also oversees application of EU law, so the supplied sample’s broader enforcement wording is clarified here.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+ },
+ {
+  "id": "EXT03",
+  "area": "Sample anchors",
+  "q": "Which broad EU policy agenda aims to transform the EU into a climate-neutral, resource-efficient and competitive economy?",
+  "options": [
+   "Energy Union",
+   "Sustainable Development Strategy",
+   "European Green Deal",
+   "Clean Energy Package"
+  ],
+  "answer": 2,
+  "explanation": "The intended answer in the supplied example is the European Green Deal. The other named initiatives are real or related, so this stem identifies the overarching agenda more precisely.",
+  "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en"
+ },
+ {
+  "id": "EXT04",
+  "area": "Sample anchors",
+  "q": "Which EU agency provides independent scientific advice on risks in the food and feed chain?",
+  "options": [
+   "European Agriculture Agency",
+   "European Agency for Food and Safety Regulations",
+   "European Consumption Agency",
+   "European Food Safety Authority"
+  ],
+  "answer": 3,
+  "explanation": "EFSA provides scientific risk assessment and advice. It does not by itself guarantee food safety or replace the authorities responsible for risk management.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1"
+ },
+ {
+  "id": "EXT05",
+  "area": "Treaties and history",
+  "q": "In which year did the Maastricht Treaty enter into force?",
+  "options": [
+   "1999",
+   "1993",
+   "1992",
+   "2009"
+  ],
+  "answer": 1,
+  "explanation": "It was signed in 1992 and entered into force on 1 November 1993; signature and entry into force are different events.",
+  "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en"
+ },
+ {
+  "id": "EXT06",
+  "area": "Treaties and history",
+  "q": "Which treaty entered into force on 1 December 2009?",
+  "options": [
+   "Amsterdam Treaty",
+   "Maastricht Treaty",
+   "Lisbon Treaty",
+   "Nice Treaty"
+  ],
+  "answer": 2,
+  "explanation": "Lisbon entered into force in December 2009, following its signature in December 2007.",
+  "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en"
+ },
+ {
+  "id": "EXT07",
+  "area": "Treaties and history",
+  "q": "Which change is associated with the Lisbon Treaty?",
+  "options": [
+   "A permanent President of the European Council",
+   "The abolition of the European Parliament",
+   "The first introduction of EU citizenship",
+   "The original creation of the EEC"
+  ],
+  "answer": 0,
+  "explanation": "Lisbon created a permanent European Council presidency and strengthened Parliament; Maastricht introduced EU citizenship.",
+  "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en"
+ },
+ {
+  "id": "EXT08",
+  "area": "Treaties and history",
+  "q": "Which treaty introduced EU citizenship?",
+  "options": [
+   "Treaty of Nice",
+   "Treaty of Rome establishing the EEC",
+   "Merger Treaty",
+   "Maastricht Treaty"
+  ],
+  "answer": 3,
+  "explanation": "EU citizenship was introduced by Maastricht as part of political union.",
+  "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en"
+ },
+ {
+  "id": "EXT09",
+  "area": "Treaties and history",
+  "q": "Which pair of communities was established by the Treaties of Rome?",
+  "options": [
+   "European Economic Community and Euratom",
+   "Schengen Area and euro area",
+   "European Central Bank and Europol",
+   "European Union and Council of Europe"
+  ],
+  "answer": 0,
+  "explanation": "The Rome treaties established the EEC and the European Atomic Energy Community; both came into being in January 1958.",
+  "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_en"
+ },
+ {
+  "id": "EXT10",
+  "area": "Treaties and history",
+  "q": "The EEC and Euratom came into being on which date?",
+  "options": [
+   "1 November 1993",
+   "1 May 1999",
+   "1 December 2009",
+   "1 January 1958"
+  ],
+  "answer": 3,
+  "explanation": "The Rome treaties were signed in 1957, but the communities came into being on 1 January 1958.",
+  "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_en"
+ },
+ {
+  "id": "EXT11",
+  "area": "Treaties and history",
+  "q": "Which treaty entered into force on 1 May 1999?",
+  "options": [
+   "Maastricht Treaty",
+   "Lisbon Treaty",
+   "Amsterdam Treaty",
+   "Treaty of Rome"
+  ],
+  "answer": 2,
+  "explanation": "Amsterdam entered into force in May 1999 and built on Maastricht’s institutional and political development.",
+  "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en"
+ },
+ {
+  "id": "EXT12",
+  "area": "Treaties and history",
+  "q": "Which four freedoms underpin the EU single market?",
+  "options": [
+   "Movement of judges, treaties, currencies and flags",
+   "Movement of goods, services, people and capital",
+   "Movement of services, borders, tariffs and embassies",
+   "Movement of goods, taxes, armies and constitutions"
+  ],
+  "answer": 1,
+  "explanation": "The single market encompasses free movement of goods, services, people and capital; the history source describes money as the fourth freedom.",
+  "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en"
+ },
+ {
+  "id": "EXT13",
+  "area": "Treaties and history",
+  "q": "Which year saw the launch of the euro for commercial and financial transactions, before notes and coins?",
+  "options": [
+   "2009",
+   "1999",
+   "1995",
+   "1993"
+  ],
+  "answer": 1,
+  "explanation": "The euro was introduced in 1999 for commercial and financial transactions in eleven countries.",
+  "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en"
+ },
+ {
+  "id": "EXT14",
+  "area": "Treaties and history",
+  "q": "What major development took place on 1 January 1993?",
+  "options": [
+   "The Lisbon Treaty entered into force",
+   "The European Coal and Steel Community was created",
+   "The single market and its four freedoms were established",
+   "The euro was launched for transactions"
+  ],
+  "answer": 2,
+  "explanation": "The single market began in 1993; the other events belong to different stages of integration.",
+  "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en"
+ },
+ {
+  "id": "EXT15",
+  "area": "Treaties and history",
+  "q": "What was the purpose of the 1994 European Economic Area agreement described in the EU history timeline?",
+  "options": [
+   "To extend the single market to participating EFTA countries",
+   "To replace the EU with a military alliance",
+   "To abolish the European Parliament",
+   "To require all European countries to adopt the euro"
+  ],
+  "answer": 0,
+  "explanation": "The EEA extended single-market cooperation to participating countries of the European Free Trade Association.",
+  "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en"
+ },
+ {
+  "id": "EXT16",
+  "area": "Treaties and history",
+  "q": "Which Lisbon-associated mechanism lets citizens invite the Commission to propose legislation?",
+  "options": [
+   "European semester audit",
+   "Schengen visa code",
+   "European arrest warrant",
+   "European citizens’ initiative"
+  ],
+  "answer": 3,
+  "explanation": "The citizens’ initiative is listed among Lisbon’s changes. An invitation to propose legislation is not itself a law.",
+  "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en"
+ },
+ {
+  "id": "EXT17",
+  "area": "Climate and energy",
+  "q": "What year is the EU’s binding climate-neutrality objective aimed at?",
+  "options": [
+   "2060",
+   "2030",
+   "2050",
+   "2045"
+  ],
+  "answer": 2,
+  "explanation": "The EU Climate Law makes climate neutrality by 2050 a binding commitment.",
+  "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en"
+ },
+ {
+  "id": "EXT18",
+  "area": "Climate and energy",
+  "q": "What is the EU’s legally established net greenhouse-gas reduction target for 2030, compared with 1990?",
+  "options": [
+   "Exactly 40%",
+   "At least 55%",
+   "At least 20%",
+   "At least 90%"
+  ],
+  "answer": 1,
+  "explanation": "The target is at least a 55% net reduction by 2030 compared with 1990; net emissions and the baseline both matter.",
+  "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en"
+ },
+ {
+  "id": "EXT19",
+  "area": "Climate and energy",
+  "q": "What does the Fit for 55 legislative package primarily implement?",
+  "options": [
+   "A requirement for exactly 55 EU agencies",
+   "An EU-wide retirement age of 55",
+   "A target to make 55% of the EU’s land urban",
+   "The EU’s 2030 net emissions reduction target"
+  ],
+  "answer": 3,
+  "explanation": "Fit for 55 adapts legislation across sectors to deliver the at-least-55% net reduction target.",
+  "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal/fit-55-delivering-proposals_en"
+ },
+ {
+  "id": "EXT20",
+  "area": "Climate and energy",
+  "q": "Which instrument enshrines the EU’s 2050 climate-neutrality commitment in law?",
+  "options": [
+   "European Climate Law",
+   "European Statistical Charter",
+   "Treaty of Nice alone",
+   "Schengen Borders Code"
+  ],
+  "answer": 0,
+  "explanation": "The European Climate Law makes the climate-neutrality objective legally binding.",
+  "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en"
+ },
+ {
+  "id": "EXT21",
+  "area": "Climate and energy",
+  "q": "Which year is the reference baseline for the EU’s 2030 emissions target?",
+  "options": [
+   "2005",
+   "1990",
+   "2020",
+   "2000"
+  ],
+  "answer": 1,
+  "explanation": "The at-least-55% net reduction is measured against 1990 levels, not against the year the legislation was adopted.",
+  "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en"
+ },
+ {
+  "id": "EXT22",
+  "area": "Climate and energy",
+  "q": "Which description correctly relates the Green Deal and Fit for 55?",
+  "options": [
+   "They are two names for the European Central Bank",
+   "The Green Deal is a single international court ruling",
+   "Fit for 55 is an EU food-safety agency",
+   "The Green Deal is the broader agenda; Fit for 55 is a legislative package supporting its climate objectives"
+  ],
+  "answer": 3,
+  "explanation": "The agenda and the legislative package are related but are not interchangeable institutional entities.",
+  "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en"
+ },
+ {
+  "id": "EXT23",
+  "area": "Climate and energy",
+  "q": "Which programme has a dedicated Clean Energy Transition sub-programme?",
+  "options": [
+   "LIFE",
+   "European Regional Development Fund alone",
+   "Creative Europe",
+   "Erasmus+"
+  ],
+  "answer": 0,
+  "explanation": "LIFE includes Clean Energy Transition alongside nature, circular economy and climate sub-programmes.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/programme-environment-and-climate-action-life_en"
+ },
+ {
+  "id": "EXT24",
+  "area": "Climate and energy",
+  "q": "Which pair names two LIFE sub-programme areas?",
+  "options": [
+   "Judicial Appointments; Customs Tariffs",
+   "Defence Procurement; Electoral Observation",
+   "Nature and Biodiversity; Climate Change Mitigation and Adaptation",
+   "Monetary Policy; Banking Supervision"
+  ],
+  "answer": 2,
+  "explanation": "These are two of LIFE’s four environment and climate sub-programme areas.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/programme-environment-and-climate-action-life_en"
+ },
+ {
+  "id": "EXT25",
+  "area": "EU agencies",
+  "q": "Which agency provides independent information for developing and assessing environmental policies?",
+  "options": [
+   "European Food Safety Authority",
+   "European Chemicals Agency",
+   "European Environment Agency",
+   "European Medicines Agency"
+  ],
+  "answer": 2,
+  "explanation": "The EEA provides environmental information and evidence; ECHA specialises in chemicals and EFSA in food-chain risks.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1"
+ },
+ {
+  "id": "EXT26",
+  "area": "EU agencies",
+  "q": "Which EU agency implements EU chemicals legislation?",
+  "options": [
+   "European Chemicals Agency",
+   "European Food Safety Authority",
+   "European Environment Agency",
+   "European Centre for Disease Prevention and Control"
+  ],
+  "answer": 0,
+  "explanation": "ECHA implements the EU’s chemicals legislation; its mandate differs from broader environmental information provision.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1"
+ },
+ {
+  "id": "EXT27",
+  "area": "EU agencies",
+  "q": "Which agency helps EU governments prepare for and respond to infectious-disease threats?",
+  "options": [
+   "European Banking Authority",
+   "European Centre for Disease Prevention and Control",
+   "European Fisheries Control Agency",
+   "European Environment Agency"
+  ],
+  "answer": 1,
+  "explanation": "ECDC supports public-health preparedness and action against infectious diseases.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1"
+ },
+ {
+  "id": "EXT28",
+  "area": "EU agencies",
+  "q": "Which agency supports national law-enforcement bodies in fighting serious crime and terrorism?",
+  "options": [
+   "Eurostat",
+   "European Food Safety Authority",
+   "Euratom",
+   "Europol"
+  ],
+  "answer": 3,
+  "explanation": "Europol supports national law-enforcement agencies; this does not make it a replacement for national police forces.",
+  "source": "https://european-union.europa.eu/node/279/rss_en"
+ },
+ {
+  "id": "EXT29",
+  "area": "EU agencies",
+  "q": "Which agency helps countries manage the EU’s external borders?",
+  "options": [
+   "European Environment Agency",
+   "Frontex",
+   "European Food Safety Authority",
+   "European Chemicals Agency"
+  ],
+  "answer": 1,
+  "explanation": "Frontex is the European Border and Coast Guard Agency and provides border-management support.",
+  "source": "https://european-union.europa.eu/node/279/rss_en"
+ },
+ {
+  "id": "EXT30",
+  "area": "EU agencies",
+  "q": "Which EU agency focuses on a high common level of cybersecurity across Europe?",
+  "options": [
+   "ECDC",
+   "ECHA",
+   "ENISA",
+   "EFSA"
+  ],
+  "answer": 2,
+  "explanation": "ENISA is the European Union Agency for Cybersecurity; the alternatives concern food, chemicals and disease prevention.",
+  "source": "https://european-union.europa.eu/node/279/rss_en"
+ },
+ {
+  "id": "EXT31",
+  "area": "EU agencies",
+  "q": "Which task best matches EFSA rather than ECHA?",
+  "options": [
+   "Implementation of chemicals legislation",
+   "Setting euro-area interest rates",
+   "Policing the external borders",
+   "Scientific assessment of possible risks in the food chain"
+  ],
+  "answer": 3,
+  "explanation": "Distinguish the agencies by their substantive remit rather than the similarity of their acronyms.",
+  "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1"
+ },
+ {
+  "id": "EXT32",
+  "area": "EU agencies",
+  "q": "Which pairing is correct?",
+  "options": [
+   "Frontex — external-border support",
+   "EFSA — treaty interpretation",
+   "Europol — EU monetary policy",
+   "ENISA — agricultural price setting"
+  ],
+  "answer": 0,
+  "explanation": "Frontex supports external-border management; the other pairings mismatch the body and the function.",
+  "source": "https://european-union.europa.eu/node/279/rss_en"
+ },
+ {
+  "id": "EXT33",
+  "area": "Policies and programmes",
+  "q": "What is the EU’s key research and innovation funding programme for 2021–2027?",
+  "options": [
+   "Erasmus+",
+   "Horizon Europe",
+   "LIFE",
+   "Creative Europe"
+  ],
+  "answer": 1,
+  "explanation": "Horizon Europe funds research and innovation; the dates distinguish the current programme period from later proposals.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/horizon-europe_en"
+ },
+ {
+  "id": "EXT34",
+  "area": "Policies and programmes",
+  "q": "Which programme supports education, training, youth and sport?",
+  "options": [
+   "Erasmus+",
+   "Digital Europe",
+   "LIFE",
+   "Horizon Europe"
+  ],
+  "answer": 0,
+  "explanation": "Erasmus+ extends beyond university exchange to education, training, youth and sport.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/erasmus_en"
+ },
+ {
+  "id": "EXT35",
+  "area": "Policies and programmes",
+  "q": "Which programme supports the cultural and audiovisual sectors?",
+  "options": [
+   "Erasmus+ only",
+   "Horizon Europe only",
+   "European Regional Development Fund only",
+   "Creative Europe"
+  ],
+  "answer": 3,
+  "explanation": "Creative Europe supports cultural and audiovisual activity through Culture, MEDIA and cross-sectoral strands.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/creative-europe_en"
+ },
+ {
+  "id": "EXT36",
+  "area": "Policies and programmes",
+  "q": "Which programme is designed to bridge digital technology research and market deployment?",
+  "options": [
+   "Creative Europe",
+   "Erasmus+",
+   "Digital Europe Programme",
+   "LIFE"
+  ],
+  "answer": 2,
+  "explanation": "Digital Europe supports deployment and uptake, including AI, cybersecurity and advanced digital skills.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/digital-europe-programme_en"
+ },
+ {
+  "id": "EXT37",
+  "area": "Policies and programmes",
+  "q": "Which fund aims to reduce economic, social and territorial disparities between EU regions?",
+  "options": [
+   "Creative Europe",
+   "European Central Bank reserve fund",
+   "European Agricultural Guarantee Fund only",
+   "European Regional Development Fund"
+  ],
+  "answer": 3,
+  "explanation": "ERDF supports regional investments to reduce disparities and strengthen cohesion.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/european-regional-development-fund-erdf_en"
+ },
+ {
+  "id": "EXT38",
+  "area": "Policies and programmes",
+  "q": "What is a central purpose of the common agricultural policy?",
+  "options": [
+   "Interpret EU treaties in court",
+   "Support farmers and sustainable farming while contributing to rural development",
+   "Set the euro-area policy interest rate",
+   "Administer international criminal trials"
+  ],
+  "answer": 1,
+  "explanation": "EU agricultural policy combines support for farmers with sustainable practices and rural investment.",
+  "source": "https://european-union.europa.eu/priorities-and-actions/actions-topic/agriculture_en"
+ },
+ {
+  "id": "EXT39",
+  "area": "Policies and programmes",
+  "q": "Which programme is specifically dedicated to environment and climate action?",
+  "options": [
+   "LIFE",
+   "Creative Europe",
+   "Digital Europe",
+   "Erasmus+"
+  ],
+  "answer": 0,
+  "explanation": "LIFE supports environmental protection, biodiversity, the circular economy and climate action.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/programme-environment-and-climate-action-life_en"
+ },
+ {
+  "id": "EXT40",
+  "area": "Policies and programmes",
+  "q": "Which Creative Europe strand is specifically associated with the audiovisual sector?",
+  "options": [
+   "Euratom",
+   "Schengen",
+   "MEDIA",
+   "Fit for 55"
+  ],
+  "answer": 2,
+  "explanation": "Creative Europe’s MEDIA strand supports the audiovisual sector; its Culture and cross-sectoral strands have different scopes.",
+  "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/creative-europe_en"
+ },
+ {
+  "id": "EU69",
+  "area": "Economic and monetary union",
+  "q": "Which institution is responsible for monetary policy in the euro area?",
+  "options": [
+   "The European Commission",
+   "The Council of the EU in its Economic and Financial Affairs configuration",
+   "The European Central Bank, together with the national central banks of the euro area",
+   "The European Investment Bank"
+  ],
+  "answer": 2,
+  "explanation": "The ECB and the euro-area national central banks form the Eurosystem, which defines and implements monetary policy.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU70",
+  "area": "Economic and monetary union",
+  "q": "The Treaty protocol on the excessive deficit procedure sets reference values for general government deficit and debt. Which values?",
+  "options": [
+   "5% of GDP for the deficit and 80% of GDP for the debt",
+   "3% of GDP for the deficit and 90% of GDP for the debt",
+   "2% of GDP for the deficit and 60% of GDP for the debt",
+   "3% of GDP for the deficit and 60% of GDP for the debt"
+  ],
+  "answer": 3,
+  "explanation": "Protocol No 12 to the Treaties sets the reference values at 3% (deficit) and 60% (debt) of GDP.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU71",
+  "area": "Economic and monetary union",
+  "q": "What is the European Semester?",
+  "options": [
+   "A yearly cycle for coordinating Member States’ economic, fiscal and employment policies",
+   "A six-month rotation of the Council Presidency",
+   "A semester-long exchange programme for EU officials",
+   "The annual period during which Parliament votes on the budget"
+  ],
+  "answer": 0,
+  "explanation": "The European Semester organises the annual coordination of economic and budgetary policies, including country-specific recommendations.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU72",
+  "area": "Economic and monetary union",
+  "q": "Which body can provide financial assistance to euro-area Member States in severe financial difficulty on the basis of a permanent intergovernmental mechanism?",
+  "options": [
+   "The European Court of Auditors",
+   "The European Stability Mechanism",
+   "The European Investment Fund",
+   "The European Ombudsman"
+  ],
+  "answer": 1,
+  "explanation": "The ESM is a permanent crisis-resolution mechanism for euro-area Member States, established by an intergovernmental treaty.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU73",
+  "area": "Economic and monetary union",
+  "q": "Which of the following is a convergence criterion for adopting the euro?",
+  "options": [
+   "A youth unemployment rate below 10%",
+   "A positive trade balance with the United States",
+   "Price stability",
+   "A minimum number of seats in the European Parliament"
+  ],
+  "answer": 2,
+  "explanation": "The criteria cover price stability, public finances, exchange-rate stability and long-term interest rates. They do not cover unemployment or trade balances.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU74",
+  "area": "Economic and monetary union",
+  "q": "What is the primary objective of the European System of Central Banks under the Treaties?",
+  "options": [
+   "To maximise economic growth",
+   "To maintain price stability",
+   "To eliminate unemployment",
+   "To finance Member State budgets"
+  ],
+  "answer": 1,
+  "explanation": "Article 127 TFEU: the primary objective is price stability; without prejudice to it, the ESCB supports the general economic policies of the Union.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU76",
+  "area": "Internal market and competition",
+  "q": "At EU level, which institution is mainly responsible for enforcing EU competition rules on cartels and abuse of dominance?",
+  "options": [
+   "The European Commission",
+   "The European Parliament",
+   "The European Council",
+   "The Court of Auditors"
+  ],
+  "answer": 0,
+  "explanation": "The Commission is the EU competition authority and works with national competition authorities and the EU courts.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU77",
+  "area": "Internal market and competition",
+  "q": "What does a customs union involve?",
+  "options": [
+   "A single currency for all members",
+   "Common taxation of income",
+   "A shared army",
+   "A common external tariff and no customs duties between its members"
+  ],
+  "answer": 3,
+  "explanation": "The EU is a customs union: no internal customs duties and a common customs tariff towards third countries.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU78",
+  "area": "Internal market and competition",
+  "q": "What does the principle of mutual recognition mean for goods in the single market?",
+  "options": [
+   "All products must meet one single EU-wide quality standard",
+   "Products may only be sold in the Member State where they were made",
+   "A product lawfully marketed in one Member State can in principle be sold in the others",
+   "Every product needs a licence from the Commission"
+  ],
+  "answer": 2,
+  "explanation": "Mutual recognition (Cassis de Dijon) allows products lawfully marketed in one Member State to circulate in others, subject to justified exceptions.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU80",
+  "area": "EU budget and funding",
+  "q": "For how many years does the EU’s multiannual financial framework (MFF) normally run?",
+  "options": [
+   "Seven years",
+   "Three years",
+   "Five years",
+   "Ten years"
+  ],
+  "answer": 0,
+  "explanation": "The MFF sets spending ceilings for several years; the current one covers 2021–2027. The Treaties require at least five years.",
+  "source": "http://data.europa.eu/eli/reg/2020/2093/oj"
+ },
+ {
+  "id": "EU81",
+  "area": "EU budget and funding",
+  "q": "Who adopts the annual EU budget?",
+  "options": [
+   "The European Commission alone",
+   "The European Council alone",
+   "The Court of Auditors and the Commission",
+   "The European Parliament and the Council of the EU"
+  ],
+  "answer": 3,
+  "explanation": "The Parliament and the Council are the budgetary authority; the Commission proposes the draft budget.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU82",
+  "area": "EU budget and funding",
+  "q": "Which of the following is an EU ‘own resource’?",
+  "options": [
+   "Contributions from the annual profits of the European Central Bank",
+   "Customs duties on imports from outside the EU",
+   "Income tax paid by EU citizens directly to the Commission",
+   "Dividends from shares in European companies"
+  ],
+  "answer": 1,
+  "explanation": "Own resources include traditional own resources (customs duties), VAT-based and gross-national-income-based contributions and a plastic-packaging contribution.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU83",
+  "area": "EU budget and funding",
+  "q": "Which institution grants the Commission discharge for the implementation of the annual budget?",
+  "options": [
+   "The European Court of Auditors",
+   "The Eurogroup",
+   "The European Central Bank",
+   "The European Parliament, on a recommendation from the Council"
+  ],
+  "answer": 3,
+  "explanation": "Under Article 319 TFEU, the European Parliament gives discharge on a recommendation of the Council. The Court of Auditors audits and reports.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU84",
+  "area": "EU budget and funding",
+  "q": "What is the centrepiece of the NextGenerationEU recovery instrument?",
+  "options": [
+   "The Erasmus+ programme",
+   "The Recovery and Resilience Facility",
+   "The Common Fisheries Policy",
+   "The European Defence Fund"
+  ],
+  "answer": 1,
+  "explanation": "The Recovery and Resilience Facility finances reforms and investments in Member States’ recovery and resilience plans.",
+  "source": "http://data.europa.eu/eli/reg/2021/241/oj"
+ },
+ {
+  "id": "EU85",
+  "area": "EU budget and funding",
+  "q": "Which fund pays direct payments to farmers under the Common Agricultural Policy?",
+  "options": [
+   "The European Agricultural Guarantee Fund (EAGF)",
+   "The European Regional Development Fund (ERDF)",
+   "The European Social Fund Plus (ESF+)",
+   "The Cohesion Fund"
+  ],
+  "answer": 0,
+  "explanation": "The EAGF finances direct payments and market measures; the EAFRD finances rural development.",
+  "source": "http://data.europa.eu/eli/reg/2021/2116/oj"
+ },
+ {
+  "id": "EU86",
+  "area": "Enlargement and external action",
+  "q": "Which Treaty article sets out the procedure for a Member State to withdraw from the EU?",
+  "options": [
+   "Article 7 of the Treaty on European Union",
+   "Article 49 of the Treaty on European Union",
+   "Article 50 of the Treaty on European Union",
+   "Article 288 of the Treaty on the Functioning of the EU"
+  ],
+  "answer": 2,
+  "explanation": "Article 50 TEU provides for notification of the intention to withdraw and negotiation of a withdrawal agreement.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU87",
+  "area": "Enlargement and external action",
+  "q": "Which of the following is one of the Copenhagen criteria for EU accession?",
+  "options": [
+   "Membership of NATO",
+   "A population of at least ten million",
+   "The prior adoption of the euro",
+   "A functioning market economy and the capacity to cope with competitive pressure in the Union"
+  ],
+  "answer": 3,
+  "explanation": "The 1993 Copenhagen criteria are political (stable institutions guaranteeing democracy, rule of law, human rights), economic and the ability to take on the obligations of membership.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU88",
+  "area": "Enlargement and external action",
+  "q": "Who chairs the Foreign Affairs Council?",
+  "options": [
+   "The High Representative of the Union for Foreign Affairs and Security Policy",
+   "The President of the European Parliament",
+   "The President of the European Central Bank",
+   "The President of the Court of Justice"
+  ],
+  "answer": 0,
+  "explanation": "Article 18 TEU: the High Representative chairs the Foreign Affairs Council.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU89",
+  "area": "Enlargement and external action",
+  "q": "How does the Council of the EU normally decide on matters of the Common Foreign and Security Policy?",
+  "options": [
+   "By qualified majority",
+   "By unanimity",
+   "By simple majority",
+   "By a vote of the European Parliament alone"
+  ],
+  "answer": 1,
+  "explanation": "CFSP decisions are generally taken unanimously, with limited exceptions.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU90",
+  "area": "Enlargement and external action",
+  "q": "In the Council of the EU, a qualified majority is reached when at least what share of Member States, representing what share of the EU population, vote in favour?",
+  "options": [
+   "50% of Member States, representing at least 50% of the population",
+   "67% of Member States, representing at least 75% of the population",
+   "55% of Member States, representing at least 65% of the population",
+   "72% of Member States, representing at least 65% of the population"
+  ],
+  "answer": 2,
+  "explanation": "Article 16(4) TEU: at least 55% of the members, comprising at least fifteen of them and representing at least 65% of the population (with a blocking-minority rule).",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU91",
+  "area": "Enlargement and external action",
+  "q": "What does CSDP stand for?",
+  "options": [
+   "Central Security and Diplomacy Programme",
+   "Common Security and Defence Policy",
+   "Common Single Defence Pact",
+   "Cooperative Strategic Development Plan"
+  ],
+  "answer": 1,
+  "explanation": "The CSDP is an integral part of the Common Foreign and Security Policy.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU92",
+  "area": "Rights, values and citizenship",
+  "q": "Since which Treaty has the Charter of Fundamental Rights of the EU had the same legal value as the Treaties?",
+  "options": [
+   "The Maastricht Treaty",
+   "The Treaty of Amsterdam",
+   "The Treaty of Nice",
+   "The Treaty of Lisbon"
+  ],
+  "answer": 3,
+  "explanation": "Under Article 6(1) TEU, as amended by the Treaty of Lisbon (in force since 2009), the Charter has the same legal value as the Treaties.",
+  "source": "http://data.europa.eu/eli/treaty/char_2012/oj"
+ },
+ {
+  "id": "EU93",
+  "area": "Rights, values and citizenship",
+  "q": "What does a European Citizens’ Initiative allow?",
+  "options": [
+   "One million citizens from at least seven Member States to invite the Commission to propose legislation",
+   "Any citizen to veto an EU law",
+   "Citizens to elect the President of the Commission directly",
+   "Ten Member States to change the Treaties"
+  ],
+  "answer": 0,
+  "explanation": "The Citizens’ Initiative requires one million signatures from at least a quarter of Member States (seven); the Commission decides how to respond.",
+  "source": "http://data.europa.eu/eli/reg/2019/788/oj"
+ },
+ {
+  "id": "EU94",
+  "area": "Rights, values and citizenship",
+  "q": "Which court sits in Strasbourg and is not an EU institution?",
+  "options": [
+   "The Court of Justice of the European Union",
+   "The General Court",
+   "The European Court of Human Rights",
+   "The European Court of Auditors"
+  ],
+  "answer": 2,
+  "explanation": "The ECtHR belongs to the Council of Europe and applies the European Convention on Human Rights.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU95",
+  "area": "Rights, values and citizenship",
+  "q": "Which of the following is a value listed in Article 2 of the Treaty on European Union?",
+  "options": [
+   "Economic competitiveness",
+   "Energy independence",
+   "The rule of law",
+   "Fiscal neutrality"
+  ],
+  "answer": 2,
+  "explanation": "Article 2 TEU lists human dignity, freedom, democracy, equality, the rule of law and respect for human rights.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU96",
+  "area": "Rights, values and citizenship",
+  "q": "Which Treaty mechanism can lead to the suspension of certain rights of a Member State, including its voting rights in the Council?",
+  "options": [
+   "The procedure in Article 50 of the Treaty on European Union",
+   "The excessive deficit procedure",
+   "The ordinary revision procedure",
+   "The procedure in Article 7 of the Treaty on European Union"
+  ],
+  "answer": 3,
+  "explanation": "Article 7 TEU covers a clear risk of, or a serious and persistent breach of, the values in Article 2.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU97",
+  "area": "Migration, justice and security",
+  "q": "What does the Schengen area allow?",
+  "options": [
+   "Free access to social security benefits in every country",
+   "Travel between participating countries without border checks at internal borders",
+   "Voting in national elections of any participating country",
+   "Unlimited stays for non-EU nationals"
+  ],
+  "answer": 1,
+  "explanation": "Schengen abolishes internal border checks while strengthening external border management.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU100",
+  "area": "Migration, justice and security",
+  "q": "What is the main task of the European Public Prosecutor’s Office (EPPO)?",
+  "options": [
+   "Investigating and prosecuting crimes against the EU’s financial interests",
+   "Prosecuting all serious crimes in the Member States",
+   "Reviewing the legality of EU legislation",
+   "Supervising national courts"
+  ],
+  "answer": 0,
+  "explanation": "EPPO, based in Luxembourg, is competent for offences such as fraud affecting the EU budget.",
+  "source": "http://data.europa.eu/eli/reg/2017/1939/oj"
+ },
+ {
+  "id": "EU101",
+  "area": "Migration, justice and security",
+  "q": "What does the principle of non-refoulement prohibit?",
+  "options": [
+   "Granting asylum to more than one family member",
+   "Issuing visas for stays longer than 90 days",
+   "Returning a person to a country where they would face serious harm such as persecution or torture",
+   "Registering asylum seekers at the external border"
+  ],
+  "answer": 2,
+  "explanation": "Non-refoulement is a core protection principle reflected in the Charter and the Geneva Convention.",
+  "source": "http://data.europa.eu/eli/treaty/char_2012/oj"
+ },
+ {
+  "id": "EU102",
+  "area": "Digital policy",
+  "q": "Which EU act governs the protection of personal data and applies directly in all Member States?",
+  "options": [
+   "The Digital Markets Act",
+   "The Data Governance Act",
+   "The ePrivacy Directive",
+   "The General Data Protection Regulation"
+  ],
+  "answer": 3,
+  "explanation": "Regulation (EU) 2016/679 (GDPR) applies directly and has applied since 25 May 2018.",
+  "source": "http://data.europa.eu/eli/reg/2016/679/oj"
+ },
+ {
+  "id": "EU103",
+  "area": "Digital policy",
+  "q": "What is the main aim of the Digital Services Act?",
+  "options": [
+   "Setting rules for online intermediaries and platforms on illegal content, transparency and user protection",
+   "Regulating the prices of digital devices",
+   "Creating a single EU telecommunications operator",
+   "Taxing digital advertising at EU level"
+  ],
+  "answer": 0,
+  "explanation": "Regulation (EU) 2022/2065 sets due-diligence and transparency obligations for online intermediaries and very large platforms.",
+  "source": "http://data.europa.eu/eli/reg/2022/2065/oj"
+ },
+ {
+  "id": "EU104",
+  "area": "Digital policy",
+  "q": "Who is the Digital Markets Act mainly aimed at?",
+  "options": [
+   "All small and medium-sized enterprises",
+   "Very large online platforms designated as ‘gatekeepers’",
+   "National governments",
+   "Telecom consumers only"
+  ],
+  "answer": 1,
+  "explanation": "Regulation (EU) 2022/1925 sets obligations for gatekeepers to keep digital markets fair and contestable.",
+  "source": "http://data.europa.eu/eli/reg/2022/1925/oj"
+ },
+ {
+  "id": "EU105",
+  "area": "Digital policy",
+  "q": "How does the EU AI Act classify AI systems for regulatory purposes?",
+  "options": [
+   "According to the size of the provider’s workforce",
+   "According to the level of risk they pose",
+   "According to the country where the model was developed",
+   "According to the programming language used"
+  ],
+  "answer": 1,
+  "explanation": "Regulation (EU) 2024/1689 follows a risk-based approach, from prohibited practices to minimal risk.",
+  "source": "http://data.europa.eu/eli/reg/2024/1689/oj"
+ },
+ {
+  "id": "EU106",
+  "area": "Digital policy",
+  "q": "Which EU programme for 2021–2027 funds supercomputing, artificial intelligence, cybersecurity and advanced digital skills?",
+  "options": [
+   "The LIFE programme",
+   "The Creative Europe programme",
+   "The Common Agricultural Policy",
+   "The Digital Europe Programme"
+  ],
+  "answer": 3,
+  "explanation": "Regulation (EU) 2021/694 establishes the Digital Europe Programme.",
+  "source": "http://data.europa.eu/eli/reg/2021/694/oj"
+ },
+ {
+  "id": "EU107",
+  "area": "Treaties and history",
+  "q": "What did the Treaty of Lisbon introduce for the European Council?",
+  "options": [
+   "A directly elected President",
+   "A rotating presidency every month",
+   "A full-time President of the European Council",
+   "A permanent seat in Strasbourg"
+  ],
+  "answer": 2,
+  "explanation": "The Lisbon Treaty made the European Council a formal institution with a permanent President elected for a term of two and a half years.",
+  "source": "http://data.europa.eu/eli/treaty/teu_2016/oj"
+ },
+ {
+  "id": "EU108",
+  "area": "EU institutions and procedures",
+  "q": "What was the ordinary legislative procedure called before the Treaty of Lisbon?",
+  "options": [
+   "Co-decision",
+   "Consultation",
+   "Assent",
+   "Comitology"
+  ],
+  "answer": 0,
+  "explanation": "The Treaty of Lisbon renamed co-decision as the ordinary legislative procedure and extended it.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU109",
+  "area": "EU institutions and procedures",
+  "q": "Which of the following institutions has its seat in Luxembourg?",
+  "options": [
+   "The European Central Bank",
+   "The Committee of the Regions",
+   "The European Commission",
+   "The Court of Justice of the European Union"
+  ],
+  "answer": 3,
+  "explanation": "The Court of Justice sits in Luxembourg; the ECB is in Frankfurt and the Commission and Committee of the Regions are in Brussels.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU110",
+  "area": "EU agencies",
+  "q": "Which body, owned by the Member States, finances investment projects that support EU policy goals?",
+  "options": [
+   "The European Investment Bank",
+   "The European Central Bank",
+   "The European Bank for Reconstruction and Development",
+   "The European Ombudsman"
+  ],
+  "answer": 0,
+  "explanation": "The EIB is the EU’s lending arm and is owned by the Member States.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU111",
+  "area": "Climate and energy",
+  "q": "What is the legally binding EU target for net greenhouse gas emission reductions by 2030 under the European Climate Law?",
+  "options": [
+   "At least 30% compared with 1990",
+   "At least 40% compared with 2005",
+   "At least 55% compared with 1990",
+   "At least 80% compared with 1990"
+  ],
+  "answer": 2,
+  "explanation": "The European Climate Law sets climate neutrality by 2050 and an intermediate target of at least 55% net reduction by 2030 (against 1990).",
+  "source": "http://data.europa.eu/eli/reg/2021/1119/oj"
+ },
+ {
+  "id": "EU112",
+  "area": "Climate and energy",
+  "q": "On which principle is the EU Emissions Trading System based?",
+  "options": [
+   "A uniform carbon tax collected by the Commission",
+   "Cap and trade",
+   "Voluntary pledges by companies",
+   "A ban on all fossil fuels from 2030"
+  ],
+  "answer": 1,
+  "explanation": "A cap on total emissions is set; installations receive or buy allowances and can trade them.",
+  "source": "http://data.europa.eu/eli/dir/2003/87/oj"
+ },
+ {
+  "id": "EU114",
+  "area": "Internal market and competition",
+  "q": "What does the CE marking on a product indicate?",
+  "options": [
+   "That the product was made in the European Union",
+   "That the manufacturer declares conformity with the applicable EU health, safety and environmental requirements",
+   "That the product has been tested and approved by the European Commission",
+   "That the product is among the best in its category"
+  ],
+  "answer": 1,
+  "explanation": "CE marking is the manufacturer’s declaration of conformity with applicable EU requirements; it is not a quality label or an indication of origin.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ },
+ {
+  "id": "EU115",
+  "area": "Migration, justice and security",
+  "q": "Which EU agency, based in Valletta, supports Member States in applying EU asylum rules?",
+  "options": [
+   "The European Union Agency for Asylum (EUAA)",
+   "Frontex",
+   "Europol",
+   "The European Union Agency for Fundamental Rights"
+  ],
+  "answer": 0,
+  "explanation": "The EUAA provides operational and technical support to national asylum authorities.",
+  "source": "http://data.europa.eu/eli/reg/2021/2303/oj"
+ },
+ {
+  "id": "EU116",
+  "area": "Migration, justice and security",
+  "q": "Which EU body coordinates judicial cooperation in criminal matters between national authorities?",
+  "options": [
+   "The European Court of Auditors",
+   "The European Committee of the Regions",
+   "Eurojust",
+   "The European Ombudsman"
+  ],
+  "answer": 2,
+  "explanation": "Eurojust, based in The Hague, supports cooperation between national prosecutors and judicial authorities in cross-border cases.",
+  "source": "http://data.europa.eu/eli/treaty/tfeu_2016/oj"
+ }
+]

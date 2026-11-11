@@ -1,0 +1,813 @@
+[
+ {
+  "id": "N01",
+  "tag": "Gewichtete Gesamtveränderung",
+  "caption": "Anträge und fristgerechte Bearbeitung. Alle Angaben beziehen sich auf das jeweilige Kalenderjahr.",
+  "headers": [
+   "Referat",
+   "Anträge 2024",
+   "Fristgerecht 2024",
+   "Anträge 2025",
+   "Fristgerecht 2025"
+  ],
+  "rows": [
+   [
+    "A",
+    "12.000",
+    "75%",
+    "15.000",
+    "72%"
+   ],
+   [
+    "B",
+    "8.000",
+    "80%",
+    "10.000",
+    "84%"
+   ]
+  ],
+  "q": "Um wie viel Prozent stieg die Gesamtzahl fristgerecht bearbeiteter Anträge von 2024 auf 2025? Runden Sie auf eine Dezimalstelle.",
+  "options": [
+   "20,0%",
+   "24,7%",
+   "27,3%",
+   "30,0%",
+   "33,3%"
+  ],
+  "answer": 1,
+  "explanation": "2024: 12.000 × 0,75 + 8.000 × 0,80 = 15.400. 2025: 15.000 × 0,72 + 10.000 × 0,84 = 19.200. Zuwachs: (19.200 − 15.400)/15.400 × 100 = 24,675…%, also 24,7%.",
+  "notes": [
+   "A: Der absolute Zuwachs muss durch den Ausgangswert 15.400 geteilt werden.",
+   "C, D, E: Entscheidend sind die fristgerechten Fallzahlen beider Referate, nicht ein ungewichteter Prozentsatz."
+  ]
+ },
+ {
+  "id": "N02",
+  "tag": "Budgetanteile mit verschiedenen Bezugsgrößen",
+  "caption": "Jahresbudgets. „Bindung“ bezeichnet den bereits vertraglich gebundenen Anteil des jeweiligen Budgets.",
+  "headers": [
+   "Programm",
+   "Budget",
+   "Bindung"
+  ],
+  "rows": [
+   [
+    "Mobilität",
+    "4,80 Mio. €",
+    "75%"
+   ],
+   [
+    "Bildung",
+    "3,20 Mio. €",
+    "62,5%"
+   ],
+   [
+    "Digitalisierung",
+    "2,50 Mio. €",
+    "80%"
+   ]
+  ],
+  "q": "30% der noch ungebundenen Mittel aus Mobilität und 25% der noch ungebundenen Mittel aus Bildung werden in einen gemeinsamen Fonds übertragen. Wie groß ist dieser Fonds?",
+  "options": [
+   "540.000 €",
+   "600.000 €",
+   "720.000 €",
+   "660.000 €",
+   "960.000 €"
+  ],
+  "answer": 3,
+  "explanation": "Mobilität ungebunden: 4,80 Mio. × 25% = 1,20 Mio.; davon 30% = 360.000 €. Bildung ungebunden: 3,20 Mio. × 37,5% = 1,20 Mio.; davon 25% = 300.000 €. Summe: 660.000 €.",
+  "notes": [
+   "A, B, C, E: Die Übertragungsanteile beziehen sich auf ungebundene Restmittel, nicht auf die Gesamtbudgets oder die bereits gebundenen Mittel."
+  ]
+ },
+ {
+  "id": "N03",
+  "tag": "Wechselkurse und Gebühren",
+  "caption": "Geplante Einnahmen und Umrechnung. Die Gebühr wird vom umgerechneten Eurobetrag abgezogen.",
+  "headers": [
+   "Position",
+   "Wert"
+  ],
+  "rows": [
+   [
+    "Einnahmen",
+    "1.840.000 USD"
+   ],
+   [
+    "Wechselkurs",
+    "1 EUR = 1,15 USD"
+   ],
+   [
+    "Umrechnungsgebühr",
+    "0,75%"
+   ]
+  ],
+  "q": "Nach Umrechnung und Gebühr werden die verbleibenden Euroeinnahmen zu 40% den Betriebskosten zugeordnet. Welcher Betrag bleibt danach für andere Zwecke?",
+  "options": [
+   "952.800 €",
+   "960.000 €",
+   "635.200 €",
+   "1.059.600 €",
+   "1.270.400 €"
+  ],
+  "answer": 0,
+  "explanation": "1.840.000/1,15 = 1.600.000 €. Nach 0,75% Gebühr bleiben 1.588.000 €. Für andere Zwecke verbleiben 60%: 1.588.000 × 0,60 = 952.800 €.",
+  "notes": [
+   "B: 960.000 € lässt die Umrechnungsgebühr unberücksichtigt.",
+   "C: 635.200 € entspricht den 40% Betriebskosten, nicht dem Rest.",
+   "D, E: Wechselkursrichtung und verbleibenden Anteil prüfen."
+  ]
+ },
+ {
+  "id": "N04",
+  "tag": "Auslastung über Gruppen",
+  "caption": "Drei Schulungsarten. Jedes geplante Ereignis hat die angegebene Kapazität; Auslastung = belegte Plätze / Kapazität.",
+  "headers": [
+   "Schulungsart",
+   "Ereignisse",
+   "Plätze je Ereignis",
+   "Auslastung"
+  ],
+  "rows": [
+   [
+    "Datenanalyse",
+    "12",
+    "25",
+    "80%"
+   ],
+   [
+    "Recht",
+    "8",
+    "30",
+    "75%"
+   ],
+   [
+    "Kommunikation",
+    "10",
+    "20",
+    "90%"
+   ]
+  ],
+  "q": "Wie hoch ist die Gesamtauslastung aller angebotenen Plätze, auf eine Dezimalstelle gerundet?",
+  "options": [
+   "80,0%",
+   "81,7%",
+   "83,3%",
+   "79,5%",
+   "81,1%"
+  ],
+  "answer": 4,
+  "explanation": "Kapazität: 12 × 25 + 8 × 30 + 10 × 20 = 740. Belegt: 300 × 0,80 + 240 × 0,75 + 200 × 0,90 = 600. Gesamt: 600/740 × 100 = 81,081…%, also 81,1%.",
+  "notes": [
+   "B: 81,7% ist der ungewichtete Mittelwert von 80%, 75% und 90%; die Kapazitäten sind unterschiedlich.",
+   "A, C, D: Belegte Plätze und angebotene Plätze müssen zunächst über alle Schulungsarten summiert werden."
+  ]
+ },
+ {
+  "id": "N05",
+  "tag": "Arbeitsleistung mit Ausfall",
+  "caption": "Für diese Aufgabe arbeiten alle Personen mit derselben konstanten Leistung pro produktiver Arbeitsstunde.",
+  "headers": [
+   "Größe",
+   "Wert"
+  ],
+  "rows": [
+   [
+    "Team im Referenzzeitraum",
+    "8 Personen"
+   ],
+   [
+    "Dauer",
+    "6 Tage"
+   ],
+   [
+    "Produktive Stunden je Tag und Person",
+    "7"
+   ],
+   [
+    "Abgeschlossene Akten",
+    "1.680"
+   ]
+  ],
+  "q": "Ein neues Team aus zehn Personen arbeitet fünf Tage lang mit je sechs verfügbaren Stunden pro Tag. 10% dieser Stunden entfallen auf Besprechungen und sind nicht produktiv. Wie viele Akten werden abgeschlossen?",
+  "options": [
+   "1.200",
+   "1.350",
+   "1.500",
+   "1.512",
+   "1.680"
+  ],
+  "answer": 1,
+  "explanation": "Referenzleistung: 1.680/(8 × 6 × 7) = 5 Akten pro produktiver Personenstunde. Neues Team: 10 × 5 × 6 × 0,90 = 270 produktive Personenstunden. 270 × 5 = 1.350 Akten.",
+  "notes": [
+   "C: 1.500 ignoriert die 10% nicht produktive Zeit.",
+   "A, D, E: Leistung je Personenstunde bestimmen und nur produktive Stunden berücksichtigen."
+  ]
+ },
+ {
+  "id": "N06",
+  "tag": "Aufeinanderfolgende Preisänderungen",
+  "caption": "Vertragspreise. Die Preisänderung gilt auf den bisherigen Stückpreis; die Rabattgrenze gilt für das gesamte neue Jahresvolumen.",
+  "headers": [
+   "Position",
+   "Wert"
+  ],
+  "rows": [
+   [
+    "Bisheriger Stückpreis",
+    "120 €"
+   ],
+   [
+    "Preiserhöhung",
+    "8%"
+   ],
+   [
+    "Rabatt ab 2.000 Einheiten",
+    "5% auf den erhöhten Stückpreis"
+   ],
+   [
+    "Geplante Bestellmenge",
+    "2.500 Einheiten"
+   ]
+  ],
+  "q": "Wie hoch ist der Gesamtpreis der geplanten Bestellung nach Erhöhung und Rabatt, ohne weitere Steuern oder Gebühren?",
+  "options": [
+   "300.000 €",
+   "309.000 €",
+   "324.000 €",
+   "307.800 €",
+   "285.000 €"
+  ],
+  "answer": 3,
+  "explanation": "Erhöhter Stückpreis: 120 × 1,08 = 129,60 €. Nach 5% Rabatt: 129,60 × 0,95 = 123,12 €. Gesamt: 123,12 × 2.500 = 307.800 €.",
+  "notes": [
+   "A: Der Endpreis ist nicht wieder gleich dem ursprünglichen Preis.",
+   "B: 8% − 5% = 3% ist hier falsch, weil der Rabatt auf den erhöhten Preis wirkt.",
+   "C: Der Rabatt wurde ausgelassen.",
+   "E: Die Preiserhöhung wurde ausgelassen."
+  ]
+ },
+ {
+  "id": "N07",
+  "tag": "Bestandsfortschreibung",
+  "caption": "Unerledigte Fälle werden am Monatsende als Rückstand gezählt. Alle Zugänge und Abschlüsse sind erfasst; es gibt keine sonstigen Zu- oder Abgänge.",
+  "headers": [
+   "Monat",
+   "Neue Fälle",
+   "Abgeschlossene Fälle"
+  ],
+  "rows": [
+   [
+    "Januar",
+    "1.240",
+    "1.100"
+   ],
+   [
+    "Februar",
+    "1.180",
+    "1.360"
+   ],
+   [
+    "März",
+    "1.350",
+    "1.420"
+   ]
+  ],
+  "q": "Zu Beginn des Januars bestanden 860 unerledigte Fälle. Um wie viel Prozent war der Rückstand Ende März geringer als zu Beginn des Januars? Runden Sie auf eine Dezimalstelle.",
+  "options": [
+   "8,1%",
+   "11,0%",
+   "12,8%",
+   "14,7%",
+   "15,1%"
+  ],
+  "answer": 2,
+  "explanation": "Zugänge: 3.770; Abschlüsse: 3.880. Rückstand sinkt um 110 auf 750. Relative Verringerung: 110/860 × 100 = 12,790…%, also 12,8%.",
+  "notes": [
+   "A: Bezieht nur einen Teil der Monatsbewegungen ein.",
+   "B: 110 Fälle sind eine absolute Zahl, nicht automatisch 11%.",
+   "D: 110/750 verwendet den Endbestand statt des Ausgangsbestands.",
+   "E: Alle drei Monate und den Anfangsbestand berücksichtigen."
+  ]
+ },
+ {
+  "id": "N08",
+  "tag": "Mengen und Quoten",
+  "caption": "Bewerbungen nach Bereich. Die Zulassungsquote wird auf alle Bewerbungen des jeweiligen Bereichs angewandt.",
+  "headers": [
+   "Bereich",
+   "Bewerbungen",
+   "Zulassungsquote"
+  ],
+  "rows": [
+   [
+    "A",
+    "1.600",
+    "30%"
+   ],
+   [
+    "B",
+    "1.200",
+    "45%"
+   ],
+   [
+    "C",
+    "2.000",
+    "24%"
+   ]
+  ],
+  "q": "Wie viele zusätzliche Zulassungen aus Bereich C wären mindestens nötig, damit C genau 40% aller Zulassungen erreicht? Die Zulassungszahlen von A und B bleiben unverändert.",
+  "options": [
+   "120",
+   "180",
+   "200",
+   "240",
+   "300"
+  ],
+  "answer": 2,
+  "explanation": "A: 480; B: 540; C: 480, insgesamt 1.500. Für zusätzliche x gilt (480 + x)/(1.500 + x) = 0,40. Also 480 + x = 600 + 0,40x; 0,60x = 120; x = 200.",
+  "notes": [
+   "A: 120 füllt nur die Lücke zu 40% des alten Gesamtnenners; der Nenner steigt aber mit.",
+   "B, D, E: Zusätzliche Zulassungen aus C erhöhen zugleich die Gesamtzahl."
+  ]
+ },
+ {
+  "id": "N09",
+  "tag": "Gewichteter Durchschnitt und Rückrechnung",
+  "caption": "Alle Zahlen betreffen dieselbe Gruppe abgeschlossener Anträge; jeder Antrag wird gleich gewichtet.",
+  "headers": [
+   "Gruppe",
+   "Anteil an allen Anträgen",
+   "Mittlere Bearbeitungszeit"
+  ],
+  "rows": [
+   [
+    "Standard",
+    "60%",
+    "6 Tage"
+   ],
+   [
+    "Spezial",
+    "25%",
+    "12 Tage"
+   ],
+   [
+    "Komplex",
+    "15%",
+    "unbekannt"
+   ],
+   [
+    "Gesamt",
+    "100%",
+    "9,6 Tage"
+   ]
+  ],
+  "q": "Wie hoch war die mittlere Bearbeitungszeit der komplexen Anträge?",
+  "options": [
+   "16 Tage",
+   "20 Tage",
+   "18 Tage",
+   "22 Tage",
+   "24 Tage"
+  ],
+  "answer": 1,
+  "explanation": "0,60 × 6 + 0,25 × 12 + 0,15 × x = 9,6. Bekannte Beiträge: 3,6 + 3,0 = 6,6. Somit 0,15x = 3,0; x = 20 Tage.",
+  "notes": [
+   "A, C, D, E: Der fehlende Beitrag zum Gesamtdurchschnitt muss durch den Anteil 0,15 geteilt werden, nicht durch die Zahl der Gruppen."
+  ]
+ },
+ {
+  "id": "N10",
+  "tag": "Mindestmenge mit Kostengleichung",
+  "caption": "Zwei Anbieter für identische Prüfungen. Fixkosten fallen pro Jahr einmalig an; variable Kosten für jede durchgeführte Prüfung.",
+  "headers": [
+   "Anbieter",
+   "Jährliche Fixkosten",
+   "Kosten je Prüfung"
+  ],
+  "rows": [
+   [
+    "A",
+    "18.000 €",
+    "42 €"
+   ],
+   [
+    "B",
+    "30.000 €",
+    "34 €"
+   ]
+  ],
+  "q": "Ab welcher ganzzahligen Zahl von Prüfungen pro Jahr ist Anbieter B strikt günstiger als Anbieter A?",
+  "options": [
+   "1.499",
+   "1.500",
+   "1.501",
+   "1.600",
+   "1.250"
+  ],
+  "answer": 2,
+  "explanation": "B ist günstiger, wenn 30.000 + 34n < 18.000 + 42n. Das ergibt 12.000 < 8n, also n > 1.500. Kleinste ganze Zahl: 1.501. Bei 1.500 sind beide gleich teuer.",
+  "notes": [
+   "A: Unterhalb 1.500 ist A günstiger.",
+   "B: Bei 1.500 herrscht Kostengleichheit, nicht ein strikter Vorteil für B.",
+   "D: B wäre günstiger, aber 1.600 ist nicht die kleinste mögliche Zahl.",
+   "E: Fixkostendifferenz durch variable Einsparung von 8 € teilen."
+  ]
+ },
+ {
+  "id": "N11",
+  "tag": "Prozentpunkte und relative Veränderung",
+  "caption": "Bewerbungen und erfolgreiche Bewerbungen je Jahr.",
+  "headers": [
+   "Jahr",
+   "Bewerbungen",
+   "Erfolgreich"
+  ],
+  "rows": [
+   [
+    "2023",
+    "2.500",
+    "1.250"
+   ],
+   [
+    "2024",
+    "3.200",
+    "1.440"
+   ]
+  ],
+  "q": "Um wie viele Prozentpunkte hat sich die Erfolgsquote von 2023 auf 2024 verändert?",
+  "options": [
+   "−5,0 Prozentpunkte",
+   "−10,0 Prozentpunkte",
+   "+15,2 Prozentpunkte",
+   "−11,1 Prozentpunkte",
+   "+5,0 Prozentpunkte"
+  ],
+  "answer": 0,
+  "explanation": "2023: 1.250/2.500 = 50 %. 2024: 1.440/3.200 = 45 %. Differenz: −5 Prozentpunkte.",
+  "notes": [
+   "B: Das ist die relative Veränderung der Quote (45 % gegenüber 50 %), nicht die Differenz in Prozentpunkten.",
+   "C: Das ist der relative Zuwachs der erfolgreichen Bewerbungen (1.440 gegenüber 1.250).",
+   "D: Die relative Veränderung wurde auf den neuen Wert 45 % statt auf den alten bezogen.",
+   "E: Vorzeichenfehler: Die Quote sank von 50 % auf 45 %."
+  ]
+ },
+ {
+  "id": "N12",
+  "tag": "Mehrwertsteuer und Skonto",
+  "caption": "Rechnung. Das Skonto wird auf den Bruttobetrag berechnet.",
+  "headers": [
+   "Position",
+   "Wert"
+  ],
+  "rows": [
+   [
+    "Nettobetrag",
+    "18.400 €"
+   ],
+   [
+    "Mehrwertsteuer",
+    "19 %"
+   ],
+   [
+    "Skonto bei Zahlung binnen 10 Tagen",
+    "2 %"
+   ]
+  ],
+  "q": "Wie viel ist bei Zahlung innerhalb von zehn Tagen zu überweisen?",
+  "options": [
+   "21.896,00 €",
+   "21.528,00 €",
+   "18.032,00 €",
+   "21.458,08 €",
+   "22.264,00 €"
+  ],
+  "answer": 3,
+  "explanation": "Brutto: 18.400 × 1,19 = 21.896 €. Skonto 2 %: 21.896 × 0,98 = 21.458,08 €.",
+  "notes": [
+   "A: Brutto ohne Skonto: 18.400 × 1,19.",
+   "B: Steuer und Skonto als Prozentsätze verrechnet: 18.400 × (1 + 0,19 − 0,02).",
+   "C: Nur das Skonto vom Nettobetrag abgezogen; die Mehrwertsteuer fehlt.",
+   "E: Das Skonto wurde als Aufschlag behandelt: 18.400 × 1,21."
+  ]
+ },
+ {
+  "id": "N13",
+  "tag": "Durchschnittsgeschwindigkeit",
+  "caption": "Zwei Teilstrecken einer Dienstfahrt, jeweils mit konstanter Geschwindigkeit.",
+  "headers": [
+   "Teilstrecke",
+   "Länge",
+   "Geschwindigkeit"
+  ],
+  "rows": [
+   [
+    "1",
+    "180 km",
+    "60 km/h"
+   ],
+   [
+    "2",
+    "90 km",
+    "45 km/h"
+   ]
+  ],
+  "q": "Wie hoch ist die Durchschnittsgeschwindigkeit über die gesamte Strecke?",
+  "options": [
+   "52,5 km/h",
+   "55,0 km/h",
+   "51,4 km/h",
+   "60,0 km/h",
+   "54,0 km/h"
+  ],
+  "answer": 4,
+  "explanation": "Zeit: 180/60 = 3 h und 90/45 = 2 h, zusammen 5 h. Strecke 270 km. 270/5 = 54 km/h.",
+  "notes": [
+   "A: Arithmetisches Mittel der beiden Geschwindigkeiten; die Fahrzeiten sind verschieden lang.",
+   "B: Geschwindigkeiten nach Streckenlänge statt nach Fahrzeit gewichtet.",
+   "C: Formel für zwei gleich lange Teilstrecken angewandt; hier sind die Strecken verschieden lang.",
+   "D: Es wurde nur die Geschwindigkeit der längeren Teilstrecke verwendet."
+  ]
+ },
+ {
+  "id": "N14",
+  "tag": "Anteil an einer Summe",
+  "caption": "Ausgaben je Einwohner nach Region.",
+  "headers": [
+   "Region",
+   "Einwohner",
+   "Ausgaben je Einwohner"
+  ],
+  "rows": [
+   [
+    "Nord",
+    "2,4 Mio.",
+    "150 €"
+   ],
+   [
+    "Mitte",
+    "3,6 Mio.",
+    "120 €"
+   ],
+   [
+    "Süd",
+    "4,0 Mio.",
+    "90 €"
+   ]
+  ],
+  "q": "Wie hoch ist der Anteil der Region Mitte an den Gesamtausgaben aller drei Regionen?",
+  "options": [
+   "33,3 %",
+   "37,5 %",
+   "36,0 %",
+   "31,3 %",
+   "43,2 %"
+  ],
+  "answer": 1,
+  "explanation": "Ausgaben: Nord 360 Mio. €, Mitte 432 Mio. €, Süd 360 Mio. €; Summe 1.152 Mio. €. Mitte: 432/1.152 = 37,5 %.",
+  "notes": [
+   "A: Nur die Pro-Kopf-Beträge verglichen (120 von 360 €); die Einwohnerzahlen fehlen.",
+   "C: Das ist der Einwohneranteil der Region Mitte (3,6 von 10,0 Mio.), nicht der Ausgabenanteil.",
+   "D: Die Ausgaben der Region Nord statt Mitte wurden ins Verhältnis gesetzt (360 von 1.152 Mio. €).",
+   "E: Die Summe wurde mit 1.000 Mio. € statt 1.152 Mio. € angesetzt."
+  ]
+ },
+ {
+  "id": "N15",
+  "tag": "Mehrjährige Veränderung",
+  "caption": "Entwicklung eines Jahresbudgets. Die Änderungen wirken jeweils auf den Vorjahreswert.",
+  "headers": [
+   "Zeitraum",
+   "Veränderung gegenüber Vorjahr"
+  ],
+  "rows": [
+   [
+    "Ausgangswert",
+    "2.000.000 €"
+   ],
+   [
+    "Jahr 1 bis 3",
+    "je +4 %"
+   ],
+   [
+    "Jahr 4",
+    "−10 %"
+   ]
+  ],
+  "q": "Wie hoch ist das Budget nach Jahr 4 (auf ganze Euro gerundet)?",
+  "options": [
+   "2.040.000 €",
+   "2.249.728 €",
+   "2.024.755 €",
+   "2.240.000 €",
+   "2.016.000 €"
+  ],
+  "answer": 2,
+  "explanation": "2.000.000 × 1,04³ = 2.249.728. Danach × 0,90 = 2.024.755,2 €, also 2.024.755 €.",
+  "notes": [
+   "A: Die Prozentsätze wurden addiert (+12 % − 10 % = +2 %), statt die Faktoren zu multiplizieren.",
+   "B: Der Rückgang in Jahr 4 fehlt.",
+   "D: Dreimal +4 % wurden addiert (+12 %) und der Rückgang fehlt.",
+   "E: Der Zuwachs wurde einfach addiert (+12 %), danach −10 % angewandt."
+  ]
+ },
+ {
+  "id": "N16",
+  "tag": "Verhältnisse und Umverteilung",
+  "caption": "Ein Gesamtbudget von 4,6 Mio. € ist im Verhältnis 5 : 3 : 2 auf die Programme A, B und C verteilt.",
+  "headers": [
+   "Programm",
+   "Anteil"
+  ],
+  "rows": [
+   [
+    "A",
+    "5"
+   ],
+   [
+    "B",
+    "3"
+   ],
+   [
+    "C",
+    "2"
+   ]
+  ],
+  "q": "Das Budget von B wird um 25 % gekürzt. 40 % des frei werdenden Betrags erhält C. Wie hoch ist danach das Budget von C?",
+  "options": [
+   "1.058.000 €",
+   "1.265.000 €",
+   "1.150.000 €",
+   "1.472.000 €",
+   "1.196.000 €"
+  ],
+  "answer": 0,
+  "explanation": "C: 2/10 × 4,6 Mio. = 920.000 €. B: 1.380.000 €; 25 % Kürzung = 345.000 €. 40 % davon = 138.000 €. Neues Budget von C: 1.058.000 €.",
+  "notes": [
+   "B: Der gesamte frei werdende Betrag wurde C zugeschlagen.",
+   "C: C wurde um 25 % erhöht statt um 40 % des frei werdenden Betrags.",
+   "D: 40 % des ursprünglichen B-Budgets statt des frei werdenden Betrags wurden addiert.",
+   "E: 20 % des B-Budgets statt 40 % des frei werdenden Betrags wurden addiert."
+  ]
+ },
+ {
+  "id": "N17",
+  "tag": "Arbeitsgeschwindigkeit",
+  "caption": "Zwei Teams bearbeiten dieselbe Aufgabe mit jeweils konstanter Leistung.",
+  "headers": [
+   "Team",
+   "Zeit für die gesamte Aufgabe allein"
+  ],
+  "rows": [
+   [
+    "A",
+    "12 Tage"
+   ],
+   [
+    "B",
+    "18 Tage"
+   ]
+  ],
+  "q": "Beide Teams arbeiten vier Tage gemeinsam. Danach arbeitet nur Team A weiter. Wie viele weitere Tage braucht Team A bis zum Abschluss?",
+  "options": [
+   "8,0 Tage",
+   "3,2 Tage",
+   "6,0 Tage",
+   "4,0 Tage",
+   "5,3 Tage"
+  ],
+  "answer": 4,
+  "explanation": "Gemeinsame Leistung: 1/12 + 1/18 = 5/36 je Tag. In vier Tagen: 20/36 = 5/9 erledigt. Rest 4/9. Team A schafft 1/12 je Tag: (4/9)/(1/12) = 16/3 ≈ 5,3 Tage.",
+  "notes": [
+   "A: Die vier gemeinsamen Tage wurden einfach von den 12 Tagen von Team A abgezogen.",
+   "B: Der Rest wurde mit der gemeinsamen statt mit der Einzelleistung von Team A berechnet.",
+   "C: Als Rest wurde die Hälfte der Aufgabe angenommen.",
+   "D: Als Rest wurde ein Drittel der Aufgabe angenommen."
+  ]
+ },
+ {
+  "id": "N18",
+  "tag": "Gewichtete Bewertung",
+  "caption": "Bewertung zweier Angebote (0–100 Punkte je Kriterium) mit Gewichtung.",
+  "headers": [
+   "Kriterium",
+   "Gewicht",
+   "Anbieter X",
+   "Anbieter Y"
+  ],
+  "rows": [
+   [
+    "Qualität",
+    "50 %",
+    "80",
+    "90"
+   ],
+   [
+    "Preis",
+    "30 %",
+    "90",
+    "70"
+   ],
+   [
+    "Nachhaltigkeit",
+    "20 %",
+    "60",
+    "85"
+   ]
+  ],
+  "q": "Um wie viele Punkte liegt der Erstplatzierte nach der gewichteten Gesamtpunktzahl vor dem Zweitplatzierten?",
+  "options": [
+   "5,0 Punkte",
+   "2,0 Punkte",
+   "10,0 Punkte",
+   "4,0 Punkte",
+   "8,5 Punkte"
+  ],
+  "answer": 3,
+  "explanation": "X: 0,5 × 80 + 0,3 × 90 + 0,2 × 60 = 79. Y: 0,5 × 90 + 0,3 × 70 + 0,2 × 85 = 83. Y führt mit 4,0 Punkten.",
+  "notes": [
+   "A: Ungewichteter Durchschnitt: X 76,7 und Y 81,7 Punkte.",
+   "B: Die Gewichte von Qualität und Preis wurden vertauscht (dann läge X vorn).",
+   "C: Es wurde nur das Kriterium Qualität verglichen.",
+   "E: Die Gewichte von Preis und Nachhaltigkeit wurden vertauscht."
+  ]
+ },
+ {
+  "id": "N19",
+  "tag": "Indexrechnung",
+  "caption": "Preisindex mit Basisjahr 2020 = 100. Die Veränderungen gelten jeweils gegenüber dem Vorjahr.",
+  "headers": [
+   "Jahr",
+   "Veränderung"
+  ],
+  "rows": [
+   [
+    "2021",
+    "+5 %"
+   ],
+   [
+    "2022",
+    "+8 %"
+   ],
+   [
+    "2023",
+    "−3 %"
+   ]
+  ],
+  "q": "Ein Produkt kostete im Jahr 2023 genau 242 €. Was kostete es im Jahr 2020 (auf ganze Euro gerundet)?",
+  "options": [
+   "213 €",
+   "218 €",
+   "220 €",
+   "209 €",
+   "266 €"
+  ],
+  "answer": 2,
+  "explanation": "Faktor 2020→2023: 1,05 × 1,08 × 0,97 = 1,09998 ≈ 1,10. 242/1,09998 ≈ 220 €.",
+  "notes": [
+   "A: Der Rückgang von 2023 wurde bei der Rückrechnung vergessen.",
+   "B: Es wurden pauschal 10 % von 242 € abgezogen.",
+   "D: Der Rückgang 2023 wurde als Zuwachs gerechnet (Faktor 1,16 als Summe).",
+   "E: Die Preissteigerung wurde auf 242 € aufgeschlagen, statt zurückgerechnet."
+  ]
+ },
+ {
+  "id": "N20",
+  "tag": "Verschachtelte Prozentwerte",
+  "caption": "Belegschaft einer Behörde: 1.800 Personen.",
+  "headers": [
+   "Gruppe",
+   "Anteil an der Belegschaft",
+   "Davon unter 30 Jahre"
+  ],
+  "rows": [
+   [
+    "Frauen",
+    "55 %",
+    "40 %"
+   ],
+   [
+    "Männer",
+    "45 %",
+    "30 %"
+   ]
+  ],
+  "q": "Wie hoch ist der Anteil der unter 30-Jährigen an der gesamten Belegschaft?",
+  "options": [
+   "35,0 %",
+   "35,5 %",
+   "34,5 %",
+   "22,0 %",
+   "70,0 %"
+  ],
+  "answer": 1,
+  "explanation": "Frauen: 990 × 0,4 = 396. Männer: 810 × 0,3 = 243. Zusammen 639 von 1.800 = 35,5 %.",
+  "notes": [
+   "A: Einfaches Mittel von 40 % und 30 %; die Gruppen sind verschieden groß.",
+   "C: Die Gewichte der beiden Gruppen wurden vertauscht.",
+   "D: Nur der Anteil der Frauen unter 30 an der Belegschaft (55 % × 40 %).",
+   "E: Beide Anteile wurden addiert."
+  ]
+ }
+]

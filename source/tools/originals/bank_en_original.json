@@ -1,0 +1,1558 @@
+{
+ "eu": [
+  {
+   "id": "EU01",
+   "area": "EU institutions and procedures",
+   "q": "Which body normally proposes new EU legislation?",
+   "options": [
+    "European Commission",
+    "European Council",
+    "European Central Bank",
+    "European Court of Auditors"
+   ],
+   "correct": 0,
+   "explanation": "The Commission normally initiates legislation; Parliament and Council adopt it.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU02",
+   "area": "EU institutions and procedures",
+   "q": "Under the ordinary legislative procedure, which pair normally adopts legislation?",
+   "options": [
+    "ECB and Parliament",
+    "European Parliament and Council of the EU",
+    "Commission and European Council",
+    "Court of Justice and Commission"
+   ],
+   "correct": 1,
+   "explanation": "Parliament and the Council of the EU are co-legislators.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU03",
+   "area": "EU institutions and procedures",
+   "q": "A summit sets the EU’s overall political priorities. Which institution is meeting?",
+   "options": [
+    "Council of the EU",
+    "European Parliament",
+    "European Council",
+    "European Commission"
+   ],
+   "correct": 2,
+   "explanation": "Heads of state or government meet in the European Council to set political direction.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU04",
+   "area": "EU institutions and procedures",
+   "q": "National environment ministers meet to negotiate EU legislation. Which institution is this?",
+   "options": [
+    "Council of the European Union",
+    "European Court of Auditors",
+    "European Council",
+    "Committee of the Regions"
+   ],
+   "correct": 0,
+   "explanation": "The Council brings together national ministers in subject-specific configurations.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU05",
+   "area": "EU institutions and procedures",
+   "q": "Which institution is directly elected by EU citizens?",
+   "options": [
+    "European Council",
+    "European Central Bank",
+    "European Commission",
+    "European Parliament"
+   ],
+   "correct": 3,
+   "explanation": "Parliament directly represents EU citizens through elections.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU06",
+   "area": "EU institutions and procedures",
+   "q": "Which institution represents the common EU interest and is its main executive body?",
+   "options": [
+    "Council of the EU",
+    "Committee of the Regions",
+    "European Commission",
+    "European Council"
+   ],
+   "correct": 2,
+   "explanation": "The Commission promotes the common EU interest and has executive functions.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU08",
+   "area": "EU institutions and procedures",
+   "q": "Which institution has price stability in the euro area as its central responsibility?",
+   "options": [
+    "European Central Bank",
+    "European Commission alone",
+    "European Court of Auditors",
+    "European Investment Bank"
+   ],
+   "correct": 0,
+   "explanation": "The ECB is responsible for euro-area monetary policy and price stability.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU09",
+   "area": "EU institutions and procedures",
+   "q": "An audit asks whether EU funds were spent lawfully and delivered value for money. Which institution performs external audit?",
+   "options": [
+    "European Council",
+    "Court of Justice",
+    "European Central Bank",
+    "European Court of Auditors"
+   ],
+   "correct": 3,
+   "explanation": "The Court of Auditors checks EU finances, compliance and value for money.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU10",
+   "area": "EU institutions and procedures",
+   "q": "A complaint concerns maladministration by an EU institution. Which body is the relevant independent investigator?",
+   "options": [
+    "European Investment Bank",
+    "European Council",
+    "European Ombudsman",
+    "European Central Bank"
+   ],
+   "correct": 2,
+   "explanation": "The Ombudsman investigates maladministration in EU institutions and agencies.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU11",
+   "area": "EU institutions and procedures",
+   "q": "Which body specifically represents local and regional authorities?",
+   "options": [
+    "Council of the EU",
+    "European Commission",
+    "European Committee of the Regions",
+    "European Economic and Social Committee"
+   ],
+   "correct": 2,
+   "explanation": "The Committee of the Regions brings local and regional perspectives into EU policy-making.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU12",
+   "area": "EU institutions and procedures",
+   "q": "Which body represents employers, workers and other organised civil-society groups?",
+   "options": [
+    "European Council",
+    "European Committee of the Regions",
+    "European Central Bank",
+    "European Economic and Social Committee"
+   ],
+   "correct": 3,
+   "explanation": "The EESC is an advisory body representing organised civil society.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU13",
+   "area": "EU institutions and procedures",
+   "q": "Which body is the EU’s lending arm?",
+   "options": [
+    "European Council",
+    "European Investment Bank",
+    "European Court of Auditors",
+    "European Ombudsman"
+   ],
+   "correct": 1,
+   "explanation": "The EIB lends in areas including infrastructure, innovation, cohesion and climate.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU14",
+   "area": "EU institutions and procedures",
+   "q": "Which body supervises personal-data processing by EU institutions and bodies?",
+   "options": [
+    "European Court of Auditors",
+    "Committee of the Regions",
+    "European Council",
+    "European Data Protection Supervisor"
+   ],
+   "correct": 3,
+   "explanation": "The EDPS supervises data protection within EU institutions and bodies.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU15",
+   "area": "EU institutions and procedures",
+   "q": "Which body promotes consistent application of data-protection rules and cooperation between national authorities?",
+   "options": [
+    "European Investment Bank",
+    "European Economic and Social Committee",
+    "European Data Protection Board",
+    "European Council"
+   ],
+   "correct": 2,
+   "explanation": "The EDPB coordinates consistent application and cooperation; it differs from the EDPS.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU16",
+   "area": "EU institutions and procedures",
+   "q": "Which office investigates and prosecutes crimes against the EU’s financial interests?",
+   "options": [
+    "European Court of Auditors",
+    "European Ombudsman",
+    "European Central Bank",
+    "European Public Prosecutor’s Office"
+   ],
+   "correct": 3,
+   "explanation": "EPPO performs criminal investigation and prosecution within its remit; the Court of Auditors is an auditor.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU17",
+   "area": "EU institutions and procedures",
+   "q": "Which service supports the High Representative and coordinates EU diplomatic action?",
+   "options": [
+    "European External Action Service",
+    "European Personnel Selection Office",
+    "European School of Administration",
+    "Publications Office"
+   ],
+   "correct": 0,
+   "explanation": "The EEAS is the EU diplomatic service.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU18",
+   "area": "EU institutions and procedures",
+   "q": "Which organisation runs competitions to select staff for EU institutions and agencies?",
+   "options": [
+    "Committee of the Regions",
+    "European Personnel Selection Office",
+    "European Council",
+    "European Investment Bank"
+   ],
+   "correct": 1,
+   "explanation": "EPSO organises staff selection competitions.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU19",
+   "area": "EU institutions and procedures",
+   "q": "Which service is a central official access point for EU law, publications and open data?",
+   "options": [
+    "European School of Administration",
+    "Publications Office of the EU",
+    "European Council",
+    "European Central Bank"
+   ],
+   "correct": 1,
+   "explanation": "The Publications Office provides publishing services and access to official information.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU20",
+   "area": "EU institutions and procedures",
+   "q": "Which institution generally checks that Member States apply EU law correctly?",
+   "options": [
+    "European Commission",
+    "European Investment Bank",
+    "Committee of the Regions",
+    "European Court of Auditors alone"
+   ],
+   "correct": 0,
+   "explanation": "The Commission oversees application of EU law; judicial enforcement involves the Court.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU21",
+   "area": "EU institutions and procedures",
+   "q": "Which description of decentralised EU agencies is correct?",
+   "options": [
+    "They all form departments without legal personality",
+    "They replace the European Parliament as legislature",
+    "They set euro-area interest rates",
+    "They pool specialist expertise and support policy implementation"
+   ],
+   "correct": 3,
+   "explanation": "Decentralised agencies have their own legal personalities and specialist implementation roles.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EU23",
+   "area": "EU legal acts",
+   "q": "An EU act sets a result that national authorities must achieve while leaving choice of form and methods. Which type is it?",
+   "options": [
+    "Opinion",
+    "Directive",
+    "Regulation",
+    "Recommendation"
+   ],
+   "correct": 1,
+   "explanation": "A directive sets binding goals but leaves national implementation choices.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+  },
+  {
+   "id": "EU24",
+   "area": "EU legal acts",
+   "q": "Which act must be applied in its entirety across the EU?",
+   "options": [
+    "Opinion",
+    "Recommendation",
+    "Regulation",
+    "Non-binding committee statement"
+   ],
+   "correct": 2,
+   "explanation": "A regulation is binding in its entirety and directly applicable.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+  },
+  {
+   "id": "EU25",
+   "area": "EU legal acts",
+   "q": "Which statement correctly distinguishes a recommendation from a regulation?",
+   "options": [
+    "Both require identical national implementing laws",
+    "Both are merely political statements",
+    "Only recommendations are directly binding",
+    "A recommendation is non-binding; a regulation is binding"
+   ],
+   "correct": 3,
+   "explanation": "Recommendations do not impose legal obligations; regulations do.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+  },
+  {
+   "id": "EU26",
+   "area": "EU legal acts",
+   "q": "An act is addressed to a specific company and binds that addressee. Which type fits?",
+   "options": [
+    "Opinion",
+    "Recommendation",
+    "Decision",
+    "Committee consultation"
+   ],
+   "correct": 2,
+   "explanation": "A decision is binding on those to whom it is addressed.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+  },
+  {
+   "id": "EU27",
+   "area": "EU legal acts",
+   "q": "Which pair consists entirely of non-binding EU acts?",
+   "options": [
+    "Decisions and regulations",
+    "Regulations and directives",
+    "Directives and decisions",
+    "Recommendations and opinions"
+   ],
+   "correct": 3,
+   "explanation": "Recommendations and opinions express views without imposing legal obligations.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+  },
+  {
+   "id": "EU28",
+   "area": "EU legal acts",
+   "q": "Which statement about a directive is NOT correct?",
+   "options": [
+    "It specifies a result to achieve",
+    "National authorities choose how to achieve that result",
+    "It differs from a recommendation",
+    "It always leaves Member States free to ignore its goal"
+   ],
+   "correct": 3,
+   "explanation": "A directive’s goal is binding; flexibility concerns implementation, not whether to comply.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+  },
+  {
+   "id": "EU29",
+   "area": "EU legal acts",
+   "q": "A civil-society advisory opinion is issued during law-making. What follows from that opinion alone?",
+   "options": [
+    "It annuls national legislation",
+    "It automatically becomes a regulation",
+    "It replaces Parliament’s vote",
+    "It does not itself impose a binding legal obligation"
+   ],
+   "correct": 3,
+   "explanation": "An opinion is non-binding even when it forms part of a consultation process.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+  },
+  {
+   "id": "EU30",
+   "area": "EU institutions and procedures",
+   "q": "A briefing claims the European Council and the Council of the EU are interchangeable names. What is the best correction?",
+   "options": [
+    "One gathers national leaders; the other gathers national ministers",
+    "Both are courts with different appeal levels",
+    "Both are departments of the Commission",
+    "One audits funds; the other sets interest rates"
+   ],
+   "correct": 0,
+   "explanation": "The European Council sets political direction; the Council of the EU participates in law-making with ministers.",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en"
+  },
+  {
+   "id": "EXT01",
+   "area": "Sample anchors",
+   "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en",
+   "q": "Which treaty established the European Union?",
+   "options": [
+    "Maastricht Treaty",
+    "Nice Treaty",
+    "Lisbon Treaty",
+    "Amsterdam Treaty"
+   ],
+   "correct": 0,
+   "explanation": "Maastricht established the EU and entered into force on 1 November 1993. The supplied sample says “in its current form”; this wording is tightened because subsequent treaties changed the EU.",
+   "origin": "Adapted from user-provided official sample transcription; wording clarified"
+  },
+  {
+   "id": "EXT02",
+   "area": "Sample anchors",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/types-institutions-and-bodies_en",
+   "q": "Which EU institution interprets EU law, including through rulings requested by national courts?",
+   "options": [
+    "European Commission",
+    "Court of Justice of the European Union",
+    "European Council",
+    "European Parliament"
+   ],
+   "correct": 1,
+   "explanation": "The judicial interpretation role belongs to the CJEU. The Commission also oversees application of EU law, so the supplied sample’s broader enforcement wording is clarified here.",
+   "origin": "Adapted from user-provided official sample transcription; wording clarified"
+  },
+  {
+   "id": "EXT03",
+   "area": "Sample anchors",
+   "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en",
+   "q": "Which broad EU policy agenda aims to transform the EU into a climate-neutral, resource-efficient and competitive economy?",
+   "options": [
+    "Energy Union",
+    "Sustainable Development Strategy",
+    "European Green Deal",
+    "Clean Energy Package"
+   ],
+   "correct": 2,
+   "explanation": "The intended answer in the supplied example is the European Green Deal. The other named initiatives are real or related, so this stem identifies the overarching agenda more precisely.",
+   "origin": "Adapted from user-provided official sample transcription; wording clarified"
+  },
+  {
+   "id": "EXT04",
+   "area": "Sample anchors",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1",
+   "q": "Which EU agency provides independent scientific advice on risks in the food and feed chain?",
+   "options": [
+    "European Food Safety Authority",
+    "European Agriculture Agency",
+    "European Agency for Food and Safety Regulations",
+    "European Consumption Agency"
+   ],
+   "correct": 0,
+   "explanation": "EFSA provides scientific risk assessment and advice. It does not by itself guarantee food safety or replace the authorities responsible for risk management.",
+   "origin": "Adapted from user-provided official sample transcription; wording clarified"
+  },
+  {
+   "id": "EXT05",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en",
+   "q": "In which year did the Maastricht Treaty enter into force?",
+   "options": [
+    "1999",
+    "1992",
+    "2009",
+    "1993"
+   ],
+   "correct": 3,
+   "explanation": "It was signed in 1992 and entered into force on 1 November 1993; signature and entry into force are different events.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT06",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en",
+   "q": "Which treaty entered into force on 1 December 2009?",
+   "options": [
+    "Lisbon Treaty",
+    "Amsterdam Treaty",
+    "Maastricht Treaty",
+    "Nice Treaty"
+   ],
+   "correct": 0,
+   "explanation": "Lisbon entered into force in December 2009, following its signature in December 2007.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT07",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en",
+   "q": "Which change is associated with the Lisbon Treaty?",
+   "options": [
+    "The abolition of the European Parliament",
+    "The first introduction of EU citizenship",
+    "The original creation of the EEC",
+    "A permanent President of the European Council"
+   ],
+   "correct": 3,
+   "explanation": "Lisbon created a permanent European Council presidency and strengthened Parliament; Maastricht introduced EU citizenship.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT08",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en",
+   "q": "Which treaty introduced EU citizenship?",
+   "options": [
+    "Treaty of Nice",
+    "Treaty of Rome establishing the EEC",
+    "Merger Treaty",
+    "Maastricht Treaty"
+   ],
+   "correct": 3,
+   "explanation": "EU citizenship was introduced by Maastricht as part of political union.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT09",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_en",
+   "q": "Which pair of communities was established by the Treaties of Rome?",
+   "options": [
+    "Schengen Area and euro area",
+    "European Economic Community and Euratom",
+    "European Central Bank and Europol",
+    "European Union and Council of Europe"
+   ],
+   "correct": 1,
+   "explanation": "The Rome treaties established the EEC and the European Atomic Energy Community; both came into being in January 1958.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT10",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_en",
+   "q": "The EEC and Euratom came into being on which date?",
+   "options": [
+    "1 November 1993",
+    "1 May 1999",
+    "1 January 1958",
+    "1 December 2009"
+   ],
+   "correct": 2,
+   "explanation": "The Rome treaties were signed in 1957, but the communities came into being on 1 January 1958.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT11",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en",
+   "q": "Which treaty entered into force on 1 May 1999?",
+   "options": [
+    "Amsterdam Treaty",
+    "Maastricht Treaty",
+    "Lisbon Treaty",
+    "Treaty of Rome"
+   ],
+   "correct": 0,
+   "explanation": "Amsterdam entered into force in May 1999 and built on Maastricht’s institutional and political development.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT12",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en",
+   "q": "Which four freedoms underpin the EU single market?",
+   "options": [
+    "Movement of judges, treaties, currencies and flags",
+    "Movement of goods, services, people and capital",
+    "Movement of services, borders, tariffs and embassies",
+    "Movement of goods, taxes, armies and constitutions"
+   ],
+   "correct": 1,
+   "explanation": "The single market encompasses free movement of goods, services, people and capital; the history source describes money as the fourth freedom.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT13",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en",
+   "q": "Which year saw the launch of the euro for commercial and financial transactions, before notes and coins?",
+   "options": [
+    "2009",
+    "1995",
+    "1999",
+    "1993"
+   ],
+   "correct": 2,
+   "explanation": "The euro was introduced in 1999 for commercial and financial transactions in eleven countries.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT14",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en",
+   "q": "What major development took place on 1 January 1993?",
+   "options": [
+    "The Lisbon Treaty entered into force",
+    "The European Coal and Steel Community was created",
+    "The single market and its four freedoms were established",
+    "The euro was launched for transactions"
+   ],
+   "correct": 2,
+   "explanation": "The single market began in 1993; the other events belong to different stages of integration.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT15",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en",
+   "q": "What was the purpose of the 1994 European Economic Area agreement described in the EU history timeline?",
+   "options": [
+    "To replace the EU with a military alliance",
+    "To abolish the European Parliament",
+    "To extend the single market to participating EFTA countries",
+    "To require all European countries to adopt the euro"
+   ],
+   "correct": 2,
+   "explanation": "The EEA extended single-market cooperation to participating countries of the European Free Trade Association.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT16",
+   "area": "Treaties and history",
+   "source": "https://european-union.europa.eu/principles-countries-history/principles-and-values/founding-agreements_en",
+   "q": "Which Lisbon-associated mechanism lets citizens invite the Commission to propose legislation?",
+   "options": [
+    "European semester audit",
+    "European citizens’ initiative",
+    "Schengen visa code",
+    "European arrest warrant"
+   ],
+   "correct": 1,
+   "explanation": "The citizens’ initiative is listed among Lisbon’s changes. An invitation to propose legislation is not itself a law.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT17",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en",
+   "q": "What year is the EU’s binding climate-neutrality objective aimed at?",
+   "options": [
+    "2060",
+    "2030",
+    "2045",
+    "2050"
+   ],
+   "correct": 3,
+   "explanation": "The EU Climate Law makes climate neutrality by 2050 a binding commitment.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT18",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en",
+   "q": "What is the EU’s legally established net greenhouse-gas reduction target for 2030, compared with 1990?",
+   "options": [
+    "At least 55%",
+    "Exactly 40%",
+    "At least 20%",
+    "At least 90%"
+   ],
+   "correct": 0,
+   "explanation": "The target is at least a 55% net reduction by 2030 compared with 1990; net emissions and the baseline both matter.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT19",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal/fit-55-delivering-proposals_en",
+   "q": "What does the Fit for 55 legislative package primarily implement?",
+   "options": [
+    "A requirement for exactly 55 EU agencies",
+    "The EU’s 2030 net emissions reduction target",
+    "An EU-wide retirement age of 55",
+    "A target to make 55% of the EU’s land urban"
+   ],
+   "correct": 1,
+   "explanation": "Fit for 55 adapts legislation across sectors to deliver the at-least-55% net reduction target.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT20",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en",
+   "q": "Which instrument enshrines the EU’s 2050 climate-neutrality commitment in law?",
+   "options": [
+    "European Statistical Charter",
+    "Treaty of Nice alone",
+    "Schengen Borders Code",
+    "European Climate Law"
+   ],
+   "correct": 3,
+   "explanation": "The European Climate Law makes the climate-neutrality objective legally binding.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT21",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en",
+   "q": "Which year is the reference baseline for the EU’s 2030 emissions target?",
+   "options": [
+    "1990",
+    "2005",
+    "2020",
+    "2000"
+   ],
+   "correct": 0,
+   "explanation": "The at-least-55% net reduction is measured against 1990 levels, not against the year the legislation was adopted.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT22",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/topics/climate-action/delivering-european-green-deal_en",
+   "q": "Which description correctly relates the Green Deal and Fit for 55?",
+   "options": [
+    "The Green Deal is the broader agenda; Fit for 55 is a legislative package supporting its climate objectives",
+    "They are two names for the European Central Bank",
+    "The Green Deal is a single international court ruling",
+    "Fit for 55 is an EU food-safety agency"
+   ],
+   "correct": 0,
+   "explanation": "The agenda and the legislative package are related but are not interchangeable institutional entities.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT23",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/programme-environment-and-climate-action-life_en",
+   "q": "Which programme has a dedicated Clean Energy Transition sub-programme?",
+   "options": [
+    "European Regional Development Fund alone",
+    "Creative Europe",
+    "LIFE",
+    "Erasmus+"
+   ],
+   "correct": 2,
+   "explanation": "LIFE includes Clean Energy Transition alongside nature, circular economy and climate sub-programmes.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT24",
+   "area": "Climate and energy",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/programme-environment-and-climate-action-life_en",
+   "q": "Which pair names two LIFE sub-programme areas?",
+   "options": [
+    "Judicial Appointments; Customs Tariffs",
+    "Defence Procurement; Electoral Observation",
+    "Monetary Policy; Banking Supervision",
+    "Nature and Biodiversity; Climate Change Mitigation and Adaptation"
+   ],
+   "correct": 3,
+   "explanation": "These are two of LIFE’s four environment and climate sub-programme areas.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT25",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1",
+   "q": "Which agency provides independent information for developing and assessing environmental policies?",
+   "options": [
+    "European Food Safety Authority",
+    "European Chemicals Agency",
+    "European Environment Agency",
+    "European Medicines Agency"
+   ],
+   "correct": 2,
+   "explanation": "The EEA provides environmental information and evidence; ECHA specialises in chemicals and EFSA in food-chain risks.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT26",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1",
+   "q": "Which EU agency implements EU chemicals legislation?",
+   "options": [
+    "European Food Safety Authority",
+    "European Chemicals Agency",
+    "European Environment Agency",
+    "European Centre for Disease Prevention and Control"
+   ],
+   "correct": 1,
+   "explanation": "ECHA implements the EU’s chemicals legislation; its mandate differs from broader environmental information provision.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT27",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1",
+   "q": "Which agency helps EU governments prepare for and respond to infectious-disease threats?",
+   "options": [
+    "European Banking Authority",
+    "European Fisheries Control Agency",
+    "European Centre for Disease Prevention and Control",
+    "European Environment Agency"
+   ],
+   "correct": 2,
+   "explanation": "ECDC supports public-health preparedness and action against infectious diseases.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT28",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/node/279/rss_en",
+   "q": "Which agency supports national law-enforcement bodies in fighting serious crime and terrorism?",
+   "options": [
+    "Eurostat",
+    "Europol",
+    "European Food Safety Authority",
+    "Euratom"
+   ],
+   "correct": 1,
+   "explanation": "Europol supports national law-enforcement agencies; this does not make it a replacement for national police forces.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT29",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/node/279/rss_en",
+   "q": "Which agency helps countries manage the EU’s external borders?",
+   "options": [
+    "European Environment Agency",
+    "European Food Safety Authority",
+    "Frontex",
+    "European Chemicals Agency"
+   ],
+   "correct": 2,
+   "explanation": "Frontex is the European Border and Coast Guard Agency and provides border-management support.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT30",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/node/279/rss_en",
+   "q": "Which EU agency focuses on a high common level of cybersecurity across Europe?",
+   "options": [
+    "ECDC",
+    "ECHA",
+    "EFSA",
+    "ENISA"
+   ],
+   "correct": 3,
+   "explanation": "ENISA is the European Union Agency for Cybersecurity; the alternatives concern food, chemicals and disease prevention.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT31",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en?prefLang=uk&page=1",
+   "q": "Which task best matches EFSA rather than ECHA?",
+   "options": [
+    "Implementation of chemicals legislation",
+    "Setting euro-area interest rates",
+    "Scientific assessment of possible risks in the food chain",
+    "Policing the external borders"
+   ],
+   "correct": 2,
+   "explanation": "Distinguish the agencies by their substantive remit rather than the similarity of their acronyms.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT32",
+   "area": "EU agencies",
+   "source": "https://european-union.europa.eu/node/279/rss_en",
+   "q": "Which pairing is correct?",
+   "options": [
+    "EFSA — treaty interpretation",
+    "Frontex — external-border support",
+    "Europol — EU monetary policy",
+    "ENISA — agricultural price setting"
+   ],
+   "correct": 1,
+   "explanation": "Frontex supports external-border management; the other pairings mismatch the body and the function.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT33",
+   "area": "Policies and programmes",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/horizon-europe_en",
+   "q": "What is the EU’s key research and innovation funding programme for 2021–2027?",
+   "options": [
+    "Erasmus+",
+    "LIFE",
+    "Horizon Europe",
+    "Creative Europe"
+   ],
+   "correct": 2,
+   "explanation": "Horizon Europe funds research and innovation; the dates distinguish the current programme period from later proposals.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT34",
+   "area": "Policies and programmes",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/erasmus_en",
+   "q": "Which programme supports education, training, youth and sport?",
+   "options": [
+    "Digital Europe",
+    "LIFE",
+    "Horizon Europe",
+    "Erasmus+"
+   ],
+   "correct": 3,
+   "explanation": "Erasmus+ extends beyond university exchange to education, training, youth and sport.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT35",
+   "area": "Policies and programmes",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/creative-europe_en",
+   "q": "Which programme supports the cultural and audiovisual sectors?",
+   "options": [
+    "Erasmus+ only",
+    "Horizon Europe only",
+    "Creative Europe",
+    "European Regional Development Fund only"
+   ],
+   "correct": 2,
+   "explanation": "Creative Europe supports cultural and audiovisual activity through Culture, MEDIA and cross-sectoral strands.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT36",
+   "area": "Policies and programmes",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/digital-europe-programme_en",
+   "q": "Which programme is designed to bridge digital technology research and market deployment?",
+   "options": [
+    "Digital Europe Programme",
+    "Creative Europe",
+    "Erasmus+",
+    "LIFE"
+   ],
+   "correct": 0,
+   "explanation": "Digital Europe supports deployment and uptake, including AI, cybersecurity and advanced digital skills.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT37",
+   "area": "Policies and programmes",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/european-regional-development-fund-erdf_en",
+   "q": "Which fund aims to reduce economic, social and territorial disparities between EU regions?",
+   "options": [
+    "Creative Europe",
+    "European Central Bank reserve fund",
+    "European Regional Development Fund",
+    "European Agricultural Guarantee Fund only"
+   ],
+   "correct": 2,
+   "explanation": "ERDF supports regional investments to reduce disparities and strengthen cohesion.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT38",
+   "area": "Policies and programmes",
+   "source": "https://european-union.europa.eu/priorities-and-actions/actions-topic/agriculture_en",
+   "q": "What is a central purpose of the common agricultural policy?",
+   "options": [
+    "Interpret EU treaties in court",
+    "Set the euro-area policy interest rate",
+    "Support farmers and sustainable farming while contributing to rural development",
+    "Administer international criminal trials"
+   ],
+   "correct": 2,
+   "explanation": "EU agricultural policy combines support for farmers with sustainable practices and rural investment.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT39",
+   "area": "Policies and programmes",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/programme-environment-and-climate-action-life_en",
+   "q": "Which programme is specifically dedicated to environment and climate action?",
+   "options": [
+    "LIFE",
+    "Creative Europe",
+    "Digital Europe",
+    "Erasmus+"
+   ],
+   "correct": 0,
+   "explanation": "LIFE supports environmental protection, biodiversity, the circular economy and climate action.",
+   "origin": "New question modelled on the supplied sample style"
+  },
+  {
+   "id": "EXT40",
+   "area": "Policies and programmes",
+   "source": "https://commission.europa.eu/funding-and-tenders/find-funding/eu-funding-programmes/creative-europe_en",
+   "q": "Which Creative Europe strand is specifically associated with the audiovisual sector?",
+   "options": [
+    "Euratom",
+    "MEDIA",
+    "Schengen",
+    "Fit for 55"
+   ],
+   "correct": 1,
+   "explanation": "Creative Europe’s MEDIA strand supports the audiovisual sector; its Culture and cross-sectoral strands have different scopes.",
+   "origin": "New question modelled on the supplied sample style"
+  }
+ ],
+ "digital": [
+  {
+   "id": "DS01",
+   "area": "Information and data literacy",
+   "q": "Two websites repeat the same unreferenced claim. What best strengthens verification?",
+   "options": [
+    "Count reposts as independent confirmation",
+    "Choose the more attractive website",
+    "Accept it if it is recent",
+    "Trace the claim to original evidence and check independent credible sources"
+   ],
+   "correct": 3,
+   "explanation": "Repeated claims may share one source; provenance and independent evidence matter.",
+   "source": "digital"
+  },
+  {
+   "id": "DS02",
+   "area": "Information and data literacy",
+   "q": "A chart omits its denominator and collection period. What should you do before using it?",
+   "options": [
+    "Quote the chart without qualification",
+    "Infer the denominator from colours",
+    "Assume all percentages refer to the same population",
+    "Find the underlying dataset, definitions and time coverage"
+   ],
+   "correct": 3,
+   "explanation": "Definitions, denominators and dates determine whether a comparison is valid.",
+   "source": "digital"
+  },
+  {
+   "id": "DS03",
+   "area": "Information and data literacy",
+   "q": "You need the current legal text rather than an old commentary. What is the strongest starting point?",
+   "options": [
+    "An official legal database with version and date information",
+    "A cached personal blog",
+    "A social-media screenshot",
+    "The highest-ranked sponsored result"
+   ],
+   "correct": 0,
+   "explanation": "Authoritative provenance and version information help identify applicable texts.",
+   "source": "digital"
+  },
+  {
+   "id": "DS04",
+   "area": "Information and data literacy",
+   "q": "A spreadsheet sorts only its first column while other columns remain fixed. What is the main risk?",
+   "options": [
+    "Only the visual font changes",
+    "All formulas become more accurate",
+    "The file becomes encrypted",
+    "Values become associated with the wrong records"
+   ],
+   "correct": 3,
+   "explanation": "Sort complete records or a properly defined table to preserve relationships.",
+   "source": "digital"
+  },
+  {
+   "id": "DS05",
+   "area": "Information and data literacy",
+   "q": "Two datasets use different date formats. What should precede merging them?",
+   "options": [
+    "Sort each by filename only",
+    "Delete all dates",
+    "Standardise and validate the date fields",
+    "Convert every date into free-text commentary"
+   ],
+   "correct": 2,
+   "explanation": "Consistent field formats and validation prevent incorrect matching.",
+   "source": "digital"
+  },
+  {
+   "id": "DS06",
+   "area": "Information and data literacy",
+   "q": "An exported CSV opens with leading zeros missing from identifiers. What is best?",
+   "options": [
+    "Add a random zero to every row",
+    "Import identifier columns as text and verify against the original",
+    "Round all identifiers",
+    "Replace identifiers with row numbers"
+   ],
+   "correct": 1,
+   "explanation": "Identifiers are labels, not quantities; text import preserves leading zeros.",
+   "source": "digital"
+  },
+  {
+   "id": "DS07",
+   "area": "Information and data literacy",
+   "q": "What is the best way to make a dataset reproducible?",
+   "options": [
+    "Remove all metadata",
+    "Retain only the final screenshot",
+    "Rename every column to data",
+    "Keep source, extraction date, definitions and transformation steps"
+   ],
+   "correct": 3,
+   "explanation": "Provenance and documented transformations allow others to check the result.",
+   "source": "digital"
+  },
+  {
+   "id": "DS08",
+   "area": "Information and data literacy",
+   "q": "A search produces mostly irrelevant results. What is the best adjustment?",
+   "options": [
+    "Disable all source evaluation",
+    "Refine key terms and filters to match the information need",
+    "Accept the first result regardless",
+    "Repeat the same query indefinitely"
+   ],
+   "correct": 1,
+   "explanation": "Searching is iterative: adjust terms, context and filters.",
+   "source": "digital"
+  },
+  {
+   "id": "DS09",
+   "area": "Communication and collaboration",
+   "q": "Several colleagues need to edit a document. Which workflow best reduces conflicting copies?",
+   "options": [
+    "Email separate copies for every edit",
+    "Use an approved shared document with permissions and version history",
+    "Remove version history",
+    "Use a public anonymous link for confidential drafts"
+   ],
+   "correct": 1,
+   "explanation": "Controlled co-authoring avoids parallel unsynchronised copies.",
+   "source": "digital"
+  },
+  {
+   "id": "DS10",
+   "area": "Communication and collaboration",
+   "q": "An external reviewer only needs to read one file. What access is proportionate?",
+   "options": [
+    "Give administrator access",
+    "Make the entire drive public",
+    "Share another employee’s login",
+    "Grant named read-only access to that file"
+   ],
+   "correct": 3,
+   "explanation": "Least-privilege sharing limits access to the task.",
+   "source": "digital"
+  },
+  {
+   "id": "DS11",
+   "area": "Communication and collaboration",
+   "q": "You must email unrelated external recipients without disclosing their addresses to each other. Which field helps?",
+   "options": [
+    "Subject",
+    "CC",
+    "BCC",
+    "Reply-to"
+   ],
+   "correct": 2,
+   "explanation": "BCC conceals recipients from other recipients; also follow organisational mailing rules.",
+   "source": "digital"
+  },
+  {
+   "id": "DS12",
+   "area": "Communication and collaboration",
+   "q": "A collaborative draft contains an edit you disagree with. What is best?",
+   "options": [
+    "Silently delete everyone else’s work",
+    "Use comments or tracked changes to explain the proposed revision",
+    "Publish the dispute publicly",
+    "Send passwords to resolve the issue"
+   ],
+   "correct": 1,
+   "explanation": "Structured feedback preserves traceability and supports collaboration.",
+   "source": "digital"
+  },
+  {
+   "id": "DS13",
+   "area": "Communication and collaboration",
+   "q": "A meeting participant cannot hear the audio. What is the most inclusive immediate response?",
+   "options": [
+    "Continue without acknowledging the issue",
+    "Provide captions or an accessible text channel and check their needs",
+    "Tell them to guess from slides",
+    "Disable the chat"
+   ],
+   "correct": 1,
+   "explanation": "Use an alternative communication channel suited to the participant’s needs.",
+   "source": "digital"
+  },
+  {
+   "id": "DS14",
+   "area": "Communication and collaboration",
+   "q": "A file link stops working after staff turnover. What is the best preventive practice?",
+   "options": [
+    "Share account passwords",
+    "Store team records in approved team-owned locations with managed access",
+    "Use only temporary chat attachments",
+    "Store everything in one person’s private account"
+   ],
+   "correct": 1,
+   "explanation": "Organisational ownership and access management support continuity.",
+   "source": "digital"
+  },
+  {
+   "id": "DS15",
+   "area": "Communication and collaboration",
+   "q": "A social-media post from your account is misleading. What is the responsible response?",
+   "options": [
+    "Correct it transparently and assess what information was exposed",
+    "Assume deleting it erases every copy",
+    "Create fake accounts to support it",
+    "Blame an unrelated colleague"
+   ],
+   "correct": 0,
+   "explanation": "Digital identity management includes accountability and awareness that copies may persist.",
+   "source": "digital"
+  },
+  {
+   "id": "DS16",
+   "area": "Communication and collaboration",
+   "q": "Which message best suits a busy non-specialist audience?",
+   "options": [
+    "A subject line unrelated to the content",
+    "Unexplained acronyms and no action requested",
+    "A large unlabelled attachment only",
+    "A clear purpose, concise request and relevant context"
+   ],
+   "correct": 3,
+   "explanation": "Adapt the medium and wording to the audience and purpose.",
+   "source": "digital"
+  },
+  {
+   "id": "DS17",
+   "area": "Digital content creation",
+   "q": "A document must be navigable by screen-reader users. Which approach helps most?",
+   "options": [
+    "Use colour alone for structure",
+    "Use semantic headings and meaningful reading order",
+    "Convert all text into an image",
+    "Make headings bold visually but leave all text in one paragraph"
+   ],
+   "correct": 1,
+   "explanation": "Semantic structure enables assistive navigation.",
+   "source": "digital"
+  },
+  {
+   "id": "DS18",
+   "area": "Digital content creation",
+   "q": "A chart carries essential information. What should accompany it?",
+   "options": [
+    "A filename as its only description",
+    "An unrelated decorative caption",
+    "A meaningful text alternative describing its message and relevant data",
+    "No description if colours are attractive"
+   ],
+   "correct": 2,
+   "explanation": "Accessible alternatives convey the information rather than merely naming the picture.",
+   "source": "digital"
+  },
+  {
+   "id": "DS19",
+   "area": "Digital content creation",
+   "q": "A photograph is online without a reuse licence. What should you assume?",
+   "options": [
+    "Every online image is public domain",
+    "Commercial reuse is always permitted",
+    "Public availability alone does not grant permission to reuse it",
+    "Attribution always replaces permission"
+   ],
+   "correct": 2,
+   "explanation": "Check copyright, permission, licence and applicable exceptions before reuse.",
+   "source": "digital"
+  },
+  {
+   "id": "DS20",
+   "area": "Digital content creation",
+   "q": "A work is licensed for non-commercial use only. What should you check before using it in a commercial campaign?",
+   "options": [
+    "Only whether the file is high resolution",
+    "Whether additional permission is required",
+    "Whether you can remove the watermark",
+    "Whether the author has followers"
+   ],
+   "correct": 1,
+   "explanation": "Licence conditions constrain permitted reuse.",
+   "source": "digital"
+  },
+  {
+   "id": "DS21",
+   "area": "Digital content creation",
+   "q": "When copying a spreadsheet formula, you need the tax-rate cell to remain fixed. Which reference fits?",
+   "options": [
+    "C2",
+    "$B$1",
+    "B2",
+    "B1"
+   ],
+   "correct": 1,
+   "explanation": "The dollar signs lock both column and row in common A1-style spreadsheets.",
+   "source": "digital"
+  },
+  {
+   "id": "DS22",
+   "area": "Digital content creation",
+   "q": "A spreadsheet must count rows meeting a specified condition. Which function type is most appropriate?",
+   "options": [
+    "A print-preview command",
+    "A conditional counting function such as COUNTIF",
+    "A password-reset command",
+    "A font-formatting command"
+   ],
+   "correct": 1,
+   "explanation": "Conditional counting evaluates records against a criterion.",
+   "source": "digital"
+  },
+  {
+   "id": "DS23",
+   "area": "Digital content creation",
+   "q": "A simple script processes each record once. Which control structure fits?",
+   "options": [
+    "A command that deletes the dataset",
+    "A manual copy-and-paste for every future record",
+    "A single instruction that never references the records",
+    "A loop over the records"
+   ],
+   "correct": 3,
+   "explanation": "Loops express repeated processing systematically.",
+   "source": "digital"
+  },
+  {
+   "id": "DS24",
+   "area": "Digital content creation",
+   "q": "You adapt several sources into one report. What must you preserve?",
+   "options": [
+    "Accurate attribution and applicable licence conditions",
+    "All sources’ hidden tracking codes",
+    "Only the original colours",
+    "No source information"
+   ],
+   "correct": 0,
+   "explanation": "Integration does not remove attribution or licence responsibilities.",
+   "source": "digital"
+  },
+  {
+   "id": "DS25",
+   "area": "Safety",
+   "q": "An unexpected email asks you to sign in through an urgent link. What should you do first?",
+   "options": [
+    "Forward your password for confirmation",
+    "Enter credentials to see what happens",
+    "Disable security alerts",
+    "Verify through a trusted independent channel rather than use the link"
+   ],
+   "correct": 3,
+   "explanation": "Independent verification avoids relying on potentially deceptive links.",
+   "source": "digital"
+  },
+  {
+   "id": "DS26",
+   "area": "Safety",
+   "q": "Which account protection is strongest among these choices?",
+   "options": [
+    "A short password with security alerts disabled",
+    "A password shared in a team chat",
+    "A unique strong password plus multi-factor authentication",
+    "One password reused everywhere"
+   ],
+   "correct": 2,
+   "explanation": "Unique credentials reduce reuse risk; MFA adds a separate barrier.",
+   "source": "digital"
+  },
+  {
+   "id": "DS27",
+   "area": "Safety",
+   "q": "You receive an MFA approval request you did not initiate. What should you do?",
+   "options": [
+    "Approve to stop the notifications",
+    "Share the one-time code publicly",
+    "Deny it and report it through the approved security channel",
+    "Disable MFA permanently"
+   ],
+   "correct": 2,
+   "explanation": "Unexpected authentication requests may indicate attempted compromise.",
+   "source": "digital"
+  },
+  {
+   "id": "DS28",
+   "area": "Safety",
+   "q": "A laptop containing work data is lost. What should happen promptly?",
+   "options": [
+    "Report it through organisational incident procedures",
+    "Wait several weeks",
+    "Post the device password online",
+    "Assume a login password eliminates all risk"
+   ],
+   "correct": 0,
+   "explanation": "Timely incident response enables containment and any necessary follow-up.",
+   "source": "digital"
+  },
+  {
+   "id": "DS29",
+   "area": "Safety",
+   "q": "A ransomware incident encrypts active files. What is most useful for recovery?",
+   "options": [
+    "A larger monitor",
+    "A tested backup isolated from the affected environment",
+    "A list of file colours",
+    "Only an automatically synchronised copy exposed to the same changes"
+   ],
+   "correct": 1,
+   "explanation": "Backups must be recoverable and protected against the same incident.",
+   "source": "digital"
+  },
+  {
+   "id": "DS30",
+   "area": "Safety",
+   "q": "A colleague proposes entering personal case files into an unapproved public AI tool. What is best?",
+   "options": [
+    "Remove the filename but keep all personal details",
+    "Assume AI tools cannot retain information",
+    "Do not upload them; use approved tools and assess confidentiality and data protection",
+    "Upload first and seek permission later"
+   ],
+   "correct": 2,
+   "explanation": "Tool approval, data minimisation and confidentiality remain necessary.",
+   "source": "digital"
+  },
+  {
+   "id": "DS31",
+   "area": "Safety",
+   "q": "Which statement about HTTPS is correct?",
+   "options": [
+    "It prevents all phishing",
+    "It protects the connection but does not prove every claim on the site is true",
+    "It makes passwords unnecessary",
+    "It guarantees the seller is honest"
+   ],
+   "correct": 1,
+   "explanation": "Encrypted transport is different from trustworthiness of content or operator.",
+   "source": "digital"
+  },
+  {
+   "id": "DS32",
+   "area": "Safety",
+   "q": "Which practice supports sustainable device use when security and functional needs can still be met?",
+   "options": [
+    "Dispose of batteries in general waste",
+    "Replace working devices monthly",
+    "Disable every security update",
+    "Repair and extend useful life before responsible recycling"
+   ],
+   "correct": 3,
+   "explanation": "Consider device lifecycle and responsible disposal alongside safety requirements.",
+   "source": "digital"
+  },
+  {
+   "id": "DS33",
+   "area": "Problem-solving",
+   "q": "A videoconference has no sound. What is the best initial diagnostic step?",
+   "options": [
+    "Reinstall the operating system immediately",
+    "Delete all documents",
+    "Check mute, selected audio device and a simple audio test",
+    "Publish the meeting password"
+   ],
+   "correct": 2,
+   "explanation": "Start with low-risk checks of likely causes.",
+   "source": "digital"
+  },
+  {
+   "id": "DS34",
+   "area": "Problem-solving",
+   "q": "An application repeatedly fails after a recent change. What helps isolate the cause?",
+   "options": [
+    "Delete unrelated accounts",
+    "Record the error and reproduce it while checking recent changes systematically",
+    "Ignore error messages",
+    "Change every setting at once"
+   ],
+   "correct": 1,
+   "explanation": "Controlled testing and evidence help locate faults.",
+   "source": "digital"
+  },
+  {
+   "id": "DS35",
+   "area": "Problem-solving",
+   "q": "A team needs a tool for confidential collaborative work. What should drive selection?",
+   "options": [
+    "Whether it bypasses all access checks",
+    "Requirements, approved security controls, accessibility and collaboration needs",
+    "Only the brightest interface",
+    "Only the number of social-media mentions"
+   ],
+   "correct": 1,
+   "explanation": "Select technology against the actual needs and constraints.",
+   "source": "digital"
+  },
+  {
+   "id": "DS36",
+   "area": "Problem-solving",
+   "q": "A user struggles to read small text in an application. Which response is appropriate?",
+   "options": [
+    "Tell them not to use the service",
+    "Adjust accessible display settings and check the result with the user",
+    "Reduce contrast further",
+    "Remove all labels"
+   ],
+   "correct": 1,
+   "explanation": "Customise the environment to the user’s access needs.",
+   "source": "digital"
+  },
+  {
+   "id": "DS37",
+   "area": "Problem-solving",
+   "q": "An automated workflow sends a message twice for each record. What is a sensible investigation?",
+   "options": [
+    "Inspect trigger conditions, duplicate inputs and execution logs",
+    "Increase the number of triggers",
+    "Assume the recipients caused it",
+    "Delete all audit logs"
+   ],
+   "correct": 0,
+   "explanation": "Trace the workflow to distinguish duplicate data from duplicate execution.",
+   "source": "digital"
+  },
+  {
+   "id": "DS38",
+   "area": "Problem-solving",
+   "q": "A team is unsure whether staff can use a new system. What is best?",
+   "options": [
+    "Assume age determines competence",
+    "Remove all training",
+    "Assess specific skill gaps and provide targeted practice and support",
+    "Treat a single self-rating as conclusive"
+   ],
+   "correct": 2,
+   "explanation": "Identify actual competence needs and support development.",
+   "source": "digital"
+  },
+  {
+   "id": "DS39",
+   "area": "Problem-solving",
+   "q": "An AI-generated summary contains a precise legal claim. What should you do before relying on it?",
+   "options": [
+    "Remove the citation and publish",
+    "Trust it because it is fluent",
+    "Verify it against the authoritative original text",
+    "Treat repetition as proof"
+   ],
+   "correct": 2,
+   "explanation": "Fluency is not evidence; generated content requires verification.",
+   "source": "digital"
+  },
+  {
+   "id": "DS40",
+   "area": "Problem-solving",
+   "q": "You propose automating a repetitive approval task. What should happen before deployment?",
+   "options": [
+    "Skip testing because automation is always accurate",
+    "Give the tool unrestricted permissions",
+    "Delete the manual procedure before validation",
+    "Map the process, test on controlled cases and retain appropriate human oversight"
+   ],
+   "correct": 3,
+   "explanation": "Responsible improvement includes testing, risk controls and oversight.",
+   "source": "digital"
+  }
+ ]
+}

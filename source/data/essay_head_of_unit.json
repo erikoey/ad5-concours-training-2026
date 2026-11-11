@@ -1,0 +1,35 @@
+{
+ "title": "Briefing a new Head of Unit: who does what in the EU",
+ "task": "You work in a unit preparing an induction session for new staff. Write a concise briefing for your Head of Unit explaining how an EU legislative proposal normally becomes law, how implementation and accountability are supported, and how the induction should prevent confusion between similarly named institutions. Recommend three concrete priorities for the induction. Use the source pack below; distinguish information in the pack from your recommendations. Suggested practice length: 500–700 words. This is a practice target, not an official EPSO word limit.",
+ "pack": [
+  [
+   "S1 — Legislative and political responsibilities",
+   "The European Council brings together national heads of state or government and sets the EU’s overall political direction. The European Commission normally proposes legislation. Under the ordinary legislative procedure, the European Parliament and the Council of the European Union adopt legislation. The Council of the EU brings together national ministers; Parliament is directly elected by citizens. Member States implement EU law, and the Commission checks its application.",
+   "institutions"
+  ],
+  [
+   "S2 — Accountability and support",
+   "The Court of Justice interprets EU law, including at the request of national courts. The European Court of Auditors checks EU financial management, legality of spending and value for money. The European Ombudsman investigates maladministration by EU institutions and bodies. The Committee of the Regions represents local and regional authorities, while the European Economic and Social Committee represents organised civil society.",
+   "institutions"
+  ],
+  [
+   "S3 — Legal instruments",
+   "Regulations are binding in their entirety and directly applicable. Directives bind Member States as to the result to be achieved while leaving national implementation choices. Decisions bind their addressees. Recommendations and opinions are not binding.",
+   "law"
+  ]
+ ],
+ "anchors": [
+  "Logical structure and flow of ideas",
+  "Concision without unnecessary words or sentences",
+  "Clarity and understandability",
+  "Fit to the intended audience and purpose",
+  "Effective use of the supplied information"
+ ],
+ "outline": [
+  "Open with the purpose of the induction and a concise recommendation.",
+  "Explain the normal legislative chain: Commission proposal; Parliament and Council adoption; national implementation and Commission oversight. Avoid presenting this as the rule for every EU procedure.",
+  "Distinguish political direction, legislation, judicial interpretation, external financial audit and maladministration review.",
+  "Recommend an institution-role map, a worked example showing legal instruments, and an accountability-routing exercise. Identify these as your proposals rather than source facts.",
+  "Close with the action requested from the Head of Unit. Refer to S1–S3 where useful; avoid adding unsupported statistics or promises."
+ ]
+}

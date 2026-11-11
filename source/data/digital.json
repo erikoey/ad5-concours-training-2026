@@ -1,0 +1,842 @@
+[
+ {
+  "id": "DS01",
+  "area": "Information and data literacy",
+  "q": "Two websites repeat the same unreferenced claim. What best strengthens verification?",
+  "options": [
+   "Count reposts as independent confirmation",
+   "Trace the claim to original evidence and check independent credible sources",
+   "Choose the more attractive website",
+   "Accept it if it is recent"
+  ],
+  "answer": 1,
+  "explanation": "Repeated claims may share one source; provenance and independent evidence matter.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS02",
+  "area": "Information and data literacy",
+  "q": "A chart omits its denominator and collection period. What should you do before using it?",
+  "options": [
+   "Find the underlying dataset, definitions and time coverage",
+   "Quote the chart without qualification",
+   "Infer the denominator from colours",
+   "Assume all percentages refer to the same population"
+  ],
+  "answer": 0,
+  "explanation": "Definitions, denominators and dates determine whether a comparison is valid.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS03",
+  "area": "Information and data literacy",
+  "q": "You need the current legal text rather than an old commentary. What is the strongest starting point?",
+  "options": [
+   "A cached personal blog",
+   "A social-media screenshot",
+   "An official legal database with version and date information",
+   "The highest-ranked sponsored result"
+  ],
+  "answer": 2,
+  "explanation": "Authoritative provenance and version information help identify applicable texts.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS04",
+  "area": "Information and data literacy",
+  "q": "A spreadsheet sorts only its first column while other columns remain fixed. What is the main risk?",
+  "options": [
+   "Only the visual font changes",
+   "All formulas become more accurate",
+   "The file becomes encrypted",
+   "Values become associated with the wrong records"
+  ],
+  "answer": 3,
+  "explanation": "Sort complete records or a properly defined table to preserve relationships.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS05",
+  "area": "Information and data literacy",
+  "q": "Two datasets use different date formats. What should precede merging them?",
+  "options": [
+   "Sort each by filename only",
+   "Delete all dates",
+   "Standardise and validate the date fields",
+   "Convert every date into free-text commentary"
+  ],
+  "answer": 2,
+  "explanation": "Consistent field formats and validation prevent incorrect matching.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS06",
+  "area": "Information and data literacy",
+  "q": "An exported CSV opens with leading zeros missing from identifiers. What is best?",
+  "options": [
+   "Add a random zero to every row",
+   "Round all identifiers",
+   "Replace identifiers with row numbers",
+   "Import identifier columns as text and verify against the original"
+  ],
+  "answer": 3,
+  "explanation": "Identifiers are labels, not quantities; text import preserves leading zeros.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS07",
+  "area": "Information and data literacy",
+  "q": "What is the best way to make a dataset reproducible?",
+  "options": [
+   "Keep source, extraction date, definitions and transformation steps",
+   "Remove all metadata",
+   "Retain only the final screenshot",
+   "Rename every column to data"
+  ],
+  "answer": 0,
+  "explanation": "Provenance and documented transformations allow others to check the result.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS08",
+  "area": "Information and data literacy",
+  "q": "A search produces mostly irrelevant results. What is the best adjustment?",
+  "options": [
+   "Disable all source evaluation",
+   "Refine key terms and filters to match the information need",
+   "Accept the first result regardless",
+   "Repeat the same query indefinitely"
+  ],
+  "answer": 1,
+  "explanation": "Searching is iterative: adjust terms, context and filters.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS09",
+  "area": "Communication and collaboration",
+  "q": "Several colleagues need to edit a document. Which workflow best reduces conflicting copies?",
+  "options": [
+   "Email separate copies for every edit",
+   "Remove version history",
+   "Use an approved shared document with permissions and version history",
+   "Use a public anonymous link for confidential drafts"
+  ],
+  "answer": 2,
+  "explanation": "Controlled co-authoring avoids parallel unsynchronised copies.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS10",
+  "area": "Communication and collaboration",
+  "q": "An external reviewer only needs to read one file. What access is proportionate?",
+  "options": [
+   "Give administrator access",
+   "Grant named read-only access to that file",
+   "Make the entire drive public",
+   "Share another employee’s login"
+  ],
+  "answer": 1,
+  "explanation": "Least-privilege sharing limits access to the task.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS11",
+  "area": "Communication and collaboration",
+  "q": "You must email unrelated external recipients without disclosing their addresses to each other. Which field helps?",
+  "options": [
+   "BCC",
+   "Subject",
+   "CC",
+   "Reply-to"
+  ],
+  "answer": 0,
+  "explanation": "BCC conceals recipients from other recipients; also follow organisational mailing rules.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS12",
+  "area": "Communication and collaboration",
+  "q": "A collaborative draft contains an edit you disagree with. What is best?",
+  "options": [
+   "Silently delete everyone else’s work",
+   "Publish the dispute publicly",
+   "Send passwords to resolve the issue",
+   "Use comments or tracked changes to explain the proposed revision"
+  ],
+  "answer": 3,
+  "explanation": "Structured feedback preserves traceability and supports collaboration.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS13",
+  "area": "Communication and collaboration",
+  "q": "A meeting participant cannot hear the audio. What is the most inclusive immediate response?",
+  "options": [
+   "Continue without acknowledging the issue",
+   "Provide captions or an accessible text channel and check their needs",
+   "Tell them to guess from slides",
+   "Disable the chat"
+  ],
+  "answer": 1,
+  "explanation": "Use an alternative communication channel suited to the participant’s needs.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS14",
+  "area": "Communication and collaboration",
+  "q": "A file link stops working after staff turnover. What is the best preventive practice?",
+  "options": [
+   "Share account passwords",
+   "Use only temporary chat attachments",
+   "Store team records in approved team-owned locations with managed access",
+   "Store everything in one person’s private account"
+  ],
+  "answer": 2,
+  "explanation": "Organisational ownership and access management support continuity.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS15",
+  "area": "Communication and collaboration",
+  "q": "A social-media post from your account is misleading. What is the responsible response?",
+  "options": [
+   "Assume deleting it erases every copy",
+   "Create fake accounts to support it",
+   "Blame an unrelated colleague",
+   "Correct it transparently and assess what information was exposed"
+  ],
+  "answer": 3,
+  "explanation": "Digital identity management includes accountability and awareness that copies may persist.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS16",
+  "area": "Communication and collaboration",
+  "q": "Which message best suits a busy non-specialist audience?",
+  "options": [
+   "A clear purpose, concise request and relevant context",
+   "A subject line unrelated to the content",
+   "Unexplained acronyms and no action requested",
+   "A large unlabelled attachment only"
+  ],
+  "answer": 0,
+  "explanation": "Adapt the medium and wording to the audience and purpose.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS17",
+  "area": "Digital content creation",
+  "q": "A document must be navigable by screen-reader users. Which approach helps most?",
+  "options": [
+   "Use colour alone for structure",
+   "Use semantic headings and meaningful reading order",
+   "Convert all text into an image",
+   "Make headings bold visually but leave all text in one paragraph"
+  ],
+  "answer": 1,
+  "explanation": "Semantic structure enables assistive navigation.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS18",
+  "area": "Digital content creation",
+  "q": "A chart carries essential information. What should accompany it?",
+  "options": [
+   "A meaningful text alternative describing its message and relevant data",
+   "A filename as its only description",
+   "An unrelated decorative caption",
+   "No description if colours are attractive"
+  ],
+  "answer": 0,
+  "explanation": "Accessible alternatives convey the information rather than merely naming the picture.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS19",
+  "area": "Digital content creation",
+  "q": "A photograph is online without a reuse licence. What should you assume?",
+  "options": [
+   "Every online image is public domain",
+   "Commercial reuse is always permitted",
+   "Public availability alone does not grant permission to reuse it",
+   "Attribution always replaces permission"
+  ],
+  "answer": 2,
+  "explanation": "Check copyright, permission, licence and applicable exceptions before reuse.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS20",
+  "area": "Digital content creation",
+  "q": "A work is licensed for non-commercial use only. What should you check before using it in a commercial campaign?",
+  "options": [
+   "Only whether the file is high resolution",
+   "Whether you can remove the watermark",
+   "Whether the author has followers",
+   "Whether additional permission is required"
+  ],
+  "answer": 3,
+  "explanation": "Licence conditions constrain permitted reuse.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS21",
+  "area": "Digital content creation",
+  "q": "When copying a spreadsheet formula, you need the tax-rate cell to remain fixed. Which reference fits?",
+  "options": [
+   "$B$1",
+   "C2",
+   "B2",
+   "B1"
+  ],
+  "answer": 0,
+  "explanation": "The dollar signs lock both column and row in common A1-style spreadsheets.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS22",
+  "area": "Digital content creation",
+  "q": "A spreadsheet must count rows meeting a specified condition. Which function type is most appropriate?",
+  "options": [
+   "A print-preview command",
+   "A password-reset command",
+   "A font-formatting command",
+   "A conditional counting function such as COUNTIF"
+  ],
+  "answer": 3,
+  "explanation": "Conditional counting evaluates records against a criterion.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS23",
+  "area": "Digital content creation",
+  "q": "A simple script processes each record once. Which control structure fits?",
+  "options": [
+   "A command that deletes the dataset",
+   "A manual copy-and-paste for every future record",
+   "A loop over the records",
+   "A single instruction that never references the records"
+  ],
+  "answer": 2,
+  "explanation": "Loops express repeated processing systematically.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS24",
+  "area": "Digital content creation",
+  "q": "You adapt several sources into one report. What must you preserve?",
+  "options": [
+   "All sources’ hidden tracking codes",
+   "Accurate attribution and applicable licence conditions",
+   "Only the original colours",
+   "No source information"
+  ],
+  "answer": 1,
+  "explanation": "Integration does not remove attribution or licence responsibilities.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS25",
+  "area": "Safety",
+  "q": "An unexpected email asks you to sign in through an urgent link. What should you do first?",
+  "options": [
+   "Forward your password for confirmation",
+   "Enter credentials to see what happens",
+   "Verify through a trusted independent channel rather than use the link",
+   "Disable security alerts"
+  ],
+  "answer": 2,
+  "explanation": "Independent verification avoids relying on potentially deceptive links.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS26",
+  "area": "Safety",
+  "q": "Which account protection is strongest among these choices?",
+  "options": [
+   "A short password with security alerts disabled",
+   "A unique strong password plus multi-factor authentication",
+   "A password shared in a team chat",
+   "One password reused everywhere"
+  ],
+  "answer": 1,
+  "explanation": "Unique credentials reduce reuse risk; MFA adds a separate barrier.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS27",
+  "area": "Safety",
+  "q": "You receive an MFA approval request you did not initiate. What should you do?",
+  "options": [
+   "Approve to stop the notifications",
+   "Share the one-time code publicly",
+   "Disable MFA permanently",
+   "Deny it and report it through the approved security channel"
+  ],
+  "answer": 3,
+  "explanation": "Unexpected authentication requests may indicate attempted compromise.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS28",
+  "area": "Safety",
+  "q": "A laptop containing work data is lost. What should happen promptly?",
+  "options": [
+   "Report it through organisational incident procedures",
+   "Wait several weeks",
+   "Post the device password online",
+   "Assume a login password eliminates all risk"
+  ],
+  "answer": 0,
+  "explanation": "Timely incident response enables containment and any necessary follow-up.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS29",
+  "area": "Safety",
+  "q": "A ransomware incident encrypts active files. What is most useful for recovery?",
+  "options": [
+   "A larger monitor",
+   "A list of file colours",
+   "A tested backup isolated from the affected environment",
+   "Only an automatically synchronised copy exposed to the same changes"
+  ],
+  "answer": 2,
+  "explanation": "Backups must be recoverable and protected against the same incident.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS30",
+  "area": "Safety",
+  "q": "A colleague proposes entering personal case files into an unapproved public AI tool. What is best?",
+  "options": [
+   "Do not upload them; use approved tools and assess confidentiality and data protection",
+   "Remove the filename but keep all personal details",
+   "Assume AI tools cannot retain information",
+   "Upload first and seek permission later"
+  ],
+  "answer": 0,
+  "explanation": "Tool approval, data minimisation and confidentiality remain necessary.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS31",
+  "area": "Safety",
+  "q": "Which statement about HTTPS is correct?",
+  "options": [
+   "It prevents all phishing",
+   "It makes passwords unnecessary",
+   "It guarantees the seller is honest",
+   "It protects the connection but does not prove every claim on the site is true"
+  ],
+  "answer": 3,
+  "explanation": "Encrypted transport is different from trustworthiness of content or operator.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS32",
+  "area": "Safety",
+  "q": "Which practice supports sustainable device use when security and functional needs can still be met?",
+  "options": [
+   "Dispose of batteries in general waste",
+   "Repair and extend useful life before responsible recycling",
+   "Replace working devices monthly",
+   "Disable every security update"
+  ],
+  "answer": 1,
+  "explanation": "Consider device lifecycle and responsible disposal alongside safety requirements.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS33",
+  "area": "Problem-solving",
+  "q": "A videoconference has no sound. What is the best initial diagnostic step?",
+  "options": [
+   "Reinstall the operating system immediately",
+   "Delete all documents",
+   "Publish the meeting password",
+   "Check mute, selected audio device and a simple audio test"
+  ],
+  "answer": 3,
+  "explanation": "Start with low-risk checks of likely causes.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS34",
+  "area": "Problem-solving",
+  "q": "An application repeatedly fails after a recent change. What helps isolate the cause?",
+  "options": [
+   "Delete unrelated accounts",
+   "Ignore error messages",
+   "Record the error and reproduce it while checking recent changes systematically",
+   "Change every setting at once"
+  ],
+  "answer": 2,
+  "explanation": "Controlled testing and evidence help locate faults.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS35",
+  "area": "Problem-solving",
+  "q": "A team needs a tool for confidential collaborative work. What should drive selection?",
+  "options": [
+   "Requirements, approved security controls, accessibility and collaboration needs",
+   "Whether it bypasses all access checks",
+   "Only the brightest interface",
+   "Only the number of social-media mentions"
+  ],
+  "answer": 0,
+  "explanation": "Select technology against the actual needs and constraints.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS36",
+  "area": "Problem-solving",
+  "q": "A user struggles to read small text in an application. Which response is appropriate?",
+  "options": [
+   "Tell them not to use the service",
+   "Adjust accessible display settings and check the result with the user",
+   "Reduce contrast further",
+   "Remove all labels"
+  ],
+  "answer": 1,
+  "explanation": "Customise the environment to the user’s access needs.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS37",
+  "area": "Problem-solving",
+  "q": "An automated workflow sends a message twice for each record. What is a sensible investigation?",
+  "options": [
+   "Increase the number of triggers",
+   "Inspect trigger conditions, duplicate inputs and execution logs",
+   "Assume the recipients caused it",
+   "Delete all audit logs"
+  ],
+  "answer": 1,
+  "explanation": "Trace the workflow to distinguish duplicate data from duplicate execution.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS38",
+  "area": "Problem-solving",
+  "q": "A team is unsure whether staff can use a new system. What is best?",
+  "options": [
+   "Assess specific skill gaps and provide targeted practice and support",
+   "Assume age determines competence",
+   "Remove all training",
+   "Treat a single self-rating as conclusive"
+  ],
+  "answer": 0,
+  "explanation": "Identify actual competence needs and support development.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS39",
+  "area": "Problem-solving",
+  "q": "An AI-generated summary contains a precise legal claim. What should you do before relying on it?",
+  "options": [
+   "Remove the citation and publish",
+   "Trust it because it is fluent",
+   "Verify it against the authoritative original text",
+   "Treat repetition as proof"
+  ],
+  "answer": 2,
+  "explanation": "Fluency is not evidence; generated content requires verification.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS40",
+  "area": "Problem-solving",
+  "q": "You propose automating a repetitive approval task. What should happen before deployment?",
+  "options": [
+   "Skip testing because automation is always accurate",
+   "Give the tool unrestricted permissions",
+   "Delete the manual procedure before validation",
+   "Map the process, test on controlled cases and retain appropriate human oversight"
+  ],
+  "answer": 3,
+  "explanation": "Responsible improvement includes testing, risk controls and oversight.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS41",
+  "area": "Information and data literacy",
+  "q": "You need web results that contain the exact phrase “reserve list” and not just the individual words. What should you do?",
+  "options": [
+   "Type the words in capital letters",
+   "Add the word ‘only’ before the phrase",
+   "Put the phrase in quotation marks",
+   "Separate the words with commas"
+  ],
+  "answer": 2,
+  "explanation": "Quotation marks make most search engines treat the words as one exact phrase.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS42",
+  "area": "Information and data literacy",
+  "q": "An unfamiliar website makes a striking health claim. What is the best way to judge its credibility?",
+  "options": [
+   "Check who is responsible for the content, its date and its sources, and compare with independent reliable sources",
+   "Trust it if it appears first in search results",
+   "Trust it if the page looks professional",
+   "Trust it if many people have shared it"
+  ],
+  "answer": 0,
+  "explanation": "Credibility depends on authorship, evidence and corroboration; ranking, design and popularity are not evidence.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS43",
+  "area": "Information and data literacy",
+  "q": "You manage hundreds of project files. Which practice makes them easiest to find and avoids confusion between versions?",
+  "options": [
+   "Saving everything on the desktop with short names",
+   "Naming files by the day of the week",
+   "Keeping only the newest version and deleting all others immediately",
+   "A consistent folder structure and file naming convention, for example with dates and version numbers"
+  ],
+  "answer": 3,
+  "explanation": "Consistent structure and naming make retrieval and version control predictable.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS44",
+  "area": "Information and data literacy",
+  "q": "What is a key advantage of CSV files for exchanging tabular data between applications?",
+  "options": [
+   "They always preserve cell colours and formulas",
+   "They are plain text and can be read by almost any data tool",
+   "They are encrypted by default",
+   "They can only be opened by one spreadsheet program"
+  ],
+  "answer": 1,
+  "explanation": "CSV stores values as plain text separated by delimiters; it does not store formatting or formulas.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS45",
+  "area": "Communication and collaboration",
+  "q": "You must share a confidential draft with five colleagues who need to comment on it. What is the most appropriate approach?",
+  "options": [
+   "Send the file as an attachment to a large mailing list",
+   "Post the file on a public website with a hard-to-guess link",
+   "Share a link with restricted access in the organisation’s approved file-sharing tool, giving only those five people permission to comment",
+   "Copy the text into a chat group that includes external guests"
+  ],
+  "answer": 2,
+  "explanation": "Restricted sharing limits access, keeps one master version and allows revocation.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS47",
+  "area": "Communication and collaboration",
+  "q": "You send an announcement to many external recipients who do not know one another. Which e-mail field should you use for their addresses?",
+  "options": [
+   "Bcc, so that recipients cannot see each other’s addresses",
+   "To, so that everyone can reply easily",
+   "Cc, so that everyone is informed",
+   "The subject line"
+  ],
+  "answer": 0,
+  "explanation": "Bcc protects recipients’ privacy, which is also a data-protection concern.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS48",
+  "area": "Communication and collaboration",
+  "q": "In the EU legal framework for electronic identification and trust services (eIDAS), what is a qualified electronic signature?",
+  "options": [
+   "A scanned image of a handwritten signature",
+   "A typed name at the end of an e-mail",
+   "A password-protected PDF",
+   "An electronic signature with the same legal effect as a handwritten signature"
+  ],
+  "answer": 3,
+  "explanation": "Qualified electronic signatures have the equivalent legal effect of handwritten signatures and are recognised across the EU.",
+  "source": "http://data.europa.eu/eli/reg/2014/910/oj"
+ },
+ {
+  "id": "DS49",
+  "area": "Digital content creation",
+  "q": "You want to reuse a photograph from the web in a public presentation. What should you check first?",
+  "options": [
+   "Whether the image resolution is high",
+   "The licence or copyright terms and any attribution requirement",
+   "Whether the picture has a watermark",
+   "Whether it is the first result in an image search"
+  ],
+  "answer": 1,
+  "explanation": "Reuse depends on the licence, for example a Creative Commons licence with attribution.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS50",
+  "area": "Digital content creation",
+  "q": "Why should you add alternative text to images in a document?",
+  "options": [
+   "To make the file smaller",
+   "To protect the image from copying",
+   "So that people using screen readers receive the information the image conveys",
+   "To change the image’s colours automatically"
+  ],
+  "answer": 2,
+  "explanation": "Alternative text is a basic accessibility feature.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS51",
+  "area": "Digital content creation",
+  "q": "What is the advantage of using built-in heading styles instead of manually enlarging text?",
+  "options": [
+   "The text is automatically translated",
+   "The document is protected against editing",
+   "Spelling errors are corrected automatically",
+   "The structure is machine-readable, enabling navigation, an automatic table of contents and better accessibility"
+  ],
+  "answer": 3,
+  "explanation": "Heading styles define a document structure that tools and assistive technologies can use.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS52",
+  "area": "Digital content creation",
+  "q": "In a spreadsheet, you copy a formula that must always refer to the same cell, A1. Which reference should you use?",
+  "options": [
+   "$A$1",
+   "A1",
+   "$A1",
+   "A$1"
+  ],
+  "answer": 0,
+  "explanation": "Absolute references with dollar signs remain fixed when the formula is copied.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS53",
+  "area": "Safety",
+  "q": "You receive an urgent e-mail apparently from your bank asking you to click a link and confirm your password. What is the best action?",
+  "options": [
+   "Click the link but only enter part of the password",
+   "Do not click; open the bank’s official website yourself or call a known number, and report the message",
+   "Reply to the sender asking whether it is genuine",
+   "Forward the e-mail to colleagues as a warning with the link intact"
+  ],
+  "answer": 1,
+  "explanation": "This is a typical phishing pattern. Use independent channels and report it.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS54",
+  "area": "Safety",
+  "q": "What is the main benefit of multi-factor authentication?",
+  "options": [
+   "It makes passwords unnecessary",
+   "It encrypts all e-mails automatically",
+   "It speeds up logging in",
+   "An attacker who has stolen the password still lacks the second factor"
+  ],
+  "answer": 3,
+  "explanation": "A second factor, such as an app code or security key, reduces the risk of account takeover.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS55",
+  "area": "Safety",
+  "q": "What is the main advantage of using a password manager?",
+  "options": [
+   "Passwords no longer need to be changed after a data breach",
+   "It prevents all phishing attacks",
+   "You can use long, unique passwords for each service without memorising them",
+   "It lets you share one password across all accounts safely"
+  ],
+  "answer": 2,
+  "explanation": "Unique passwords limit the damage if one service is compromised.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS56",
+  "area": "Safety",
+  "q": "You must access your work e-mail from a public Wi-Fi network. Which is the most appropriate precaution?",
+  "options": [
+   "Turn off the device’s firewall to improve speed",
+   "Use the organisation’s approved VPN or secure connection",
+   "Disable updates to avoid interruptions",
+   "Use a shared computer without logging out"
+  ],
+  "answer": 1,
+  "explanation": "A VPN encrypts traffic between your device and the organisation, reducing risks on untrusted networks.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS57",
+  "area": "Problem-solving",
+  "q": "You need to convert 500 scanned pages into text that can be searched and edited. Which technology is most appropriate?",
+  "options": [
+   "Optical character recognition (OCR)",
+   "Data compression",
+   "Screen mirroring",
+   "A spell checker"
+  ],
+  "answer": 0,
+  "explanation": "OCR recognises characters in images and converts them to machine-readable text.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS58",
+  "area": "Problem-solving",
+  "q": "An online collaboration service suddenly stops working for many colleagues. What is a sensible first step?",
+  "options": [
+   "Check the provider’s official service-status page and the organisation’s IT notices",
+   "Reinstall the operating system",
+   "Delete your account and create a new one",
+   "Wait a week before doing anything"
+  ],
+  "answer": 0,
+  "explanation": "Status pages and IT notices help determine whether the problem is a known outage rather than a local fault.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS59",
+  "area": "Problem-solving",
+  "q": "You must find a meeting time for ten colleagues in different time zones. Which tool is most suitable?",
+  "options": [
+   "A group phone call to negotiate each slot",
+   "A scheduling poll or shared calendar that shows availability",
+   "An e-mail chain with all replies in one thread",
+   "A printed timetable posted in the office"
+  ],
+  "answer": 1,
+  "explanation": "Scheduling tools automate the comparison of availability and handle time zones.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS60",
+  "area": "Problem-solving",
+  "q": "You repeat the same formatting steps on dozens of documents every week. What is the most efficient approach?",
+  "options": [
+   "Do it manually but faster",
+   "Ask colleagues to format their own documents",
+   "Create a template or automate the steps with macros or a built-in automation feature",
+   "Stop formatting the documents"
+  ],
+  "answer": 2,
+  "explanation": "Templates and automation reduce repetitive manual work and errors.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ },
+ {
+  "id": "DS46",
+  "area": "Communication and collaboration",
+  "q": "A team needs to keep track of who is responsible for which task on a shared project and by when. Which tool is most suitable?",
+  "options": [
+   "A personal notebook kept by each team member",
+   "Private text messages between individual colleagues",
+   "A printed list that one person updates weekly",
+   "A shared task board or project-management tool with assignees and deadlines"
+  ],
+  "answer": 3,
+  "explanation": "A shared board gives everyone the same current view of tasks, owners and deadlines.",
+  "source": "https://publications.jrc.ec.europa.eu/repository/handle/JRC128415"
+ }
+]

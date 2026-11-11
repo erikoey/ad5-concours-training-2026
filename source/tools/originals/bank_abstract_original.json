@@ -1,0 +1,6613 @@
+[
+ {
+  "id": "H01",
+  "level": "hard",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 3,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "explanation": "Die ungeraden Felder 1, 3, 5, 7 bilden eine eigene Reihe: Das schwarze Quadrat springt jeweils zwei Außenpositionen im Uhrzeigersinn; das leere Dreieck wandert eine Position im Uhrzeigersinn und dreht sich dabei um 90°. Die geraden Felder folgen anderen Schritten und dürfen nicht in dieselbe Reihe gemischt werden. Im siebten Feld steht das Quadrat unten links und das nach links gerichtete Dreieck links in der Mitte.",
+  "errors": [
+   "Das Quadrat wurde nur auf den Stand des fünften Feldes gesetzt.",
+   "Die Richtung des Dreiecks ist um 90° zu früh.",
+   "Alle Regeln sind erfüllt.",
+   "Das Dreieck ist auf die vorherige Eckposition gesetzt.",
+   "Die Füllungen gehören zur geraden statt zur ungeraden Teilreihe."
+  ],
+  "tag": "Verschachtelte Teilreihen"
+ },
+ {
+  "id": "H02",
+  "level": "hard",
+  "kind": "matrix",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "explanation": "Je Zeile wird zuerst das mittlere Punktmuster um 90° im Uhrzeigersinn gedreht. Erst danach wird es mit dem linken Muster überlagert: doppelt belegte Positionen verschwinden, einmal belegte bleiben. Die Reihenfolge ist wichtig; ein einfaches Zusammenlegen der ungedrehten Muster reicht nicht.",
+  "errors": [
+   "Alle Regeln sind erfüllt.",
+   "Eine Punktposition wurde verlegt; Punktzahl allein genügt nicht.",
+   "Eine Punktposition wurde verlegt.",
+   "Die gesamte Zielabbildung wurde zusätzlich gedreht.",
+   "Die Punktpositionen erfüllen nicht die gedrehte exklusive Überlagerung."
+  ],
+  "tag": "Drehung vor exklusiver Überlagerung"
+ },
+ {
+  "id": "H03",
+  "level": "hard",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "explanation": "Es wechseln zwei Operationen: 90°-Drehung im Uhrzeigersinn, dann Spiegelung an der senkrechten Mittelachse. Nach jedem Schritt kehrt sich zusätzlich die Füllung aller Formen um. Vom sechsten zum siebten Feld ist eine senkrechte Spiegelung mit Füllungswechsel fällig. Bei der L-Form zählt auch ihre Ausrichtung, nicht nur ihr Standort.",
+  "errors": [
+   "Es wurde gedreht, obwohl eine Spiegelung ansteht.",
+   "Spiegelung an der falschen Achse.",
+   "Der Füllungswechsel fehlt.",
+   "Die L-Form ist an der richtigen Stelle, aber falsch orientiert.",
+   "Alle Regeln sind erfüllt."
+  ],
+  "tag": "Alternierende nicht vertauschbare Transformationen"
+ },
+ {
+  "id": "H04",
+  "level": "hard",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 45,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 135,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 3,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 225,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": false,
+      "a": 225,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "explanation": "Das Quadrat macht am Außenring zunehmend große Sprünge im Uhrzeigersinn: +1, +2, +3, +4, +5, anschließend +6 Positionen. Das Dreieck wandert konstant um zwei Außenpositionen im Uhrzeigersinn und dreht sich pro Feld um 45°. Formen und Füllungen bleiben erhalten. Gesucht: Quadrat unten Mitte, Dreieck links Mitte mit Spitze nach links.",
+  "errors": [
+   "Der nächste Sprung des Quadrats ist nicht +6.",
+   "Alle Regeln sind erfüllt.",
+   "Das Quadrat wurde mit einem falschen Sprung fortgesetzt.",
+   "Das Dreieck wurde nicht um zwei Positionen weitergesetzt.",
+   "Die Dreiecksorientierung wurde nicht um 45° weitergedreht."
+  ],
+  "tag": "Beschleunigte Bewegung und unabhängige Orientierung"
+ },
+ {
+  "id": "H05",
+  "level": "hard",
+  "kind": "matrix",
+  "figs": [
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": true
+    },
+    "bars": 5
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 180,
+     "f": false
+    },
+    "bars": 2
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 6
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 180,
+     "f": true
+    },
+    "bars": 2
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": false
+    },
+    "bars": 4
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 180,
+     "f": false
+    },
+    "bars": 6
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 3
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": false
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": true
+    },
+    "bars": 9
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": true
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 90,
+     "f": true
+    },
+    "bars": 3
+   },
+   {
+    "t": [],
+    "arrow": {
+     "a": 270,
+     "f": false
+    },
+    "bars": 9
+   }
+  ],
+  "answer": 3,
+  "explanation": "Je Zeile werden drei Eigenschaften unabhängig kombiniert: Pfeilwinkel addieren sich modulo 360° (oben = 0°); die Balkenzahl ist die absolute Differenz der ersten beiden Balkenzahlen; der Zielpfeil ist genau dann schwarz, wenn einer der beiden Eingabepfeile schwarz ist. Unten: 180° + 270° ergibt rechts; 6 − 3 ergibt drei Balken; leer + schwarz ergibt schwarz.",
+  "errors": [
+   "Richtung und Balkenzahl passen, aber die Füllung nicht.",
+   "Richtung und Füllung passen; die Balkenzahlen werden subtrahiert, nicht addiert.",
+   "Füllung und Balkenzahl passen; die Pfeilwinkel ergeben rechts.",
+   "Alle Regeln sind erfüllt.",
+   "Es wurden mehrere Regeln verfehlt."
+  ],
+  "tag": "Drei unabhängige Kombinationsregeln"
+ },
+ {
+  "id": "H06",
+  "level": "hard",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 360,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 450,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 540,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 630,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "explanation": "Das Dreieck geht pro Schritt eine Außenposition im Uhrzeigersinn und dreht sich um 90°. Das Quadrat geht zwei Außenpositionen gegen den Uhrzeigersinn. Für beide Formen gilt dieselbe bedingte Füllungsregel: Landet die Form auf einer Ecke, wechselt ihre Füllung; landet sie in einer Seitenmitte, bleibt die Füllung gleich. Im nächsten Feld sind beide Formen leer.",
+  "errors": [
+   "Der Füllungswechsel beim Dreieck an einer Ecke fehlt.",
+   "Alle Regeln sind erfüllt.",
+   "Der Füllungswechsel des Quadrats fehlt.",
+   "Die bedingte Füllungsregel ist bei beiden Formen falsch angewandt.",
+   "Die Orientierung des Dreiecks stimmt nicht."
+  ],
+  "tag": "Bedingter Füllungswechsel bei unterschiedlicher Bewegung"
+ },
+ {
+  "id": "H07",
+  "level": "hard",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "chevron",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": true,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 0
+     },
+     {
+      "p": 4,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "explanation": "Ungerade und gerade Felder sind wieder getrennte Reihen. In den ungeraden Feldern wandert der äußere Winkel um zwei Außenpositionen im Uhrzeigersinn, dreht sich dabei um 45° und wechselt seine Füllung. Das mittige schwarze L dreht sich jeweils um 90°. Im siebten Feld steht ein leerer Winkel oben links, um 135° gedreht; das L steht in 270°-Orientierung.",
+  "errors": [
+   "Die Außenposition entspricht nicht dem nächsten Zweierschritt.",
+   "Die äußere Form muss im siebten Feld leer sein.",
+   "Die äußere Form ist nicht weit genug gedreht.",
+   "Das L ist um einen Viertelkreis zu früh.",
+   "Alle Regeln sind erfüllt."
+  ],
+  "tag": "Verschachtelung mit verschiedenen Winkelschritten"
+ },
+ {
+  "id": "H08",
+  "level": "hard",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "explanation": "Von Feld zu Feld dreht sich das gesamte Positionsmuster um 90° im Uhrzeigersinn. Die Formtypen wechseln zugleich zyklisch: Kreis → Dreieck → Quadrat → Kreis. Die Symbole selbst sind stets aufrecht. Zusätzlich wechselt nur bei Formen, die nach der Bewegung in der mittleren Spalte stehen, die Füllung. Es reicht nicht, nur die Silhouette des gesamten Musters zu erkennen.",
+  "errors": [
+   "Das Zielmuster wurde zusätzlich um 180° versetzt.",
+   "Die Füllung der Form in der Seitenmitte wurde falsch fortgesetzt.",
+   "Alle Regeln sind erfüllt.",
+   "Eine Form ist im Formzyklus um einen Schritt versetzt.",
+   "Eine Form in einer Ecke darf die Füllung in diesem Schritt nicht wechseln."
+  ],
+  "tag": "Positionsrotation, Formzyklus und positionsabhängige Füllung"
+ },
+ {
+  "id": "H09",
+  "level": "hard",
+  "kind": "matrix",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "explanation": "Je Zeile werden die ersten beiden Felder positionsweise kombiniert. Leeres Feld + Form lässt die Form unverändert. Zwei leere Kreise werden zu einem schwarzen Kreis; zwei schwarze zu einem leeren Kreis; ein leerer und ein schwarzer Kreis heben sich auf. Diese Dreizustandsregel gilt an jeder Position unabhängig. Alle Antwortoptionen zeigen ähnlich viele Elemente; die Füllung an jeder Stelle muss stimmen.",
+  "errors": [
+   "Alle Regeln sind erfüllt.",
+   "Ein Kreis hat die falsche Füllung.",
+   "Ein schwarzer Kreis hätte aus zwei schwarzen Kreisen leer werden müssen.",
+   "Die Kombination zweier leerer Kreise ergibt schwarz.",
+   "Die einzelne Form an dieser Position muss ihre Eingabefüllung behalten."
+  ],
+  "tag": "Dreizustands-Überlagerung"
+ },
+ {
+  "id": "H10",
+  "level": "hard",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 3,
+  "explanation": "Ab dem dritten Feld hängt jedes Muster von den beiden Vorgängern ab: Das unmittelbar vorherige Muster wird um 90° im Uhrzeigersinn gedreht und mit dem vorvorigen Muster exklusiv überlagert. Doppelte Punkte verschwinden. Für das siebte Feld also Feld 6 drehen und mit Feld 5 kombinieren; nicht nur ein einzelnes Muster fortsetzen.",
+  "errors": [
+   "Die Drehung des unmittelbar vorherigen Feldes fehlt.",
+   "Das unmittelbar vorherige Feld wurde in die falsche Richtung gedreht.",
+   "Die doppelt belegten Punkte müssen verschwinden, nicht erhalten bleiben.",
+   "Alle Regeln sind erfüllt.",
+   "Nur der unmittelbare Vorgänger wird gedreht."
+  ],
+  "tag": "Zwei-Vorgänger-Regel mit Transformation"
+ },
+ {
+  "id": "E01",
+  "level": "expert",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": true,
+      "a": 225,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": true,
+      "a": 315,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "explanation": "Drei Formen bewegen sich auf getrennten konzentrischen Außenbahnen: Dreieck +1 Position, Winkel −2 Positionen und L +3 Positionen pro Schritt. Ihre Eigendrehungen betragen +90°, +45° und −90°. Die Füllung bleibt nicht an einer Form hängen: In jedem Schritt übernimmt das Dreieck die alte L-Füllung, der Winkel die alte Dreiecksfüllung und das L die alte Winkelfüllung. Nur die gemeinsame Lösung aller drei Ebenen passt.",
+  "errors": [
+   "Die Dreiecksfüllung wurde nicht von der vorherigen L-Form übernommen.",
+   "Die Position des Winkels stimmt nicht mit seinem Zweierschritt überein.",
+   "Alle Regeln sind erfüllt.",
+   "Die L-Form ist richtig platziert, aber falsch orientiert.",
+   "Die Füllung des Winkels gehört zu einer anderen Phase des Füllungskreislaufs."
+  ],
+  "tag": "Drei Wege, drei Drehungen und Füllungstransfer"
+ },
+ {
+  "id": "E02",
+  "level": "expert",
+  "kind": "matrix",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "explanation": "In jeder Zeile wird das linke Muster an der senkrechten Mittelachse gespiegelt und das mittlere Muster um 90° im Uhrzeigersinn gedreht. Erst danach werden die beiden transformierten Muster exklusiv überlagert. Einzeln vorhandene Punkte bleiben, doppelte verschwinden. Eine richtige Punktzahl allein identifiziert die Lösung nicht.",
+  "errors": [
+   "Alle Regeln sind erfüllt.",
+   "Die Spiegelung des linken Musters fehlt.",
+   "Die Drehung des mittleren Musters fehlt.",
+   "Das linke Muster wurde an der waagerechten statt senkrechten Achse gespiegelt.",
+   "Das mittlere Muster wurde gegen den Uhrzeigersinn gedreht."
+  ],
+  "tag": "Zwei unterschiedliche Vortransformationen vor Überlagerung"
+ },
+ {
+  "id": "E03",
+  "level": "expert",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 90
+     },
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 90
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 270
+     },
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 270
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": false,
+      "a": 270
+     },
+     {
+      "p": 8,
+      "s": "L",
+      "f": false,
+      "a": 270
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "square",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 90
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 90
+     },
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 90
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": true,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 270
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 180
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 180
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 180
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "explanation": "Alle Formen wandern pro Schritt um eine Ecke im Uhrzeigersinn und drehen sich selbst um 90°. Kreis, Dreieck und Quadrat wechseln zusätzlich zyklisch ihre Identität; die L-Form bleibt ein L. Entscheidend: Die Füllung gehört zur Position, nicht zur wandernden Form. Die beiden linken Ecken bleiben schwarz, die rechten leer. Eine Form übernimmt bei der Ankunft die Füllung ihres neuen Standortes.",
+  "errors": [
+   "Die Füllung wurde an der Form statt an der Position fortgesetzt.",
+   "Eine Form hat den falschen Stand im Identitätszyklus.",
+   "Die Dreiecksorientierung stimmt nicht.",
+   "Die L-Orientierung stimmt nicht.",
+   "Alle Regeln sind erfüllt."
+  ],
+  "tag": "Standortgebundene Füllung trotz Form- und Positionswechsel"
+ },
+ {
+  "id": "E04",
+  "level": "expert",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "explanation": "Es gibt zwei verschachtelte Teilreihen, die zusätzlich durch die Füllung unterscheidbar sind. Bei den schwarzen Mustern in Feld 1, 3, 5 und 7 wird der jeweilige Vorgänger um 90° im Uhrzeigersinn gedreht; danach werden oben links und unten rechts umgeschaltet: vorhandener Punkt verschwindet, fehlender erscheint. Die leeren Zwischenmuster folgen einer anderen Transformation und sagen nichts über den nächsten schwarzen Zustand aus.",
+  "errors": [
+   "Die festen Eckpositionen wurden nicht umgeschaltet.",
+   "Alle Regeln sind erfüllt.",
+   "Die Drehung läuft in die falsche Richtung.",
+   "Es wurden die falschen Eckpositionen umgeschaltet.",
+   "Das nächste Feld gehört zur schwarzen Teilreihe."
+  ],
+  "tag": "Verschachtelung und feste Umschaltmaske"
+ },
+ {
+  "id": "E05",
+  "level": "expert",
+  "kind": "matrix",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 3,
+  "explanation": "Zuerst wird nur das mittlere Muster um 90° im Uhrzeigersinn gedreht. Dann werden die Zustände positionsweise kombiniert: leerer Kreis + leerer Kreis → schwarz; schwarz + schwarz → leerer Kreis; schwarz + leerer Kreis → verschwinden; fehlende Form + Form → dieselbe Form. Richtung, Reihenfolge und Füllungskombination müssen gleichzeitig stimmen.",
+  "errors": [
+   "Das mittlere Muster wurde nicht gedreht.",
+   "Das mittlere Muster wurde in die falsche Richtung gedreht.",
+   "Die Zustandskombination wurde wie eine Subtraktion statt wie die gezeigte Kombination behandelt.",
+   "Alle Regeln sind erfüllt.",
+   "Das linke Muster darf nicht mitgedreht werden."
+  ],
+  "tag": "Gedrehte Dreizustands-Überlagerung"
+ },
+ {
+  "id": "E06",
+  "level": "expert",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": true,
+      "a": 315,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": true,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": false,
+      "a": 315,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "chevron",
+      "f": true,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 1,
+  "explanation": "Das Dreieck dreht Standort und Eigenausrichtung pro Schritt um 90° im Uhrzeigersinn. L und Winkel drehen beides um 90° gegen den Uhrzeigersinn. Für jede Form gilt zusätzlich: Landet sie in der linken Spalte, kehrt sich ihre Füllung um; sonst bleibt sie unverändert. Die Drehung muss also zuerst aufgelöst werden, bevor die Füllungsregel geprüft wird.",
+  "errors": [
+   "Die Dreiecksfüllung passt nicht zur Zielposition.",
+   "Alle Regeln sind erfüllt.",
+   "Die L-Eigenausrichtung stimmt nicht mit der Gegenuhrzeigerdrehung überein.",
+   "Die Füllung des Winkels passt nicht zum linken Zielstandort.",
+   "Der Winkel wurde in die falsche Richtung versetzt."
+  ],
+  "tag": "Formabhängige Drehrichtung und bedingte Zustandsänderung"
+ },
+ {
+  "id": "E07",
+  "level": "expert",
+  "kind": "matrix",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ],
+    "arrow": {
+     "a": 90,
+     "f": false,
+     "small": true
+    }
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ],
+    "arrow": {
+     "a": 180,
+     "f": false,
+     "small": true
+    }
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": false,
+      "a": 0
+     }
+    ],
+    "arrow": {
+     "a": 270,
+     "f": false,
+     "small": true
+    }
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 4,
+  "explanation": "Das mittlere Feld liefert einen Operator: Seine Pfeilrichtung bestimmt, wie weit das linke Muster im Uhrzeigersinn zu drehen ist (oben 0°, rechts 90°, unten 180°, links 270°). Danach werden die leeren Kreise des mittleren Feldes mit dem gedrehten linken Muster exklusiv überlagert; ihre Füllung ist nur die Kennzeichnung der Operatorpunkte. Unten ist folglich eine 270°-Drehung des linken Musters nötig.",
+  "errors": [
+   "Es wurde um 90° statt um 270° im Uhrzeigersinn gedreht.",
+   "Doppelt belegte Positionen müssen verschwinden.",
+   "Die vom Pfeil vorgegebene Drehung fehlt.",
+   "Nur das linke Muster wird gedreht, nicht die Operatorpunkte.",
+   "Alle Regeln sind erfüllt."
+  ],
+  "tag": "Aus der Eingabe abgeleitete Transformation"
+ },
+ {
+  "id": "E08",
+  "level": "expert",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 2,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 3,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 4,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 5,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 6,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 0
+     }
+    ]
+   }
+  ],
+  "answer": 2,
+  "explanation": "Jedes Feld ab dem dritten kombiniert zwei unterschiedlich transformierte Vorgänger: Der unmittelbare Vorgänger wird um 90° im Uhrzeigersinn gedreht, der vorvorige an der senkrechten Achse gespiegelt. Anschließend exklusive Überlagerung: doppelte Punkte entfallen. Für das siebte Feld also Feld 6 drehen, Feld 5 spiegeln und die beiden Ergebnisse kombinieren.",
+  "errors": [
+   "Die Spiegelung des vorvorigen Musters fehlt.",
+   "Die Drehung des unmittelbaren Vorgängers fehlt.",
+   "Alle Regeln sind erfüllt.",
+   "Die Spiegelachse des vorvorigen Musters ist falsch.",
+   "Doppelte Punkte wurden behalten statt entfernt."
+  ],
+  "tag": "Zwei Vorgänger mit unterschiedlichen Voroperationen"
+ },
+ {
+  "id": "E09",
+  "level": "expert",
+  "kind": "sequence",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": true,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 0
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "chevron",
+      "f": false,
+      "a": 135,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": true,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "L",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 6,
+      "s": "chevron",
+      "f": false,
+      "a": 45,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "triangle",
+      "f": false,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 2,
+      "s": "chevron",
+      "f": false,
+      "a": 225,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 0,
+  "explanation": "Die ganze Figur dreht sich abwechselnd um 90° im Uhrzeigersinn und um 90° dagegen. Unabhängig davon wechselt pro Schritt genau eine Form ihre Füllung, in der Reihenfolge L → Dreieck → Winkel → L → Dreieck → Winkel. Die Orientierungen drehen sich mit der Figur. Für den sechsten Übergang ist eine Gegenuhrzeigerdrehung und ein Füllungswechsel des Winkels fällig.",
+  "errors": [
+   "Alle Regeln sind erfüllt.",
+   "Die L-Füllung wurde zusätzlich geändert.",
+   "Die Dreiecksfüllung wurde zusätzlich geändert.",
+   "Der fällige Füllungswechsel des Winkels fehlt.",
+   "Die Drehrichtung ist falsch und der Füllungswechsel wurde nicht richtig umgesetzt."
+  ],
+  "tag": "Alternierende Drehrichtung und phasenverschobener Füllungszyklus"
+ },
+ {
+  "id": "E10",
+  "level": "expert",
+  "kind": "matrix",
+  "figs": [
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "triangle",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 8,
+      "s": "square",
+      "f": false,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 1,
+      "s": "L",
+      "f": false,
+      "a": 0,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 0,
+      "s": "circle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 5,
+      "s": "L",
+      "f": false,
+      "a": 90,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "circle",
+      "f": false,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 7,
+      "s": "L",
+      "f": false,
+      "a": 270,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 0,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 2,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 3,
+      "s": "L",
+      "f": false,
+      "a": 180,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 8,
+      "s": "circle",
+      "f": true,
+      "a": 90,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "circle",
+      "f": false,
+      "a": 0,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": false,
+      "a": 90,
+      "flip": true,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 180,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 1,
+      "s": "circle",
+      "f": true,
+      "a": 90,
+      "flip": true,
+      "lane": 2
+     }
+    ]
+   },
+   null
+  ],
+  "options": [
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": false,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": true,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 1,
+      "s": "square",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 6,
+      "s": "L",
+      "f": true,
+      "a": 270,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 5,
+      "s": "triangle",
+      "f": true,
+      "a": 0,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "t": [
+     {
+      "p": 7,
+      "s": "square",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 0
+     },
+     {
+      "p": 2,
+      "s": "L",
+      "f": true,
+      "a": 90,
+      "flip": false,
+      "lane": 1
+     },
+     {
+      "p": 3,
+      "s": "triangle",
+      "f": true,
+      "a": 180,
+      "flip": false,
+      "lane": 2
+     }
+    ]
+   }
+  ],
+  "answer": 3,
+  "explanation": "In jeder Zeile gilt nach rechts derselbe zusammengesetzte Schritt: Spiegelung an der senkrechten Achse, danach 90°-Drehung im Uhrzeigersinn. Kreis, Dreieck und Quadrat wechseln gleichzeitig zyklisch ihren Formtyp; das L behält seinen Typ und wird geometrisch mittransformiert. Erst nach dieser Bewegung wechselt bei Formen in der oberen Zeile die Füllung. Es ist die Lage nach dem Schritt, nicht davor, die den Wechsel auslöst.",
+  "errors": [
+   "Der positionsabhängige Füllungswechsel passt nicht.",
+   "Die L-Form hat eine falsche Spiegelung.",
+   "Eine Form ist im Identitätszyklus um einen Schritt versetzt.",
+   "Alle Regeln sind erfüllt.",
+   "Die räumliche Zusammensetzung der Operationen ist falsch."
+  ],
+  "tag": "Nicht vertauschbare Operation und Zielpositionsbedingung"
+ }
+]
